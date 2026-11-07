@@ -144,6 +144,11 @@
    "type": "realized"
   },
   {
+   "ts": 1794081626,
+   "value": -0.002898,
+   "type": "marked"
+  },
+  {
    "ts": 1794081674,
    "value": 0.007123,
    "type": "realized"
@@ -628,6 +633,17 @@
  },
  "alerts": [
   {
+   "ts": 1794082002,
+   "side": "buy",
+   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
+   "symbol": null,
+   "trader_id": 10,
+   "amount_usd": 111.0,
+   "chain": "solana",
+   "time": "Nov 07, 12:06 PM PST",
+   "trader": "aiwass"
+  },
+  {
    "ts": 1794081975,
    "side": "buy",
    "mint": "AuqMCWXp7qM8esFtKymPm1okKHicgXsJNf73oLajBAGS",
@@ -1000,20 +1016,15 @@
    "chain": "solana",
    "time": "Nov 07, 10:47 AM PST",
    "trader": "brezscales"
-  },
-  {
-   "ts": 1794076932,
-   "side": "sell",
-   "mint": "FoufDb9hXygVYT58SVDAFhbd98k3D93xYHtd9eCewQPk",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 1178.43255,
-   "chain": "solana",
-   "time": "Nov 07, 10:42 AM PST",
-   "trader": "bystevenr"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 12:06 PM PST",
+   "text": "card @aiwass buy 7ymF66\u2026: \ud83d\udd14 Alerts-only",
+   "kind": "alert",
+   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh"
+  },
   {
    "time": "Nov 07, 12:06 PM PST",
    "text": "card @aiwass buy AuqMCW\u2026: \ud83d\udd14 Alerts-only",
@@ -1170,25 +1181,19 @@
    "text": "card @bystevenr buy 5NRzuq\u2026: \u23ed Not copied: we sold this coin 0.0h ago (no re-buy for 24h)",
    "kind": "skipped",
    "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
-  },
-  {
-   "time": "Nov 07, 11:37 AM PST",
-   "text": "card @Binkieee buy Hy4iuJ\u2026: \u23ed Not copied: insufficient balance (0.0201 SOL)",
-   "kind": "skipped",
-   "mint": "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP"
   }
  ],
  "health": {
   "Tracker": {
-   "ok": true
+   "ok": false
   },
   "Telegram": {
-   "ok": true
+   "ok": false
   }
  },
- "publishedAt": 1794081989,
- "publishedAtText": "Nov 07, 12:06 PM PST",
- "dataChangedAt": 1794081686,
- "dataChangedAtText": "Nov 07, 12:01 PM PST",
+ "publishedAt": 1794082825,
+ "publishedAtText": "Nov 07, 12:20 PM PST",
+ "dataChangedAt": 1794082825,
+ "dataChangedAtText": "Nov 07, 12:20 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
