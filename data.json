@@ -74,6 +74,11 @@
    "type": "realized"
   },
   {
+   "ts": 1794077103,
+   "value": 0.07396,
+   "type": "marked"
+  },
+  {
    "ts": 1794077138,
    "value": 0.047675,
    "type": "realized"
@@ -483,6 +488,17 @@
  },
  "alerts": [
   {
+   "ts": 1794078034,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 100.0,
+   "chain": "solana",
+   "time": "Nov 07, 11:00 AM PST",
+   "trader": "bystevenr"
+  },
+  {
    "ts": 1794077969,
    "side": "buy",
    "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
@@ -855,20 +871,20 @@
    "chain": "solana",
    "time": "Nov 07, 09:00 AM PST",
    "trader": "OLedsed"
-  },
-  {
-   "ts": 1794070838,
-   "side": "sell",
-   "mint": "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": 90.86370330662058,
-   "chain": "solana",
-   "time": "Nov 07, 09:00 AM PST",
-   "trader": "OLedsed"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 11:00 AM PST",
+   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
+   "kind": "alert",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
+  },
+  {
+   "time": "Nov 07, 11:00 AM PST",
+   "text": "ignored tx 5kPtbopCBd\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 07, 10:59 AM PST",
    "text": "card @brezscales buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
@@ -1017,18 +1033,6 @@
    "time": "Nov 07, 10:44 AM PST",
    "text": "ignored tx 5rari1foV4\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 10:41 AM PST",
-   "text": "skip @Binkieee buy 2StNe9\u2026: $40 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat"
-  },
-  {
-   "time": "Nov 07, 10:41 AM PST",
-   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
-   "kind": "alert",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
   }
  ],
  "health": {
@@ -1039,9 +1043,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794077989,
- "publishedAtText": "Nov 07, 10:59 AM PST",
- "dataChangedAt": 1794077989,
- "dataChangedAtText": "Nov 07, 10:59 AM PST",
+ "publishedAt": 1794078051,
+ "publishedAtText": "Nov 07, 11:00 AM PST",
+ "dataChangedAt": 1794078051,
+ "dataChangedAtText": "Nov 07, 11:00 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
