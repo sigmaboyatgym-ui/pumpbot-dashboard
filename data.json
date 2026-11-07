@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 0.038225,
+ "realized": 0.041176,
  "curve": [
   {
    "ts": 1794070874,
@@ -62,9 +62,29 @@
    "ts": 1794076867,
    "value": 0.038225,
    "type": "realized"
+  },
+  {
+   "ts": 1794077015,
+   "value": 0.041176,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 10,
+   "ts": 1794077015,
+   "side": "sell",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": "Jose",
+   "sol_amount": 0.017951048999999997,
+   "sig": "2Gy541dmKfPrPj4n4f8Jwbi9kDSPwEYHEacnx6vC5DWFtjz2otpVbNiZCxXPFVfjFR9YHukx26ZhcqkXrTtyiHEM",
+   "trader_id": null,
+   "reason": "manual sell",
+   "pnl_sol": 0.0029510489999999973,
+   "time": "Nov 07, 10:43 AM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/2Gy541dmKfPrPj4n4f8Jwbi9kDSPwEYHEacnx6vC5DWFtjz2otpVbNiZCxXPFVfjFR9YHukx26ZhcqkXrTtyiHEM"
+  },
   {
    "id": 9,
    "ts": 1794076867,
@@ -216,9 +236,9 @@
   {
    "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
    "symbol": "Jose",
-   "qty_raw": 14803858286,
+   "qty_raw": 7401929143,
    "decimals": 6,
-   "cost_sol": 0.03,
+   "cost_sol": 0.015,
    "opened_at": 1794076867,
    "trader_id": 7,
    "trader": "bystevenr",
@@ -377,6 +397,50 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794076932,
+   "side": "sell",
+   "mint": "FoufDb9hXygVYT58SVDAFhbd98k3D93xYHtd9eCewQPk",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 1178.43255,
+   "chain": "solana",
+   "time": "Nov 07, 10:42 AM PST",
+   "trader": "bystevenr"
+  },
+  {
+   "ts": 1794076919,
+   "side": "sell",
+   "mint": "FoufDb9hXygVYT58SVDAFhbd98k3D93xYHtd9eCewQPk",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 1688.125203,
+   "chain": "solana",
+   "time": "Nov 07, 10:41 AM PST",
+   "trader": "bystevenr"
+  },
+  {
+   "ts": 1794076915,
+   "side": "sell",
+   "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 2229.275453,
+   "chain": "solana",
+   "time": "Nov 07, 10:41 AM PST",
+   "trader": "bystevenr"
+  },
+  {
+   "ts": 1794076899,
+   "side": "buy",
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 40.339631,
+   "chain": "solana",
+   "time": "Nov 07, 10:41 AM PST",
+   "trader": "Binkieee"
+  },
   {
    "ts": 1794076861,
    "side": "buy",
@@ -717,53 +781,15 @@
    "chain": "solana",
    "time": "Nov 07, 08:54 AM PST",
    "trader": "OLedsed"
-  },
-  {
-   "ts": 1794070428,
-   "side": "buy",
-   "mint": "Gp6fSWxwy3vk1ZcfKA7SZyYmxYM7gMJaMgCioQU5pump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": null,
-   "chain": "solana",
-   "time": "Nov 07, 08:53 AM PST",
-   "trader": "OLedsed"
-  },
-  {
-   "ts": 1794070422,
-   "side": "sell",
-   "mint": "87ry7MmS4AFAZVFoKhWESGFoAZV3C3gJyEj1AAAxHyro",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": null,
-   "chain": "solana",
-   "time": "Nov 07, 08:53 AM PST",
-   "trader": "OLedsed"
-  },
-  {
-   "ts": 1794070417,
-   "side": "buy",
-   "mint": "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": null,
-   "chain": "solana",
-   "time": "Nov 07, 08:53 AM PST",
-   "trader": "OLedsed"
-  },
-  {
-   "ts": 1794070379,
-   "side": "buy",
-   "mint": "87ry7MmS4AFAZVFoKhWESGFoAZV3C3gJyEj1AAAxHyro",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": null,
-   "chain": "solana",
-   "time": "Nov 07, 08:52 AM PST",
-   "trader": "OLedsed"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 10:41 AM PST",
+   "text": "skip @Binkieee buy 2StNe9\u2026: $40 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat"
+  },
   {
    "time": "Nov 07, 10:41 AM PST",
    "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
@@ -916,9 +942,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794076873,
- "publishedAtText": "Nov 07, 10:41 AM PST",
- "dataChangedAt": 1794076873,
- "dataChangedAtText": "Nov 07, 10:41 AM PST",
+ "publishedAt": 1794077055,
+ "publishedAtText": "Nov 07, 10:44 AM PST",
+ "dataChangedAt": 1794077055,
+ "dataChangedAtText": "Nov 07, 10:44 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
