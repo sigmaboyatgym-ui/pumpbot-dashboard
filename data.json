@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 0.041176,
+ "realized": 0.05619,
  "curve": [
   {
    "ts": 1794070874,
@@ -72,9 +72,49 @@
    "ts": 1794077015,
    "value": 0.041176,
    "type": "realized"
+  },
+  {
+   "ts": 1794077138,
+   "value": 0.047675,
+   "type": "realized"
+  },
+  {
+   "ts": 1794077180,
+   "value": 0.05619,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 12,
+   "ts": 1794077180,
+   "side": "sell",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": "Jose",
+   "sol_amount": 0.016014409999999993,
+   "sig": "2AF4C3PN2XiJwEEPyLg1v8ANqtErN9AnU9iPeGeVMhoroE7QRLVQeSrEC39UcrAKdETZ5bzo9UBBf4XFv1s38M6d",
+   "trader_id": null,
+   "reason": "take-profit",
+   "pnl_sol": 0.008514409998986745,
+   "time": "Nov 07, 10:46 AM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/2AF4C3PN2XiJwEEPyLg1v8ANqtErN9AnU9iPeGeVMhoroE7QRLVQeSrEC39UcrAKdETZ5bzo9UBBf4XFv1s38M6d"
+  },
+  {
+   "id": 11,
+   "ts": 1794077138,
+   "side": "sell",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": "Jose",
+   "sol_amount": 0.013999366999999999,
+   "sig": "5XbBJNC1SgMuu7Trzf7jkjW2aKdgyMNwodDVbNFcPUYusu2VGLhaekFVMF5Gz51yyUJspojYDi6sJG3yLhgnm96t",
+   "trader_id": null,
+   "reason": "partial take-profit",
+   "pnl_sol": 0.006499367001013248,
+   "time": "Nov 07, 10:45 AM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/5XbBJNC1SgMuu7Trzf7jkjW2aKdgyMNwodDVbNFcPUYusu2VGLhaekFVMF5Gz51yyUJspojYDi6sJG3yLhgnm96t"
+  },
   {
    "id": 10,
    "ts": 1794077015,
@@ -237,17 +277,6 @@
    "trader_id": 7,
    "trader": "bystevenr",
    "time": "Nov 07, 10:09 AM PST"
-  },
-  {
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
-   "symbol": "Jose",
-   "qty_raw": 7401929143,
-   "decimals": 6,
-   "cost_sol": 0.015,
-   "opened_at": 1794076867,
-   "trader_id": 7,
-   "trader": "bystevenr",
-   "time": "Nov 07, 10:41 AM PST"
   }
  ],
  "traders": [
@@ -952,9 +981,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794077118,
- "publishedAtText": "Nov 07, 10:45 AM PST",
- "dataChangedAt": 1794077118,
- "dataChangedAtText": "Nov 07, 10:45 AM PST",
+ "publishedAt": 1794077180,
+ "publishedAtText": "Nov 07, 10:46 AM PST",
+ "dataChangedAt": 1794077180,
+ "dataChangedAtText": "Nov 07, 10:46 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
