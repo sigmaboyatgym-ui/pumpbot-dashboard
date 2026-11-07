@@ -314,7 +314,7 @@
    "wallets": [
     "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti"
    ],
-   "last_event": "Nov 07, 10:20 AM PST"
+   "last_event": "Nov 07, 10:53 AM PST"
   },
   {
    "id": 5,
@@ -431,6 +431,28 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794077621,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 4047.652653,
+   "chain": "solana",
+   "time": "Nov 07, 10:53 AM PST",
+   "trader": "Binkieee"
+  },
+  {
+   "ts": 1794077252,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 1,
+   "amount_usd": 2000.0,
+   "chain": "solana",
+   "time": "Nov 07, 10:47 AM PST",
+   "trader": "brezscales"
+  },
   {
    "ts": 1794076932,
    "side": "sell",
@@ -793,31 +815,71 @@
    "chain": "solana",
    "time": "Nov 07, 08:56 AM PST",
    "trader": "OLedsed"
-  },
-  {
-   "ts": 1794070570,
-   "side": "sell",
-   "mint": "Gp6fSWxwy3vk1ZcfKA7SZyYmxYM7gMJaMgCioQU5pump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": null,
-   "chain": "solana",
-   "time": "Nov 07, 08:56 AM PST",
-   "trader": "OLedsed"
-  },
-  {
-   "ts": 1794070461,
-   "side": "sell",
-   "mint": "Gp6fSWxwy3vk1ZcfKA7SZyYmxYM7gMJaMgCioQU5pump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": null,
-   "chain": "solana",
-   "time": "Nov 07, 08:54 AM PST",
-   "trader": "OLedsed"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 10:56 AM PST",
+   "text": "ignored tx 3ui3LhwW3v\u2026 on 6zMVSe\u2026: not signed by trader (signers F1aeaW; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:56 AM PST",
+   "text": "ignored tx 4e2Lz8j4qy\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:56 AM PST",
+   "text": "ignored tx eA7hCemS9c\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:56 AM PST",
+   "text": "card @Binkieee buy 5NRzuq\u2026: \u23ed Not copied: price already +28% past the trader's fill (max chase 25%)",
+   "kind": "skipped",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
+  },
+  {
+   "time": "Nov 07, 10:56 AM PST",
+   "text": "ignored tx 4e2Lz8j4qy\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:56 AM PST",
+   "text": "ignored tx eA7hCemS9c\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:56 AM PST",
+   "text": "ignored tx 3ui3LhwW3v\u2026 on 6zMVSe\u2026: not signed by trader (signers F1aeaW; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:49 AM PST",
+   "text": "ignored tx 3zrBvBPSZB\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:47 AM PST",
+   "text": "ignored tx 67DaET2i6g\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:47 AM PST",
+   "text": "ignored tx 2geRa93aaQ\u2026 on Fvkc2t\u2026: not signed by trader (signers 6LYfrw; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:47 AM PST",
+   "text": "ignored tx 5nxw3Q6Kew\u2026 on AH75Bn\u2026: not signed by trader (signers 6LYfrw; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:47 AM PST",
+   "text": "card @brezscales buy 5NRzuq\u2026: \u23ed Not copied: we sold this coin 0.0h ago (no re-buy for 24h)",
+   "kind": "skipped",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
+  },
   {
    "time": "Nov 07, 10:44 AM PST",
    "text": "ignored tx 5rari1foV4\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -915,62 +977,6 @@
    "text": "card @bystevenr buy 2StNe9\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
    "kind": "alert",
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat"
-  },
-  {
-   "time": "Nov 07, 10:04 AM PST",
-   "text": "ignored tx Sa69PhtWVq\u2026 on AH75Bn\u2026: quote-only (USDC transfer, no coin traded)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 10:04 AM PST",
-   "text": "ignored tx 4QrjaceKU2\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 10:00 AM PST",
-   "text": "ignored tx 5fHKKBbv6G\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:59 AM PST",
-   "text": "ignored tx UvWci8ibKW\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:56 AM PST",
-   "text": "ignored tx 2Q9UTYVKVj\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:54 AM PST",
-   "text": "ignored tx 22SuTcvPkp\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:52 AM PST",
-   "text": "ignored tx 3Zvm7mx2FS\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:49 AM PST",
-   "text": "ignored tx 4tTfhg58nm\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:45 AM PST",
-   "text": "card @bystevenr buy HW2Sz6\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
-   "kind": "alert",
-   "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump"
-  },
-  {
-   "time": "Nov 07, 09:41 AM PST",
-   "text": "ignored tx 25c5WmcydW\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:40 AM PST",
-   "text": "ignored tx 2BasE3BUiB\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -981,9 +987,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794077180,
- "publishedAtText": "Nov 07, 10:46 AM PST",
- "dataChangedAt": 1794077180,
- "dataChangedAtText": "Nov 07, 10:46 AM PST",
+ "publishedAt": 1794077804,
+ "publishedAtText": "Nov 07, 10:56 AM PST",
+ "dataChangedAt": 1794077804,
+ "dataChangedAtText": "Nov 07, 10:56 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
