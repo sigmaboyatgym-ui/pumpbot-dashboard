@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 0.047635,
+ "realized": 0.038225,
  "curve": [
   {
    "ts": 1794070874,
@@ -52,9 +52,29 @@
    "ts": 1794075659,
    "value": 0.047635,
    "type": "realized"
+  },
+  {
+   "ts": 1794076258,
+   "value": 0.038225,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 8,
+   "ts": 1794076258,
+   "side": "sell",
+   "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump",
+   "symbol": "Elysion Pad",
+   "sol_amount": 0.02059003,
+   "sig": "4zyn3xofsSsR8XwFhvDm1fW5HAj7uNvtdDFoK1KjpSXqU2jGWQVBSWyrE3KEgRPYmp55Ven6kGVk3Gv8rTaGb6Vb",
+   "trader_id": null,
+   "reason": "manual sell",
+   "pnl_sol": -0.00940997,
+   "time": "Nov 07, 10:30 AM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/4zyn3xofsSsR8XwFhvDm1fW5HAj7uNvtdDFoK1KjpSXqU2jGWQVBSWyrE3KEgRPYmp55Ven6kGVk3Gv8rTaGb6Vb"
+  },
   {
    "id": 7,
    "ts": 1794075659,
@@ -162,17 +182,6 @@
   }
  ],
  "positions": [
-  {
-   "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump",
-   "symbol": "Elysion Pad",
-   "qty_raw": 20249020117,
-   "decimals": 6,
-   "cost_sol": 0.03,
-   "opened_at": 1794073521,
-   "trader_id": 7,
-   "trader": "bystevenr",
-   "time": "Nov 07, 09:45 AM PST"
-  },
   {
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
    "symbol": "PIRATE",
@@ -843,9 +852,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794076202,
- "publishedAtText": "Nov 07, 10:30 AM PST",
- "dataChangedAt": 1794076202,
- "dataChangedAtText": "Nov 07, 10:30 AM PST",
+ "publishedAt": 1794076265,
+ "publishedAtText": "Nov 07, 10:31 AM PST",
+ "dataChangedAt": 1794076265,
+ "dataChangedAtText": "Nov 07, 10:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
