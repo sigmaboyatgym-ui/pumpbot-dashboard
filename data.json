@@ -57,9 +57,29 @@
    "ts": 1794076258,
    "value": 0.038225,
    "type": "realized"
+  },
+  {
+   "ts": 1794076867,
+   "value": 0.038225,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 9,
+   "ts": 1794076867,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": "Jose",
+   "sol_amount": 0.03,
+   "sig": "49jbLGUceLhJ8yB8P1vhUxjYBLRdS3VntMn9HZPhag83NehGr64odoZLW6jwuTDL1bu1hbfVm7e4Y96abNgceSqJ",
+   "trader_id": 7,
+   "reason": "copy @bystevenr",
+   "pnl_sol": null,
+   "time": "Nov 07, 10:41 AM PST",
+   "trader": "bystevenr",
+   "solscan": "https://solscan.io/tx/49jbLGUceLhJ8yB8P1vhUxjYBLRdS3VntMn9HZPhag83NehGr64odoZLW6jwuTDL1bu1hbfVm7e4Y96abNgceSqJ"
+  },
   {
    "id": 8,
    "ts": 1794076258,
@@ -192,6 +212,17 @@
    "trader_id": 7,
    "trader": "bystevenr",
    "time": "Nov 07, 10:09 AM PST"
+  },
+  {
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": "Jose",
+   "qty_raw": 14803858286,
+   "decimals": 6,
+   "cost_sol": 0.03,
+   "opened_at": 1794076867,
+   "trader_id": 7,
+   "trader": "bystevenr",
+   "time": "Nov 07, 10:41 AM PST"
   }
  ],
  "traders": [
@@ -258,7 +289,7 @@
    "handle": "bystevenr",
    "kind": "fomo",
    "mode": "auto",
-   "copies": 2,
+   "copies": 3,
    "realized": 0,
    "wallets": [
     "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx"
@@ -346,6 +377,39 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794076861,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 2000.0,
+   "chain": "solana",
+   "time": "Nov 07, 10:41 AM PST",
+   "trader": "bystevenr"
+  },
+  {
+   "ts": 1794076820,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 1000.0,
+   "chain": "solana",
+   "time": "Nov 07, 10:40 AM PST",
+   "trader": "bystevenr"
+  },
+  {
+   "ts": 1794076812,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 1000.0,
+   "chain": "solana",
+   "time": "Nov 07, 10:40 AM PST",
+   "trader": "bystevenr"
+  },
   {
    "ts": 1794075740,
    "side": "buy",
@@ -697,42 +761,32 @@
    "chain": "solana",
    "time": "Nov 07, 08:52 AM PST",
    "trader": "OLedsed"
-  },
-  {
-   "ts": 1794069690,
-   "side": "sell",
-   "mint": "FwHojERTeuuqzdZ2QmagtpuTBkP3Pt1c7wQPsp15pump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": 94.4228,
-   "chain": "solana",
-   "time": "Nov 07, 08:41 AM PST",
-   "trader": "OLedsed"
-  },
-  {
-   "ts": 1794069645,
-   "side": "buy",
-   "mint": "FwHojERTeuuqzdZ2QmagtpuTBkP3Pt1c7wQPsp15pump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": 89.6604,
-   "chain": "solana",
-   "time": "Nov 07, 08:40 AM PST",
-   "trader": "OLedsed"
-  },
-  {
-   "ts": 1794069530,
-   "side": "buy",
-   "mint": "A4oL7WDF3nw9TWtuVP5uVaJ9CVR3u4a9j2htqZKQpump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": 22.3946,
-   "chain": "solana",
-   "time": "Nov 07, 08:38 AM PST",
-   "trader": "OLedsed"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 10:41 AM PST",
+   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
+   "kind": "alert",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
+  },
+  {
+   "time": "Nov 07, 10:40 AM PST",
+   "text": "ignored tx 3ShXvMxhbb\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:40 AM PST",
+   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.026488 SOL (fixed size, reduced to available balance) [LIVE]",
+   "kind": "alert",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
+  },
+  {
+   "time": "Nov 07, 10:40 AM PST",
+   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.026488 SOL (fixed size, reduced to available balance) [LIVE]",
+   "kind": "alert",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
+  },
   {
    "time": "Nov 07, 10:36 AM PST",
    "text": "ignored tx 6Z7NGsrbis\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -862,9 +916,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794076750,
- "publishedAtText": "Nov 07, 10:39 AM PST",
- "dataChangedAt": 1794076447,
- "dataChangedAtText": "Nov 07, 10:34 AM PST",
+ "publishedAt": 1794076873,
+ "publishedAtText": "Nov 07, 10:41 AM PST",
+ "dataChangedAt": 1794076873,
+ "dataChangedAtText": "Nov 07, 10:41 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
