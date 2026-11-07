@@ -476,7 +476,7 @@
   {
    "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
    "symbol": "Jose",
-   "qty_raw": 12650624849,
+   "qty_raw": 3162656213,
    "decimals": 6,
    "cost_sol": 0.060009156,
    "opened_at": 1794081507,
@@ -637,6 +637,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794084012,
+   "side": "sell",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 11,
+   "amount_usd": 3277.060828,
+   "chain": "solana",
+   "time": "Nov 07, 12:40 PM PST",
+   "trader": "GrandSafeAnt"
+  },
   {
    "ts": 1794083767,
    "side": "buy",
@@ -1010,20 +1021,19 @@
    "chain": "solana",
    "time": "Nov 07, 10:59 AM PST",
    "trader": "brezscales"
-  },
-  {
-   "ts": 1794077963,
-   "side": "buy",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
-   "symbol": null,
-   "trader_id": 1,
-   "amount_usd": 500.0,
-   "chain": "solana",
-   "time": "Nov 07, 10:59 AM PST",
-   "trader": "brezscales"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 12:40 PM PST",
+   "text": "ignored tx 5v5CJntWWj\u2026 on 6zMVSe\u2026: quote-only (SOL transfer, no coin traded)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 12:39 PM PST",
+   "text": "ignored tx 5EbzFFoAHa\u2026 on 6zMVSe\u2026: not signed by trader (signers 6LYfrw; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 07, 12:38 PM PST",
    "text": "ignored tx 2a9B7kssK3\u2026 on DFZYHa\u2026: not signed by trader (signers F1aeaW; airdrop/fee distribution/transfer in)",
@@ -1167,18 +1177,6 @@
    "time": "Nov 07, 12:20 PM PST",
    "text": "ignored tx 4FFcGSZKNa\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 12:20 PM PST",
-   "text": "skip stale on-chain sell ysPp2B\u2026 (365s old)",
-   "kind": "skipped",
-   "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a"
-  },
-  {
-   "time": "Nov 07, 12:20 PM PST",
-   "text": "skip stale on-chain buy 5NRzuq\u2026 (473s old)",
-   "kind": "skipped",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
   }
  ],
  "health": {
@@ -1189,9 +1187,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794083949,
- "publishedAtText": "Nov 07, 12:39 PM PST",
- "dataChangedAt": 1794083949,
- "dataChangedAtText": "Nov 07, 12:39 PM PST",
+ "publishedAt": 1794084151,
+ "publishedAtText": "Nov 07, 12:42 PM PST",
+ "dataChangedAt": 1794084151,
+ "dataChangedAtText": "Nov 07, 12:42 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
