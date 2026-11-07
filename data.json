@@ -440,7 +440,7 @@
    "wallets": [
     "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti"
    ],
-   "last_event": "Nov 07, 10:53 AM PST"
+   "last_event": "Nov 07, 11:35 AM PST"
   },
   {
    "id": 5,
@@ -557,6 +557,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794080144,
+   "side": "buy",
+   "mint": "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 260.331401,
+   "chain": "solana",
+   "time": "Nov 07, 11:35 AM PST",
+   "trader": "Binkieee"
+  },
   {
    "ts": 1794080060,
    "side": "sell",
@@ -930,20 +941,15 @@
    "chain": "solana",
    "time": "Nov 07, 09:41 AM PST",
    "trader": "brezscales"
-  },
-  {
-   "ts": 1794073088,
-   "side": "buy",
-   "mint": "A7KFSxzZ2SqZPC114V2D9h97VcL6q8qJasoK88AuBAGS",
-   "symbol": null,
-   "trader_id": 1,
-   "amount_usd": 1499.999999,
-   "chain": "solana",
-   "time": "Nov 07, 09:38 AM PST",
-   "trader": "brezscales"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 11:37 AM PST",
+   "text": "card @Binkieee buy Hy4iuJ\u2026: \u23ed Not copied: insufficient balance (0.0201 SOL)",
+   "kind": "skipped",
+   "mint": "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP"
+  },
   {
    "time": "Nov 07, 11:34 AM PST",
    "text": "ignored tx 28ULiedMdR\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -1097,11 +1103,6 @@
    "time": "Nov 07, 11:03 AM PST",
    "text": "ignored tx 3ui3LhwW3v\u2026 on 6zMVSe\u2026: not signed by trader (signers F1aeaW; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 11:01 AM PST",
-   "text": "ignored tx 2Cqy388ysj\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1112,9 +1113,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794080186,
- "publishedAtText": "Nov 07, 11:36 AM PST",
- "dataChangedAt": 1794079804,
- "dataChangedAtText": "Nov 07, 11:30 AM PST",
+ "publishedAt": 1794080248,
+ "publishedAtText": "Nov 07, 11:37 AM PST",
+ "dataChangedAt": 1794080248,
+ "dataChangedAtText": "Nov 07, 11:37 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
