@@ -549,7 +549,7 @@
    "wallets": [
     "AH75Bn6QHSt5K2Ad4p1otns3JTwpSJWZTwiwKWNhmnKx"
    ],
-   "last_event": "Nov 07, 12:14 PM PST"
+   "last_event": "Nov 07, 12:23 PM PST"
   },
   {
    "id": 8,
@@ -632,6 +632,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794082920,
+   "side": "buy",
+   "mint": "6P565raMnJykrP71KYowo4jsAeM5tgdQma4abPdfLoat",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 1700.0,
+   "chain": "solana",
+   "time": "Nov 07, 12:22 PM PST",
+   "trader": "Binkieee"
+  },
   {
    "ts": 1794082717,
    "side": "sell",
@@ -1005,20 +1016,35 @@
    "chain": "solana",
    "time": "Nov 07, 10:57 AM PST",
    "trader": "brezscales"
-  },
-  {
-   "ts": 1794077621,
-   "side": "buy",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
-   "symbol": null,
-   "trader_id": 4,
-   "amount_usd": 4047.652653,
-   "chain": "solana",
-   "time": "Nov 07, 10:53 AM PST",
-   "trader": "Binkieee"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 12:25 PM PST",
+   "text": "ignored tx VLifLwNQg2\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 12:25 PM PST",
+   "text": "ignored tx VLifLwNQg2\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 12:22 PM PST",
+   "text": "ignored tx 5rzp3SAFyF\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 12:22 PM PST",
+   "text": "card @Binkieee buy 6P565r\u2026: \u2699\ufe0f Auto-copying 0.008356 SOL (fixed size, reduced to available balance) [LIVE]",
+   "kind": "alert",
+   "mint": "6P565raMnJykrP71KYowo4jsAeM5tgdQma4abPdfLoat"
+  },
+  {
+   "time": "Nov 07, 12:21 PM PST",
+   "text": "ignored tx DxkfiMk3Vt\u2026 on 6zMVSe\u2026: not signed by trader (signers oMcssx; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 07, 12:20 PM PST",
    "text": "ignored tx 4Dhp8UJZnd\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -1154,35 +1180,6 @@
    "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.010396 SOL (fixed size, reduced to available balance) [LIVE]",
    "kind": "alert",
    "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
-  },
-  {
-   "time": "Nov 07, 12:01 PM PST",
-   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.010396 SOL (fixed size, reduced to available balance) [LIVE]",
-   "kind": "alert",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
-  },
-  {
-   "time": "Nov 07, 12:01 PM PST",
-   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.010396 SOL (fixed size, reduced to available balance) [LIVE]",
-   "kind": "alert",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
-  },
-  {
-   "time": "Nov 07, 12:01 PM PST",
-   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.010396 SOL (fixed size, reduced to available balance) [LIVE]",
-   "kind": "alert",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
-  },
-  {
-   "time": "Nov 07, 12:01 PM PST",
-   "text": "card @bystevenr buy 5NRzuq\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
-   "kind": "alert",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
-  },
-  {
-   "time": "Nov 07, 12:00 PM PST",
-   "text": "ignored tx 28LyWe6Q5c\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1193,9 +1190,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794082888,
- "publishedAtText": "Nov 07, 12:21 PM PST",
- "dataChangedAt": 1794082888,
- "dataChangedAtText": "Nov 07, 12:21 PM PST",
+ "publishedAt": 1794083161,
+ "publishedAtText": "Nov 07, 12:26 PM PST",
+ "dataChangedAt": 1794083161,
+ "dataChangedAtText": "Nov 07, 12:26 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
