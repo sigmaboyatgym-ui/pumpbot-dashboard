@@ -42,9 +42,29 @@
    "ts": 1794074971,
    "value": 0.047635,
    "type": "realized"
+  },
+  {
+   "ts": 1794075659,
+   "value": 0.047635,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 7,
+   "ts": 1794075659,
+   "side": "buy",
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+   "symbol": "PIRATE",
+   "sol_amount": 0.030011598999999996,
+   "sig": "5v7SxXADMxoqLcEDdf8NrfMGhMgcWx7Rtf5gjLLV4DzushbU2hxeCSTErqhvou4UBzsw2L1VmYGLAJoiucjJXbaE",
+   "trader_id": 4,
+   "reason": "copy @Binkieee",
+   "pnl_sol": null,
+   "time": "Nov 07, 10:20 AM PST",
+   "trader": "Binkieee",
+   "solscan": "https://solscan.io/tx/5v7SxXADMxoqLcEDdf8NrfMGhMgcWx7Rtf5gjLLV4DzushbU2hxeCSTErqhvou4UBzsw2L1VmYGLAJoiucjJXbaE"
+  },
   {
    "id": 6,
    "ts": 1794074971,
@@ -151,9 +171,9 @@
   {
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
    "symbol": "PIRATE",
-   "qty_raw": 6003688089,
+   "qty_raw": 11155772437,
    "decimals": 6,
-   "cost_sol": 0.03,
+   "cost_sol": 0.060011599,
    "opened_at": 1794074971,
    "trader_id": 7,
    "trader": "bystevenr",
@@ -190,12 +210,12 @@
    "handle": "Binkieee",
    "kind": "fomo",
    "mode": "auto",
-   "copies": 0,
+   "copies": 1,
    "realized": 0,
    "wallets": [
     "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti"
    ],
-   "last_event": "Nov 07, 09:02 AM PST"
+   "last_event": "Nov 07, 10:20 AM PST"
   },
   {
    "id": 5,
@@ -312,6 +332,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794075648,
+   "side": "buy",
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 100.01585,
+   "chain": "solana",
+   "time": "Nov 07, 10:20 AM PST",
+   "trader": "Binkieee"
+  },
   {
    "ts": 1794074960,
    "side": "buy",
@@ -685,20 +716,19 @@
    "chain": "solana",
    "time": "Nov 07, 08:30 AM PST",
    "trader": "bystevenr"
-  },
-  {
-   "ts": 1794068240,
-   "side": "sell",
-   "mint": "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump",
-   "symbol": null,
-   "trader_id": 2,
-   "amount_usd": 259.472,
-   "chain": "solana",
-   "time": "Nov 07, 08:17 AM PST",
-   "trader": "OLedsed"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 10:21 AM PST",
+   "text": "ignored tx 2nZY1aju1v\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 10:20 AM PST",
+   "text": "card @Binkieee buy 2StNe9\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
+   "kind": "alert"
+  },
   {
    "time": "Nov 07, 10:19 AM PST",
    "text": "ignored tx 3LQFzVUmcw\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -783,9 +813,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794075644,
- "publishedAtText": "Nov 07, 10:20 AM PST",
- "dataChangedAt": 1794075342,
- "dataChangedAtText": "Nov 07, 10:15 AM PST",
+ "publishedAt": 1794075707,
+ "publishedAtText": "Nov 07, 10:21 AM PST",
+ "dataChangedAt": 1794075707,
+ "dataChangedAtText": "Nov 07, 10:21 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
