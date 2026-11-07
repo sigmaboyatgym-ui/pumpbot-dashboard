@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 0.05619,
+ "realized": 0.007123,
  "curve": [
   {
    "ts": 1794070874,
@@ -122,9 +122,29 @@
    "ts": 1794079151,
    "value": 0.05619,
    "type": "realized"
+  },
+  {
+   "ts": 1794080340,
+   "value": 0.007123,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 18,
+   "ts": 1794080340,
+   "side": "sell",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": "Jose",
+   "sol_amount": 0.06894852,
+   "sig": "4z62Q68WmEP5zq9URv3rrsMF5ij413335D3Vx93gbhabpJSTVqyPxfCnGhwix9UMYPmDikbq7aLzpGcZdPLkhqut",
+   "trader_id": null,
+   "reason": "stop-loss",
+   "pnl_sol": -0.04906624500000002,
+   "time": "Nov 07, 11:38 AM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/4z62Q68WmEP5zq9URv3rrsMF5ij413335D3Vx93gbhabpJSTVqyPxfCnGhwix9UMYPmDikbq7aLzpGcZdPLkhqut"
+  },
   {
    "id": 17,
    "ts": 1794079151,
@@ -392,17 +412,6 @@
    "trader_id": 7,
    "trader": "bystevenr",
    "time": "Nov 07, 10:09 AM PST"
-  },
-  {
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
-   "symbol": "Jose",
-   "qty_raw": 11858541286,
-   "decimals": 6,
-   "cost_sol": 0.11801476500000002,
-   "opened_at": 1794077876,
-   "trader_id": null,
-   "trader": "Manual",
-   "time": "Nov 07, 10:57 AM PST"
   }
  ],
  "traders": [
@@ -557,6 +566,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794080341,
+   "side": "buy",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 500.0,
+   "chain": "solana",
+   "time": "Nov 07, 11:39 AM PST",
+   "trader": "bystevenr"
+  },
   {
    "ts": 1794080144,
    "side": "buy",
@@ -930,20 +950,15 @@
    "chain": "solana",
    "time": "Nov 07, 09:45 AM PST",
    "trader": "bystevenr"
-  },
-  {
-   "ts": 1794073268,
-   "side": "sell",
-   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-   "symbol": null,
-   "trader_id": 1,
-   "amount_usd": 150.969784,
-   "chain": "solana",
-   "time": "Nov 07, 09:41 AM PST",
-   "trader": "brezscales"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 11:39 AM PST",
+   "text": "card @bystevenr buy 5NRzuq\u2026: \u23ed Not copied: we sold this coin 0.0h ago (no re-buy for 24h)",
+   "kind": "skipped",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat"
+  },
   {
    "time": "Nov 07, 11:37 AM PST",
    "text": "card @Binkieee buy Hy4iuJ\u2026: \u23ed Not copied: insufficient balance (0.0201 SOL)",
@@ -1098,11 +1113,6 @@
    "time": "Nov 07, 11:03 AM PST",
    "text": "ignored tx 2Cqy388ysj\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 11:03 AM PST",
-   "text": "ignored tx 3ui3LhwW3v\u2026 on 6zMVSe\u2026: not signed by trader (signers F1aeaW; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1113,9 +1123,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794080248,
- "publishedAtText": "Nov 07, 11:37 AM PST",
- "dataChangedAt": 1794080248,
- "dataChangedAtText": "Nov 07, 11:37 AM PST",
+ "publishedAt": 1794080371,
+ "publishedAtText": "Nov 07, 11:39 AM PST",
+ "dataChangedAt": 1794080371,
+ "dataChangedAtText": "Nov 07, 11:39 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
