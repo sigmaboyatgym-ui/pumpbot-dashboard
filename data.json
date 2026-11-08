@@ -927,7 +927,7 @@
    "id": 7,
    "handle": "bystevenr",
    "kind": "fomo",
-   "mode": "exit",
+   "mode": "auto",
    "copies": 6,
    "realized": 0,
    "wallets": [
@@ -1450,6 +1450,11 @@
  ],
  "decisions": [
   {
+   "time": "Nov 07, 06:51 PM PST",
+   "text": "ignored tx 3DZLwwbokC\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
    "time": "Nov 07, 06:50 PM PST",
    "text": "ignored tx 55iafPKFUm\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
@@ -1604,11 +1609,6 @@
    "text": "skip @bystevenr sell ysPp2B\u2026: $2 < min_trade_usd $100 (no alert)",
    "kind": "skipped",
    "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a"
-  },
-  {
-   "time": "Nov 07, 05:24 PM PST",
-   "text": "ignored tx 25pZSAgTh9\u2026 on AH75Bn\u2026: quote-only (SOL transfer, no coin traded)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1619,9 +1619,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794106270,
- "publishedAtText": "Nov 07, 06:51 PM PST",
- "dataChangedAt": 1794105185,
- "dataChangedAtText": "Nov 07, 06:33 PM PST",
+ "publishedAt": 1794106331,
+ "publishedAtText": "Nov 07, 06:52 PM PST",
+ "dataChangedAt": 1794106331,
+ "dataChangedAtText": "Nov 07, 06:52 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
