@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 0.024661,
+ "realized": 0.038267,
  "curve": [
   {
    "ts": 1794070874,
@@ -307,9 +307,29 @@
    "ts": 1794122068,
    "value": 0.024661,
    "type": "realized"
+  },
+  {
+   "ts": 1794148671,
+   "value": 0.038267,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 45,
+   "ts": 1794148671,
+   "side": "sell",
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+   "symbol": "PIRATE",
+   "sol_amount": 0.037616578,
+   "sig": "2q81BvNMbNA4NvDJbMtxUcvPpkrU7T1zeHFnA9dGAM3cZapcUiSKcgfrL93bivdN56yZWJ6HFQbZ4RZcaimsK4eJ",
+   "trader_id": null,
+   "reason": "partial take-profit",
+   "pnl_sol": 0.01360567120148188,
+   "time": "Nov 08, 06:37 AM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/2q81BvNMbNA4NvDJbMtxUcvPpkrU7T1zeHFnA9dGAM3cZapcUiSKcgfrL93bivdN56yZWJ6HFQbZ4RZcaimsK4eJ"
+  },
   {
    "id": 44,
    "ts": 1794122068,
@@ -975,9 +995,9 @@
   {
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
    "symbol": "PIRATE",
-   "qty_raw": 16203007281,
+   "qty_raw": 9721804369,
    "decimals": 6,
-   "cost_sol": 0.060027266999999995,
+   "cost_sol": 0.03601636020148188,
    "opened_at": 1794104370,
    "trader_id": 4,
    "trader": "Binkieee",
@@ -1762,9 +1782,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794148580,
- "publishedAtText": "Nov 08, 06:36 AM PST",
- "dataChangedAt": 1794122108,
- "dataChangedAtText": "Nov 07, 11:15 PM PST",
+ "publishedAt": 1794148701,
+ "publishedAtText": "Nov 08, 06:38 AM PST",
+ "dataChangedAt": 1794148701,
+ "dataChangedAtText": "Nov 08, 06:38 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
