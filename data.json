@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 0.011697,
+ "realized": -0.011915,
  "curve": [
   {
    "ts": 1794070874,
@@ -342,9 +342,29 @@
    "ts": 1794171586,
    "value": 0.011697,
    "type": "realized"
+  },
+  {
+   "ts": 1794174077,
+   "value": -0.011915,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 52,
+   "ts": 1794174077,
+   "side": "sell",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump",
+   "symbol": "PUSSY",
+   "sol_amount": 0.007527044999999996,
+   "sig": "bwPqGZmEAHw4t9DcbNo1WEC3hKXP4E8o48ZjLacwTKFznkzK82L8LQhGMYQeF5cR1RZaexKWEEKtVr9Ynk5ykwY",
+   "trader_id": 15,
+   "reason": "trader @nad sold",
+   "pnl_sol": -0.023612075,
+   "time": "Nov 08, 01:41 PM PST",
+   "trader": "nad",
+   "solscan": "https://solscan.io/tx/bwPqGZmEAHw4t9DcbNo1WEC3hKXP4E8o48ZjLacwTKFznkzK82L8LQhGMYQeF5cR1RZaexKWEEKtVr9Ynk5ykwY"
+  },
   {
    "id": 51,
    "ts": 1794171586,
@@ -1124,17 +1144,6 @@
    "time": "Nov 07, 07:42 PM PST"
   },
   {
-   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump",
-   "symbol": "PUSSY",
-   "qty_raw": 39705950246,
-   "decimals": 6,
-   "cost_sol": 0.031139119999999996,
-   "opened_at": 1794170962,
-   "trader_id": 15,
-   "trader": "nad",
-   "time": "Nov 08, 12:49 PM PST"
-  },
-  {
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
    "symbol": "PIRATE",
    "qty_raw": 5673733011,
@@ -1295,7 +1304,7 @@
    "kind": "wallet",
    "mode": "auto",
    "copies": 1,
-   "realized": 0,
+   "realized": -0.023612,
    "wallets": [
     "363sqMFaxZgvCoGzxKjXe1BqMGYkSVoCwmghZUndXuaT"
    ],
@@ -1344,6 +1353,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794174070,
+   "side": "sell",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump",
+   "symbol": null,
+   "trader_id": 15,
+   "amount_usd": 124.33150394542382,
+   "chain": "solana",
+   "time": "Nov 08, 01:41 PM PST",
+   "trader": "nad"
+  },
   {
    "ts": 1794174008,
    "side": "buy",
@@ -1717,20 +1737,20 @@
    "chain": "solana",
    "time": "Nov 08, 12:55 PM PST",
    "trader": "johnsoncooks101"
-  },
-  {
-   "ts": 1794171260,
-   "side": "buy",
-   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy",
-   "symbol": null,
-   "trader_id": 14,
-   "amount_usd": 9.191026089,
-   "chain": "solana",
-   "time": "Nov 08, 12:54 PM PST",
-   "trader": "johnsoncooks101"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 01:41 PM PST",
+   "text": "card @nad sell 8Up7Np\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [LIVE]",
+   "kind": "alert",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump"
+  },
+  {
+   "time": "Nov 08, 01:40 PM PST",
+   "text": "ignored tx 5fqCTi2AxW\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 08, 01:40 PM PST",
    "text": "ignored tx 5JypLNsSp9\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
@@ -1879,17 +1899,6 @@
    "time": "Nov 08, 01:18 PM PST",
    "text": "ignored tx 4nxhZ4s4TU\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 01:15 PM PST",
-   "text": "skip @nad buy 8Up7Np\u2026: $18 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump"
-  },
-  {
-   "time": "Nov 08, 01:15 PM PST",
-   "text": "ignored tx 4RcvBKTmRX\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1900,9 +1909,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794174030,
- "publishedAtText": "Nov 08, 01:40 PM PST",
- "dataChangedAt": 1794171618,
- "dataChangedAtText": "Nov 08, 01:00 PM PST",
+ "publishedAt": 1794174091,
+ "publishedAtText": "Nov 08, 01:41 PM PST",
+ "dataChangedAt": 1794174091,
+ "dataChangedAtText": "Nov 08, 01:41 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
