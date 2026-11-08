@@ -302,9 +302,29 @@
    "ts": 1794117103,
    "value": 0.024661,
    "type": "realized"
+  },
+  {
+   "ts": 1794122068,
+   "value": 0.024661,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 44,
+   "ts": 1794122068,
+   "side": "buy",
+   "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
+   "symbol": "BINGUS",
+   "sol_amount": 0.017618871999999997,
+   "sig": "5s721Zq3bYbNMp5eA3bU7A2bhqqBXzmdgXDpmwANoKkhKSUFagS4SmQjiLtf4QTrskJLjTwbv9t2gaZhhtneyNU7",
+   "trader_id": 4,
+   "reason": "copy @Binkieee",
+   "pnl_sol": null,
+   "time": "Nov 07, 11:14 PM PST",
+   "trader": "Binkieee",
+   "solscan": "https://solscan.io/tx/5s721Zq3bYbNMp5eA3bU7A2bhqqBXzmdgXDpmwANoKkhKSUFagS4SmQjiLtf4QTrskJLjTwbv9t2gaZhhtneyNU7"
+  },
   {
    "id": 43,
    "ts": 1794117103,
@@ -966,9 +986,9 @@
   {
    "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
    "symbol": "BINGUS",
-   "qty_raw": 17112398556,
+   "qty_raw": 29068827436,
    "decimals": 6,
-   "cost_sol": 0.03,
+   "cost_sol": 0.04761887199999999,
    "opened_at": 1794109363,
    "trader_id": 4,
    "trader": "Binkieee",
@@ -1027,7 +1047,7 @@
    "handle": "Binkieee",
    "kind": "fomo",
    "mode": "auto",
-   "copies": 7,
+   "copies": 8,
    "realized": -0.005815,
    "wallets": [
     "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti"
@@ -1195,6 +1215,28 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794122098,
+   "side": "buy",
+   "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 600.0,
+   "chain": "solana",
+   "time": "Nov 07, 11:14 PM PST",
+   "trader": "Binkieee"
+  },
+  {
+   "ts": 1794122063,
+   "side": "buy",
+   "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 292.475744,
+   "chain": "solana",
+   "time": "Nov 07, 11:14 PM PST",
+   "trader": "Binkieee"
+  },
   {
    "ts": 1794121674,
    "side": "buy",
@@ -1557,31 +1599,21 @@
    "chain": "solana",
    "time": "Nov 07, 04:17 PM PST",
    "trader": "Binkieee"
-  },
-  {
-   "ts": 1794097050,
-   "side": "buy",
-   "mint": "22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp",
-   "symbol": null,
-   "trader_id": 4,
-   "amount_usd": 1000.0,
-   "chain": "solana",
-   "time": "Nov 07, 04:17 PM PST",
-   "trader": "Binkieee"
-  },
-  {
-   "ts": 1794097046,
-   "side": "buy",
-   "mint": "22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp",
-   "symbol": null,
-   "trader_id": 4,
-   "amount_usd": 1000.0,
-   "chain": "solana",
-   "time": "Nov 07, 04:17 PM PST",
-   "trader": "Binkieee"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 11:14 PM PST",
+   "text": "card @Binkieee buy 5shzBF\u2026: \u23ed Not copied: max open positions (4) reached",
+   "kind": "skipped",
+   "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij"
+  },
+  {
+   "time": "Nov 07, 11:14 PM PST",
+   "text": "card @Binkieee buy 2HbNwn\u2026: \u2699\ufe0f Auto-copying 0.017604 SOL (fixed size, reduced to available balance) [LIVE]",
+   "kind": "alert",
+   "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat"
+  },
   {
    "time": "Nov 07, 11:07 PM PST",
    "text": "skip @aiwass buy Ea5dBr\u2026: $43 < min_trade_usd $100 (no alert)",
@@ -1725,18 +1757,6 @@
    "time": "Nov 07, 09:05 PM PST",
    "text": "ignored tx PjCgonE3rd\u2026 on 3H9LVH\u2026: not signed by trader (signers b6Nzds; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 09:05 PM PST",
-   "text": "skip @JADAWGS sell Xsa62P\u2026: $14 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu"
-  },
-  {
-   "time": "Nov 07, 09:05 PM PST",
-   "text": "skip @JADAWGS sell DGuudm\u2026: $11 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn"
   }
  ],
  "health": {
@@ -1747,9 +1767,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794121687,
- "publishedAtText": "Nov 07, 11:08 PM PST",
- "dataChangedAt": 1794117110,
- "dataChangedAtText": "Nov 07, 09:51 PM PST",
+ "publishedAt": 1794122108,
+ "publishedAtText": "Nov 07, 11:15 PM PST",
+ "dataChangedAt": 1794122108,
+ "dataChangedAtText": "Nov 07, 11:15 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
