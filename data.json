@@ -257,9 +257,29 @@
    "ts": 1794104370,
    "value": 0.016358,
    "type": "realized"
+  },
+  {
+   "ts": 1794104707,
+   "value": 0.016358,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 35,
+   "ts": 1794104707,
+   "side": "buy",
+   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE",
+   "symbol": "TAOLF",
+   "sol_amount": 0.031008999,
+   "sig": "5xK41ondtGyjKXFn2ZAVn4jz7h2XFgiQKbvgCvA3VUbtfa8aiLnTnUyDwjPYhiJeAeMjuDtS6xjjqd7tuLh4hosB",
+   "trader_id": 4,
+   "reason": "copy @Binkieee",
+   "pnl_sol": null,
+   "time": "Nov 07, 06:25 PM PST",
+   "trader": "Binkieee",
+   "solscan": "https://solscan.io/tx/5xK41ondtGyjKXFn2ZAVn4jz7h2XFgiQKbvgCvA3VUbtfa8aiLnTnUyDwjPYhiJeAeMjuDtS6xjjqd7tuLh4hosB"
+  },
   {
    "id": 34,
    "ts": 1794104370,
@@ -782,6 +802,17 @@
    "trader_id": 4,
    "trader": "Binkieee",
    "time": "Nov 07, 06:19 PM PST"
+  },
+  {
+   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE",
+   "symbol": "TAOLF",
+   "qty_raw": 28757417908,
+   "decimals": 6,
+   "cost_sol": 0.031008999,
+   "opened_at": 1794104707,
+   "trader_id": 4,
+   "trader": "Binkieee",
+   "time": "Nov 07, 06:25 PM PST"
   }
  ],
  "traders": [
@@ -814,7 +845,7 @@
    "handle": "Binkieee",
    "kind": "fomo",
    "mode": "auto",
-   "copies": 4,
+   "copies": 5,
    "realized": 0,
    "wallets": [
     "6zMVSeukMUMKu5tDsECh4QMqrCRZqTbTvuawztFfwNti"
@@ -982,6 +1013,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794104701,
+   "side": "buy",
+   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 2000.0,
+   "chain": "solana",
+   "time": "Nov 07, 06:25 PM PST",
+   "trader": "Binkieee"
+  },
   {
    "ts": 1794104364,
    "side": "buy",
@@ -1355,20 +1397,15 @@
    "chain": "solana",
    "time": "Nov 07, 03:38 PM PST",
    "trader": "GrandSafeAnt"
-  },
-  {
-   "ts": 1794094710,
-   "side": "sell",
-   "mint": "471iQyZ9AU4Ggypdtkuwp2YaMamQTPwuh7ujuZtfLoat",
-   "symbol": null,
-   "trader_id": 11,
-   "amount_usd": 933.805604,
-   "chain": "solana",
-   "time": "Nov 07, 03:38 PM PST",
-   "trader": "GrandSafeAnt"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 06:25 PM PST",
+   "text": "card @Binkieee buy 2nUQny\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
+   "kind": "alert",
+   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE"
+  },
   {
    "time": "Nov 07, 06:19 PM PST",
    "text": "card @Binkieee buy 2StNe9\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
@@ -1520,11 +1557,6 @@
    "time": "Nov 07, 05:11 PM PST",
    "text": "ignored tx 2KY8UrYr9u\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 05:10 PM PST",
-   "text": "ignored tx 2yHkdt4ns6\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1535,9 +1567,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794104400,
- "publishedAtText": "Nov 07, 06:19 PM PST",
- "dataChangedAt": 1794104400,
- "dataChangedAtText": "Nov 07, 06:19 PM PST",
+ "publishedAt": 1794104761,
+ "publishedAtText": "Nov 07, 06:26 PM PST",
+ "dataChangedAt": 1794104761,
+ "dataChangedAtText": "Nov 07, 06:26 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
