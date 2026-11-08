@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.036374,
+ "realized": -0.057904,
  "curve": [
   {
    "ts": 1794070874,
@@ -372,9 +372,29 @@
    "ts": 1794179284,
    "value": -0.036374,
    "type": "realized"
+  },
+  {
+   "ts": 1794179296,
+   "value": -0.057904,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 58,
+   "ts": 1794179296,
+   "side": "sell",
+   "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
+   "symbol": "BINGUS",
+   "sol_amount": 0.026088783999999997,
+   "sig": "49sAXCx7nMmBbjtw5tUNNBb41GJEQFW83Hb6j53K3H4jvNr5DmDApe5TU5oVy4tFS7vDN9qYuvQWP9JxBc3G6zKy",
+   "trader_id": null,
+   "reason": "manual sell",
+   "pnl_sol": -0.021530087999999996,
+   "time": "Nov 08, 03:08 PM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/49sAXCx7nMmBbjtw5tUNNBb41GJEQFW83Hb6j53K3H4jvNr5DmDApe5TU5oVy4tFS7vDN9qYuvQWP9JxBc3G6zKy"
+  },
   {
    "id": 57,
    "ts": 1794179284,
@@ -1233,17 +1253,6 @@
  ],
  "positions": [
   {
-   "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
-   "symbol": "BINGUS",
-   "qty_raw": 29068827436,
-   "decimals": 6,
-   "cost_sol": 0.04761887199999999,
-   "opened_at": 1794109363,
-   "trader_id": 4,
-   "trader": "Binkieee",
-   "time": "Nov 07, 07:42 PM PST"
-  },
-  {
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
    "symbol": "PIRATE",
    "qty_raw": 5673733011,
@@ -1842,6 +1851,16 @@
  "decisions": [
   {
    "time": "Nov 08, 03:08 PM PST",
+   "text": "ignored tx 4hEWiJ8f3A\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 03:08 PM PST",
+   "text": "ignored tx 4vmaJ8DQ1V\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 03:08 PM PST",
    "text": "ignored tx cmkgSRxMBF\u2026 on 6xmMW5\u2026: quote-only (USDC transfer, no coin traded)",
    "kind": "skipped"
   },
@@ -1979,16 +1998,6 @@
    "time": "Nov 08, 03:06 PM PST",
    "text": "ignored tx of8jxfDN86\u2026 on 2fg5QD\u2026: not signed by trader (signers 6MmbPH; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 03:06 PM PST",
-   "text": "ignored tx 3oPjM3XoBq\u2026 on 2fg5QD\u2026: not signed by trader (signers 6MmbPH; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 03:06 PM PST",
-   "text": "ignored tx r28Sz5ZXpk\u2026 on 2fg5QD\u2026: not signed by trader (signers 6MmbPH; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1999,9 +2008,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794179285,
- "publishedAtText": "Nov 08, 03:08 PM PST",
- "dataChangedAt": 1794179285,
- "dataChangedAtText": "Nov 08, 03:08 PM PST",
+ "publishedAt": 1794179347,
+ "publishedAtText": "Nov 08, 03:09 PM PST",
+ "dataChangedAt": 1794179347,
+ "dataChangedAtText": "Nov 08, 03:09 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
