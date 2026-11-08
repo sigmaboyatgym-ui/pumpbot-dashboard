@@ -1256,6 +1256,28 @@
  },
  "alerts": [
   {
+   "ts": 1794158880,
+   "side": "buy",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "symbol": null,
+   "trader_id": 15,
+   "amount_usd": 89.1654305676348,
+   "chain": "solana",
+   "time": "Nov 08, 09:28 AM PST",
+   "trader": "nad"
+  },
+  {
+   "ts": 1794158701,
+   "side": "sell",
+   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 3144.854489,
+   "chain": "solana",
+   "time": "Nov 08, 09:25 AM PST",
+   "trader": "bystevenr"
+  },
+  {
    "ts": 1794158635,
    "side": "sell",
    "mint": "MNSTy46haEN7sEaeXAWBXG6zHaRikCvqf3krAEDzxr2",
@@ -1617,31 +1639,20 @@
    "chain": "solana",
    "time": "Nov 08, 06:55 AM PST",
    "trader": "bystevenr"
-  },
-  {
-   "ts": 1794149550,
-   "side": "buy",
-   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 249.999999,
-   "chain": "solana",
-   "time": "Nov 08, 06:52 AM PST",
-   "trader": "bystevenr"
-  },
-  {
-   "ts": 1794149533,
-   "side": "sell",
-   "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 9.045522,
-   "chain": "solana",
-   "time": "Nov 08, 06:52 AM PST",
-   "trader": "bystevenr"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 09:28 AM PST",
+   "text": "skip @nad buy DffdPt\u2026: $89 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump"
+  },
+  {
+   "time": "Nov 08, 09:27 AM PST",
+   "text": "ignored tx 4PVpK8TLGW\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 08, 09:23 AM PST",
    "text": "skip @bystevenr sell 3NZ9JM\u2026: $43 < min_trade_usd $100 (no alert)",
@@ -1798,18 +1809,6 @@
    "text": "card @nad buy C5xph2\u2026: \u23ed Not copied: max open positions (4) reached",
    "kind": "skipped",
    "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump"
-  },
-  {
-   "time": "Nov 08, 08:59 AM PST",
-   "text": "card @nad buy 2cyscx\u2026: \u23ed Not copied: mcap $13,260 < min $30,000",
-   "kind": "skipped",
-   "mint": "2cyscxhSw5wFLMFVmMm6KpkwUHQjQvey75ZKDkAUpump"
-  },
-  {
-   "time": "Nov 08, 08:58 AM PST",
-   "text": "card @Binkieee buy 5shzBF\u2026: \u23ed Not copied: max open positions (4) reached",
-   "kind": "skipped",
-   "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij"
   }
  ],
  "health": {
@@ -1820,8 +1819,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794158645,
- "publishedAtText": "Nov 08, 09:24 AM PST",
+ "publishedAt": 1794158946,
+ "publishedAtText": "Nov 08, 09:29 AM PST",
  "dataChangedAt": 1794151896,
  "dataChangedAtText": "Nov 08, 07:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
