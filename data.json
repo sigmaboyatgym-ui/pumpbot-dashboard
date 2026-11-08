@@ -362,9 +362,29 @@
    "ts": 1794175411,
    "value": -0.036136,
    "type": "realized"
+  },
+  {
+   "ts": 1794177065,
+   "value": -0.036136,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 56,
+   "ts": 1794177065,
+   "side": "buy",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "symbol": "LTC",
+   "sol_amount": 0.027262384999999997,
+   "sig": "3ujFJcbedmETyVGFmnYLwsmYRrBPB77rPgEBmn6mbJtfzMt7WTEi1bWG3HnSKkN4fDJ2vhEsTj7XCKrUXkRo4WNa",
+   "trader_id": 15,
+   "reason": "copy @nad",
+   "pnl_sol": null,
+   "time": "Nov 08, 02:31 PM PST",
+   "trader": "nad",
+   "solscan": "https://solscan.io/tx/3ujFJcbedmETyVGFmnYLwsmYRrBPB77rPgEBmn6mbJtfzMt7WTEi1bWG3HnSKkN4fDJ2vhEsTj7XCKrUXkRo4WNa"
+  },
   {
    "id": 55,
    "ts": 1794175411,
@@ -1213,6 +1233,17 @@
    "trader_id": 1,
    "trader": "brezscales",
    "time": "Nov 08, 12:59 PM PST"
+  },
+  {
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "symbol": "LTC",
+   "qty_raw": 54576074382,
+   "decimals": 6,
+   "cost_sol": 0.027262384999999997,
+   "opened_at": 1794177065,
+   "trader_id": 15,
+   "trader": "nad",
+   "time": "Nov 08, 02:31 PM PST"
   }
  ],
  "traders": [
@@ -1363,7 +1394,7 @@
    "handle": "nad",
    "kind": "wallet",
    "mode": "auto",
-   "copies": 1,
+   "copies": 2,
    "realized": -0.047834,
    "wallets": [
     "363sqMFaxZgvCoGzxKjXe1BqMGYkSVoCwmghZUndXuaT"
@@ -1413,6 +1444,28 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794177069,
+   "side": "sell",
+   "mint": "NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 3.161771,
+   "chain": "solana",
+   "time": "Nov 08, 02:31 PM PST",
+   "trader": "bystevenr"
+  },
+  {
+   "ts": 1794177058,
+   "side": "buy",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "symbol": null,
+   "trader_id": 15,
+   "amount_usd": 171.821137635,
+   "chain": "solana",
+   "time": "Nov 08, 02:30 PM PST",
+   "trader": "nad"
+  },
   {
    "ts": 1794176958,
    "side": "buy",
@@ -1775,31 +1828,26 @@
    "chain": "solana",
    "time": "Nov 08, 01:35 PM PST",
    "trader": "bystevenr"
-  },
-  {
-   "ts": 1794173229,
-   "side": "sell",
-   "mint": "NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 74.320477,
-   "chain": "solana",
-   "time": "Nov 08, 01:27 PM PST",
-   "trader": "bystevenr"
-  },
-  {
-   "ts": 1794173102,
-   "side": "buy",
-   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
-   "symbol": null,
-   "trader_id": 10,
-   "amount_usd": 69.0,
-   "chain": "solana",
-   "time": "Nov 08, 01:25 PM PST",
-   "trader": "aiwass"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 02:31 PM PST",
+   "text": "skip @bystevenr sell NVDAVu\u2026: $3 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv"
+  },
+  {
+   "time": "Nov 08, 02:30 PM PST",
+   "text": "card @nad buy DffdPt\u2026: \u2699\ufe0f Auto-copying 0.026264 SOL (fixed size, reduced to available balance) [LIVE]",
+   "kind": "alert",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump"
+  },
+  {
+   "time": "Nov 08, 02:29 PM PST",
+   "text": "ignored tx 4Nzgv644CZ\u2026 on 6xmMW5\u2026: not signed by trader (signers oMcssx; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 08, 02:29 PM PST",
    "text": "card @johnsoncooks101 buy 37pa6q\u2026: \u23ed Not copied: mcap $8,615 < min $30,000",
@@ -1939,23 +1987,6 @@
    "text": "skip @nad buy 5b8LGw\u2026: $43 < min_trade_usd $100 (no alert)",
    "kind": "skipped",
    "mint": "5b8LGwj96DedD5HzzDskfsd2BqTQQ4pFdQganEW9pump"
-  },
-  {
-   "time": "Nov 08, 02:03 PM PST",
-   "text": "card @nad sell 3UqReb\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [LIVE]",
-   "kind": "alert",
-   "mint": "3UqRebmvw79J35E4zJ13dbAyiAi8uhuNxUg3wNpaL5T8"
-  },
-  {
-   "time": "Nov 08, 02:00 PM PST",
-   "text": "ignored tx ELQ59jMkaa\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 02:00 PM PST",
-   "text": "card @nad sell 3UqReb\u2026: \u2699\ufe0f Trader sold 50% of their bag \u2192 selling 50% of our position [LIVE]",
-   "kind": "alert",
-   "mint": "3UqRebmvw79J35E4zJ13dbAyiAi8uhuNxUg3wNpaL5T8"
   }
  ],
  "health": {
@@ -1966,9 +1997,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794176990,
- "publishedAtText": "Nov 08, 02:29 PM PST",
- "dataChangedAt": 1794176688,
- "dataChangedAtText": "Nov 08, 02:24 PM PST",
+ "publishedAt": 1794177112,
+ "publishedAtText": "Nov 08, 02:31 PM PST",
+ "dataChangedAt": 1794177112,
+ "dataChangedAtText": "Nov 08, 02:31 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
