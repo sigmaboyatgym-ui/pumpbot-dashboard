@@ -1256,6 +1256,17 @@
  },
  "alerts": [
   {
+   "ts": 1794152816,
+   "side": "buy",
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 66.036064,
+   "chain": "solana",
+   "time": "Nov 08, 07:46 AM PST",
+   "trader": "Binkieee"
+  },
+  {
    "ts": 1794152253,
    "side": "buy",
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
@@ -1628,20 +1639,15 @@
    "chain": "solana",
    "time": "Nov 07, 06:26 PM PST",
    "trader": "starcatcher444"
-  },
-  {
-   "ts": 1794104701,
-   "side": "buy",
-   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE",
-   "symbol": null,
-   "trader_id": 4,
-   "amount_usd": 2000.0,
-   "chain": "solana",
-   "time": "Nov 07, 06:25 PM PST",
-   "trader": "Binkieee"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 07:46 AM PST",
+   "text": "skip @Binkieee buy 2StNe9\u2026: $66 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat"
+  },
   {
    "time": "Nov 08, 07:37 AM PST",
    "text": "card @bystevenr buy 2StNe9\u2026: \u2699\ufe0f Auto-copying 0.007497 SOL (fixed size, reduced to available balance) [LIVE]",
@@ -1797,11 +1803,6 @@
    "time": "Nov 08, 05:42 AM PST",
    "text": "ignored tx 4x9GyoM4TC\u2026 on J9TYAs\u2026: not signed by trader (signers Drc6kP; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 05:42 AM PST",
-   "text": "ignored tx 2gRxYNRCeT\u2026 on 3H9LVH\u2026: not signed by trader (signers Drc6kP; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1812,8 +1813,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794152257,
- "publishedAtText": "Nov 08, 07:37 AM PST",
+ "publishedAt": 1794152859,
+ "publishedAtText": "Nov 08, 07:47 AM PST",
  "dataChangedAt": 1794151896,
  "dataChangedAtText": "Nov 08, 07:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
