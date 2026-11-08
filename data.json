@@ -1196,6 +1196,17 @@
  },
  "alerts": [
   {
+   "ts": 1794121674,
+   "side": "buy",
+   "mint": "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH",
+   "symbol": null,
+   "trader_id": 10,
+   "amount_usd": 43.2,
+   "chain": "solana",
+   "time": "Nov 07, 11:07 PM PST",
+   "trader": "aiwass"
+  },
+  {
    "ts": 1794117096,
    "side": "buy",
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
@@ -1568,20 +1579,15 @@
    "chain": "solana",
    "time": "Nov 07, 04:17 PM PST",
    "trader": "Binkieee"
-  },
-  {
-   "ts": 1794096925,
-   "side": "sell",
-   "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 6.315211,
-   "chain": "solana",
-   "time": "Nov 07, 04:15 PM PST",
-   "trader": "bystevenr"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 11:07 PM PST",
+   "text": "skip @aiwass buy Ea5dBr\u2026: $43 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "Ea5dBrJZN58yV1nm1Q4DybJNYKeTvwpb2GEkXyW64bUH"
+  },
   {
    "time": "Nov 07, 11:01 PM PST",
    "text": "ignored tx 46Fsu6TUDD\u2026 on J9TYAs\u2026: not signed by trader (signers 3LwvND; airdrop/fee distribution/transfer in)",
@@ -1731,12 +1737,6 @@
    "text": "skip @JADAWGS sell DGuudm\u2026: $11 < min_trade_usd $100 (no alert)",
    "kind": "skipped",
    "mint": "DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn"
-  },
-  {
-   "time": "Nov 07, 09:05 PM PST",
-   "text": "skip @JADAWGS sell Xs7Zdz\u2026: $17 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu"
   }
  ],
  "health": {
@@ -1747,8 +1747,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794121265,
- "publishedAtText": "Nov 07, 11:01 PM PST",
+ "publishedAt": 1794121687,
+ "publishedAtText": "Nov 07, 11:08 PM PST",
  "dataChangedAt": 1794117110,
  "dataChangedAtText": "Nov 07, 09:51 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
