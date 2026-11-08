@@ -1414,6 +1414,17 @@
  },
  "alerts": [
   {
+   "ts": 1794176958,
+   "side": "buy",
+   "mint": "37pa6qqyjbAEKcyUyYvdvQGzG5oTKL4aPxJbL7iHpump",
+   "symbol": null,
+   "trader_id": 14,
+   "amount_usd": 172.8859270625827,
+   "chain": "solana",
+   "time": "Nov 08, 02:29 PM PST",
+   "trader": "johnsoncooks101"
+  },
+  {
    "ts": 1794176300,
    "side": "sell",
    "mint": "59ELL1J1FaRzVd3ncB3Bb3Dwyc4eeHn3GEuypeGL6JsP",
@@ -1786,20 +1797,20 @@
    "chain": "solana",
    "time": "Nov 08, 01:25 PM PST",
    "trader": "aiwass"
-  },
-  {
-   "ts": 1794172934,
-   "side": "buy",
-   "mint": "7xWZSw8KfLbPRiLiyPPMNboCq81j3oc53DpAYiXfLoat",
-   "symbol": null,
-   "trader_id": 1,
-   "amount_usd": 3000.0,
-   "chain": "solana",
-   "time": "Nov 08, 01:22 PM PST",
-   "trader": "brezscales"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 02:29 PM PST",
+   "text": "card @johnsoncooks101 buy 37pa6q\u2026: \u23ed Not copied: mcap $8,615 < min $30,000",
+   "kind": "skipped",
+   "mint": "37pa6qqyjbAEKcyUyYvdvQGzG5oTKL4aPxJbL7iHpump"
+  },
+  {
+   "time": "Nov 08, 02:27 PM PST",
+   "text": "ignored tx 2RtGnb15jz\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 08, 02:23 PM PST",
    "text": "ignored tx 36apDHhT7j\u2026 on J9TYAs\u2026: not signed by trader (signers 9ET25r; airdrop/fee distribution/transfer in)",
@@ -1945,17 +1956,6 @@
    "text": "card @nad sell 3UqReb\u2026: \u2699\ufe0f Trader sold 50% of their bag \u2192 selling 50% of our position [LIVE]",
    "kind": "alert",
    "mint": "3UqRebmvw79J35E4zJ13dbAyiAi8uhuNxUg3wNpaL5T8"
-  },
-  {
-   "time": "Nov 08, 01:57 PM PST",
-   "text": "ignored tx 3VpDvxdUpm\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 01:56 PM PST",
-   "text": "card @nad sell 3UqReb\u2026: \u2699\ufe0f Trader sold 50% of their bag \u2192 selling 50% of our position [LIVE]",
-   "kind": "alert",
-   "mint": "3UqRebmvw79J35E4zJ13dbAyiAi8uhuNxUg3wNpaL5T8"
   }
  ],
  "health": {
@@ -1966,8 +1966,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794176688,
- "publishedAtText": "Nov 08, 02:24 PM PST",
+ "publishedAt": 1794176990,
+ "publishedAtText": "Nov 08, 02:29 PM PST",
  "dataChangedAt": 1794176688,
  "dataChangedAtText": "Nov 08, 02:24 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
