@@ -1256,6 +1256,17 @@
  },
  "alerts": [
   {
+   "ts": 1794168672,
+   "side": "sell",
+   "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 15.133044,
+   "chain": "solana",
+   "time": "Nov 08, 12:11 PM PST",
+   "trader": "bystevenr"
+  },
+  {
    "ts": 1794168594,
    "side": "sell",
    "mint": "516gBXAmuhTfxCDcRX1VkKWz5WTAi6eB6kr7ZfXxpump",
@@ -1628,20 +1639,20 @@
    "chain": "solana",
    "time": "Nov 08, 11:23 AM PST",
    "trader": "johnsoncooks101"
-  },
-  {
-   "ts": 1794165820,
-   "side": "buy",
-   "mint": "9zeTqCPi9Ct8eFmgBSY9dr47U8o7e5DWKXkBVqQYpump",
-   "symbol": null,
-   "trader_id": 14,
-   "amount_usd": 9.204991034999999,
-   "chain": "solana",
-   "time": "Nov 08, 11:23 AM PST",
-   "trader": "johnsoncooks101"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 12:13 PM PST",
+   "text": "ignored tx 2sziBEzXS6\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 12:11 PM PST",
+   "text": "skip @bystevenr sell 3NZ9JM\u2026: $15 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+  },
   {
    "time": "Nov 08, 12:07 PM PST",
    "text": "card @johnsoncooks101 buy 516gBX\u2026: \u23ed Not copied: mcap $6,461 < min $30,000",
@@ -1785,17 +1796,6 @@
    "time": "Nov 08, 11:32 AM PST",
    "text": "ignored tx 3nLygkK8BV\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 11:32 AM PST",
-   "text": "ignored tx FbTxTm1HrE\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 11:32 AM PST",
-   "text": "skip @johnsoncooks101 buy 9zeTqC\u2026: $9 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "9zeTqCPi9Ct8eFmgBSY9dr47U8o7e5DWKXkBVqQYpump"
   }
  ],
  "health": {
@@ -1806,8 +1806,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794168600,
- "publishedAtText": "Nov 08, 12:10 PM PST",
+ "publishedAt": 1794168902,
+ "publishedAtText": "Nov 08, 12:15 PM PST",
  "dataChangedAt": 1794151896,
  "dataChangedAtText": "Nov 08, 07:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
