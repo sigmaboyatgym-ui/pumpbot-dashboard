@@ -1345,6 +1345,28 @@
  },
  "alerts": [
   {
+   "ts": 1794171833,
+   "side": "buy",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump",
+   "symbol": null,
+   "trader_id": 15,
+   "amount_usd": 44.622080028,
+   "chain": "solana",
+   "time": "Nov 08, 01:03 PM PST",
+   "trader": "nad"
+  },
+  {
+   "ts": 1794171675,
+   "side": "buy",
+   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy",
+   "symbol": null,
+   "trader_id": 14,
+   "amount_usd": 9.176741225,
+   "chain": "solana",
+   "time": "Nov 08, 01:01 PM PST",
+   "trader": "johnsoncooks101"
+  },
+  {
    "ts": 1794171594,
    "side": "buy",
    "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
@@ -1706,31 +1728,46 @@
    "chain": "solana",
    "time": "Nov 08, 12:07 PM PST",
    "trader": "johnsoncooks101"
-  },
-  {
-   "ts": 1794167135,
-   "side": "sell",
-   "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 27.471244,
-   "chain": "solana",
-   "time": "Nov 08, 11:45 AM PST",
-   "trader": "bystevenr"
-  },
-  {
-   "ts": 1794167124,
-   "side": "buy",
-   "mint": "9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 100.0,
-   "chain": "solana",
-   "time": "Nov 08, 11:45 AM PST",
-   "trader": "bystevenr"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 01:05 PM PST",
+   "text": "ignored tx 2uvgHrurW8\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 01:05 PM PST",
+   "text": "ignored tx 2QuxKm8u6T\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 01:05 PM PST",
+   "text": "ignored tx 4Xn2qASnmz\u2026 on Fvkc2t\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 01:04 PM PST",
+   "text": "ignored tx 49JLcMgZap\u2026 on J9TYAs\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 01:03 PM PST",
+   "text": "skip @nad buy 8Up7Np\u2026: $45 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump"
+  },
+  {
+   "time": "Nov 08, 01:02 PM PST",
+   "text": "ignored tx 5nFGDkuBG9\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 01:01 PM PST",
+   "text": "skip @johnsoncooks101 buy ChAhXM\u2026: $9 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy"
+  },
   {
    "time": "Nov 08, 12:59 PM PST",
    "text": "ignored tx 4631CRR8uw\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -1857,46 +1894,6 @@
    "text": "skip @johnsoncooks101 buy ChAhXM\u2026: $9 < min_trade_usd $100 (no alert)",
    "kind": "skipped",
    "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy"
-  },
-  {
-   "time": "Nov 08, 12:46 PM PST",
-   "text": "skip @johnsoncooks101 buy ChAhXM\u2026: $9 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy"
-  },
-  {
-   "time": "Nov 08, 12:46 PM PST",
-   "text": "skip @johnsoncooks101 buy ChAhXM\u2026: $9 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy"
-  },
-  {
-   "time": "Nov 08, 12:46 PM PST",
-   "text": "ignored tx 3RfwYkyg8z\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 12:45 PM PST",
-   "text": "skip @johnsoncooks101 buy ChAhXM\u2026: $9 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy"
-  },
-  {
-   "time": "Nov 08, 12:45 PM PST",
-   "text": "skip @johnsoncooks101 buy ChAhXM\u2026: $9 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy"
-  },
-  {
-   "time": "Nov 08, 12:45 PM PST",
-   "text": "card @johnsoncooks101 buy ChAhXM\u2026: \u23ed Not copied: mcap $9,623 < min $30,000",
-   "kind": "skipped",
-   "mint": "ChAhXMuZ1tk5ogWsvLKsBg6VG6VXshU6JMmtWcqmTMCy"
-  },
-  {
-   "time": "Nov 08, 12:44 PM PST",
-   "text": "ignored tx frVv6HG1Wm\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1907,8 +1904,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794171618,
- "publishedAtText": "Nov 08, 01:00 PM PST",
+ "publishedAt": 1794171920,
+ "publishedAtText": "Nov 08, 01:05 PM PST",
  "dataChangedAt": 1794171618,
  "dataChangedAtText": "Nov 08, 01:00 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
