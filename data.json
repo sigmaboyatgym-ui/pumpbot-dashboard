@@ -1369,7 +1369,7 @@
    "id": 12,
    "handle": "Cupsey",
    "kind": "wallet",
-   "mode": "muted",
+   "mode": "auto",
    "copies": 0,
    "realized": 0,
    "wallets": [
@@ -1381,7 +1381,7 @@
    "id": 14,
    "handle": "johnsoncooks101",
    "kind": "wallet",
-   "mode": "auto",
+   "mode": "alerts",
    "copies": 0,
    "realized": 0,
    "wallets": [
@@ -1393,7 +1393,7 @@
    "id": 15,
    "handle": "nad",
    "kind": "wallet",
-   "mode": "auto",
+   "mode": "alerts",
    "copies": 2,
    "realized": -0.047834,
    "wallets": [
@@ -1405,7 +1405,7 @@
    "id": 16,
    "handle": "JADAWGS",
    "kind": "wallet",
-   "mode": "auto",
+   "mode": "alerts",
    "copies": 0,
    "realized": 0,
    "wallets": [
@@ -1832,6 +1832,11 @@
  ],
  "decisions": [
   {
+   "time": "Nov 08, 02:48 PM PST",
+   "text": "ignored tx 27SZVXBwvq\u2026 on 2fg5QD\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
    "time": "Nov 08, 02:45 PM PST",
    "text": "ignored tx 4UDM7pMM64\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
@@ -1999,12 +2004,6 @@
    "text": "skip @johnsoncooks101 buy 3Xnf63\u2026: $9 < min_trade_usd $100 (no alert)",
    "kind": "skipped",
    "mint": "3Xnf6373p4wMbC6fiFcwc6eHgcJcfEGUB6YB7r23mS3o"
-  },
-  {
-   "time": "Nov 08, 02:36 PM PST",
-   "text": "skip @johnsoncooks101 buy 3Xnf63\u2026: $9 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "3Xnf6373p4wMbC6fiFcwc6eHgcJcfEGUB6YB7r23mS3o"
   }
  ],
  "health": {
@@ -2015,9 +2014,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794178078,
- "publishedAtText": "Nov 08, 02:47 PM PST",
- "dataChangedAt": 1794178078,
- "dataChangedAtText": "Nov 08, 02:47 PM PST",
+ "publishedAt": 1794178139,
+ "publishedAtText": "Nov 08, 02:48 PM PST",
+ "dataChangedAt": 1794178139,
+ "dataChangedAtText": "Nov 08, 02:48 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
