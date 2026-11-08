@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 0.01876,
+ "realized": 0.024661,
  "curve": [
   {
    "ts": 1794070874,
@@ -292,9 +292,29 @@
    "ts": 1794111960,
    "value": 0.01876,
    "type": "realized"
+  },
+  {
+   "ts": 1794112119,
+   "value": 0.024661,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 42,
+   "ts": 1794112119,
+   "side": "sell",
+   "mint": "6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat",
+   "symbol": "APU",
+   "sol_amount": 0.017901699999999993,
+   "sig": "4ktB18twVuP7HENyV9B92KnNtoVG8E4RAVfzy6UWkacpmzCzzqig2KZLdMU7eTQnzFe7j1CrK9dKkTrMaxVs7Xux",
+   "trader_id": null,
+   "reason": "partial take-profit",
+   "pnl_sol": 0.005901700001784652,
+   "time": "Nov 07, 08:28 PM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/4ktB18twVuP7HENyV9B92KnNtoVG8E4RAVfzy6UWkacpmzCzzqig2KZLdMU7eTQnzFe7j1CrK9dKkTrMaxVs7Xux"
+  },
   {
    "id": 41,
    "ts": 1794111960,
@@ -948,9 +968,9 @@
   {
    "mint": "6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat",
    "symbol": "APU",
-   "qty_raw": 13447949102,
+   "qty_raw": 8068769462,
    "decimals": 6,
-   "cost_sol": 0.03,
+   "cost_sol": 0.018000000001784658,
    "opened_at": 1794111960,
    "trader_id": 1,
    "trader": "brezscales",
@@ -1543,6 +1563,16 @@
  ],
  "decisions": [
   {
+   "time": "Nov 07, 08:28 PM PST",
+   "text": "ignored tx 2qTLWF9WTe\u2026 on AH75Bn\u2026: not signed by trader (signers 6y2QmZ; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 07, 08:27 PM PST",
+   "text": "ignored tx 3EwSbwUrdx\u2026 on J9TYAs\u2026: not signed by trader (signers DoZ8bc; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
    "time": "Nov 07, 08:25 PM PST",
    "text": "card @brezscales buy 6nGocD\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
    "kind": "alert",
@@ -1691,18 +1721,6 @@
    "text": "card @starcatcher444 buy 4MMQY9\u2026: \ud83d\udd14 Alerts-only",
    "kind": "alert",
    "mint": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8"
-  },
-  {
-   "time": "Nov 07, 06:25 PM PST",
-   "text": "card @Binkieee buy 2nUQny\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
-   "kind": "alert",
-   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE"
-  },
-  {
-   "time": "Nov 07, 06:19 PM PST",
-   "text": "card @Binkieee buy 2StNe9\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
-   "kind": "alert",
-   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat"
   }
  ],
  "health": {
@@ -1713,9 +1731,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794111993,
- "publishedAtText": "Nov 07, 08:26 PM PST",
- "dataChangedAt": 1794111993,
- "dataChangedAtText": "Nov 07, 08:26 PM PST",
+ "publishedAt": 1794112174,
+ "publishedAtText": "Nov 07, 08:29 PM PST",
+ "dataChangedAt": 1794112174,
+ "dataChangedAtText": "Nov 07, 08:29 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
