@@ -1256,6 +1256,17 @@
  },
  "alerts": [
   {
+   "ts": 1794153923,
+   "side": "buy",
+   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
+   "symbol": null,
+   "trader_id": 10,
+   "amount_usd": 69.0,
+   "chain": "solana",
+   "time": "Nov 08, 08:05 AM PST",
+   "trader": "aiwass"
+  },
+  {
    "ts": 1794153595,
    "side": "sell",
    "mint": "sfRryD94dVnvVjvhMp4FVoQAcx4rRq3JNboT1sAiMwu",
@@ -1628,20 +1639,15 @@
    "chain": "solana",
    "time": "Nov 07, 07:42 PM PST",
    "trader": "Binkieee"
-  },
-  {
-   "ts": 1794104993,
-   "side": "sell",
-   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE",
-   "symbol": null,
-   "trader_id": 4,
-   "amount_usd": 876.875789,
-   "chain": "solana",
-   "time": "Nov 07, 06:29 PM PST",
-   "trader": "Binkieee"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 08:05 AM PST",
+   "text": "skip @aiwass buy 7ymF66\u2026: $69 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh"
+  },
   {
    "time": "Nov 08, 07:58 AM PST",
    "text": "card @Binkieee buy sfRryD\u2026: \u23ed Not copied: max open positions (4) reached",
@@ -1798,12 +1804,6 @@
    "time": "Nov 08, 06:32 AM PST",
    "text": "ignored tx tEczngnDXY\u2026 on J9TYAs\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 06:31 AM PST",
-   "text": "card @Binkieee buy 2StNe9\u2026: \u23ed Not copied: insufficient balance (0.0201 SOL)",
-   "kind": "skipped",
-   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat"
   }
  ],
  "health": {
@@ -1814,8 +1814,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794153642,
- "publishedAtText": "Nov 08, 08:00 AM PST",
+ "publishedAt": 1794153943,
+ "publishedAtText": "Nov 08, 08:05 AM PST",
  "dataChangedAt": 1794151896,
  "dataChangedAtText": "Nov 08, 07:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
