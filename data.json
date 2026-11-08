@@ -1256,6 +1256,28 @@
  },
  "alerts": [
   {
+   "ts": 1794153595,
+   "side": "sell",
+   "mint": "sfRryD94dVnvVjvhMp4FVoQAcx4rRq3JNboT1sAiMwu",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 4046.244686,
+   "chain": "solana",
+   "time": "Nov 08, 07:59 AM PST",
+   "trader": "Binkieee"
+  },
+  {
+   "ts": 1794153538,
+   "side": "buy",
+   "mint": "sfRryD94dVnvVjvhMp4FVoQAcx4rRq3JNboT1sAiMwu",
+   "symbol": null,
+   "trader_id": 4,
+   "amount_usd": 4926.769075,
+   "chain": "solana",
+   "time": "Nov 08, 07:58 AM PST",
+   "trader": "Binkieee"
+  },
+  {
    "ts": 1794152816,
    "side": "buy",
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
@@ -1617,31 +1639,15 @@
    "chain": "solana",
    "time": "Nov 07, 06:29 PM PST",
    "trader": "Binkieee"
-  },
-  {
-   "ts": 1794104848,
-   "side": "sell",
-   "mint": "2nUQnyfwhVE4cTJGfcH2bqp7JG24Fo4zzjQ61BZevwuE",
-   "symbol": null,
-   "trader_id": 4,
-   "amount_usd": 1675.046232,
-   "chain": "solana",
-   "time": "Nov 07, 06:27 PM PST",
-   "trader": "Binkieee"
-  },
-  {
-   "ts": 1794104767,
-   "side": "buy",
-   "mint": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
-   "symbol": null,
-   "trader_id": 8,
-   "amount_usd": 2500.0,
-   "chain": "solana",
-   "time": "Nov 07, 06:26 PM PST",
-   "trader": "starcatcher444"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 07:58 AM PST",
+   "text": "card @Binkieee buy sfRryD\u2026: \u23ed Not copied: max open positions (4) reached",
+   "kind": "skipped",
+   "mint": "sfRryD94dVnvVjvhMp4FVoQAcx4rRq3JNboT1sAiMwu"
+  },
   {
    "time": "Nov 08, 07:55 AM PST",
    "text": "ignored tx 51joXvdjrp\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -1798,11 +1804,6 @@
    "text": "card @Binkieee buy 2StNe9\u2026: \u23ed Not copied: insufficient balance (0.0201 SOL)",
    "kind": "skipped",
    "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat"
-  },
-  {
-   "time": "Nov 08, 06:30 AM PST",
-   "text": "ignored tx 2LQBPNLcu3\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1813,8 +1814,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794153340,
- "publishedAtText": "Nov 08, 07:55 AM PST",
+ "publishedAt": 1794153642,
+ "publishedAtText": "Nov 08, 08:00 AM PST",
  "dataChangedAt": 1794151896,
  "dataChangedAtText": "Nov 08, 07:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
