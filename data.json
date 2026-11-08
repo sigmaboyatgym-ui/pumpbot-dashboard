@@ -941,6 +941,17 @@
  },
  "alerts": [
   {
+   "ts": 1794101967,
+   "side": "buy",
+   "mint": "7ijABdKd6FP9ptZpTBhYeJRGPB9C2HczYqVUd7HEBAGS",
+   "symbol": null,
+   "trader_id": 10,
+   "amount_usd": 4320.0,
+   "chain": "solana",
+   "time": "Nov 07, 05:39 PM PST",
+   "trader": "aiwass"
+  },
+  {
    "ts": 1794101091,
    "side": "sell",
    "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
@@ -1313,20 +1324,15 @@
    "chain": "solana",
    "time": "Nov 07, 03:26 PM PST",
    "trader": "JADAWGS"
-  },
-  {
-   "ts": 1794094000,
-   "side": "buy",
-   "mint": "CcLdqTvMVq3MduGdfd7DgnLXrHiKS2Zej3XraUuvpump",
-   "symbol": null,
-   "trader_id": 16,
-   "amount_usd": 442.12260239676266,
-   "chain": "solana",
-   "time": "Nov 07, 03:26 PM PST",
-   "trader": "JADAWGS"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 07, 05:39 PM PST",
+   "text": "card @aiwass buy 7ijABd\u2026: \ud83d\udd14 Alerts-only",
+   "kind": "alert",
+   "mint": "7ijABdKd6FP9ptZpTBhYeJRGPB9C2HczYqVUd7HEBAGS"
+  },
   {
    "time": "Nov 07, 05:30 PM PST",
    "text": "ignored tx 4nWj8umsX2\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
@@ -1472,11 +1478,6 @@
    "time": "Nov 07, 05:00 PM PST",
    "text": "ignored tx 4kMLUTkFDZ\u2026 on Fvkc2t\u2026: not signed by trader (signers J9Aavs; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 07, 05:00 PM PST",
-   "text": "ignored tx 3mgk4c1czn\u2026 on 6zMVSe\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1487,8 +1488,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794101446,
- "publishedAtText": "Nov 07, 05:30 PM PST",
+ "publishedAt": 1794101988,
+ "publishedAtText": "Nov 07, 05:39 PM PST",
  "dataChangedAt": 1794097769,
  "dataChangedAtText": "Nov 07, 04:29 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
