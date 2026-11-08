@@ -1256,6 +1256,17 @@
  },
  "alerts": [
   {
+   "ts": 1794154328,
+   "side": "buy",
+   "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump",
+   "symbol": null,
+   "trader_id": 7,
+   "amount_usd": 5000.0,
+   "chain": "solana",
+   "time": "Nov 08, 08:12 AM PST",
+   "trader": "bystevenr"
+  },
+  {
    "ts": 1794154172,
    "side": "sell",
    "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
@@ -1628,20 +1639,15 @@
    "chain": "solana",
    "time": "Nov 07, 08:10 PM PST",
    "trader": "Binkieee"
-  },
-  {
-   "ts": 1794111035,
-   "side": "sell",
-   "mint": "ysPp2Bt2j2UQu2tZwtSJz7JxyrmQ8GJcNJE5NyDoS5a",
-   "symbol": null,
-   "trader_id": 7,
-   "amount_usd": 5.098174,
-   "chain": "solana",
-   "time": "Nov 07, 08:10 PM PST",
-   "trader": "bystevenr"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 08:12 AM PST",
+   "text": "card @bystevenr buy HW2Sz6\u2026: \u23ed Not copied: liq 12% of mcap < 15%",
+   "kind": "skipped",
+   "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump"
+  },
   {
    "time": "Nov 08, 08:09 AM PST",
    "text": "skip @bystevenr sell ysPp2B\u2026: $2 < min_trade_usd $100 (no alert)",
@@ -1800,11 +1806,6 @@
    "time": "Nov 08, 06:43 AM PST",
    "text": "ignored tx 2VajXMHQzX\u2026 on Fvkc2t\u2026: not signed by trader (signers 3vEHzF; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 06:38 AM PST",
-   "text": "ignored tx 5jBD2QsBFp\u2026 on 6zMVSe\u2026: not signed by trader (signers A5mQ2q; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -1815,8 +1816,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794154245,
- "publishedAtText": "Nov 08, 08:10 AM PST",
+ "publishedAt": 1794154546,
+ "publishedAtText": "Nov 08, 08:15 AM PST",
  "dataChangedAt": 1794151896,
  "dataChangedAtText": "Nov 08, 07:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
