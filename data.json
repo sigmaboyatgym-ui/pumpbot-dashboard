@@ -332,9 +332,29 @@
    "ts": 1794170950,
    "value": 0.011697,
    "type": "realized"
+  },
+  {
+   "ts": 1794170962,
+   "value": 0.011697,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 50,
+   "ts": 1794170962,
+   "side": "buy",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump",
+   "symbol": "PUSSY",
+   "sol_amount": 0.031139119999999996,
+   "sig": "5JrBRhkAdb3LZtATVsKdT6JXgy9PS5Vw9gGXRa179ZuGESEftChnszHGNbkwZsDcx5MTGKtMtzFRkdEyv8XEwFkE",
+   "trader_id": 15,
+   "reason": "copy @nad",
+   "pnl_sol": null,
+   "time": "Nov 08, 12:49 PM PST",
+   "trader": "nad",
+   "solscan": "https://solscan.io/tx/5JrBRhkAdb3LZtATVsKdT6JXgy9PS5Vw9gGXRa179ZuGESEftChnszHGNbkwZsDcx5MTGKtMtzFRkdEyv8XEwFkE"
+  },
   {
    "id": 49,
    "ts": 1794170950,
@@ -1082,6 +1102,17 @@
    "trader_id": 4,
    "trader": "Binkieee",
    "time": "Nov 07, 07:42 PM PST"
+  },
+  {
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump",
+   "symbol": "PUSSY",
+   "qty_raw": 39705950246,
+   "decimals": 6,
+   "cost_sol": 0.031139119999999996,
+   "opened_at": 1794170962,
+   "trader_id": 15,
+   "trader": "nad",
+   "time": "Nov 08, 12:49 PM PST"
   }
  ],
  "traders": [
@@ -1232,7 +1263,7 @@
    "handle": "nad",
    "kind": "wallet",
    "mode": "auto",
-   "copies": 0,
+   "copies": 1,
    "realized": 0,
    "wallets": [
     "363sqMFaxZgvCoGzxKjXe1BqMGYkSVoCwmghZUndXuaT"
@@ -1282,6 +1313,17 @@
   "min_liq_pct": "15"
  },
  "alerts": [
+  {
+   "ts": 1794170955,
+   "side": "buy",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump",
+   "symbol": null,
+   "trader_id": 15,
+   "amount_usd": 178.77667989909767,
+   "chain": "solana",
+   "time": "Nov 08, 12:49 PM PST",
+   "trader": "nad"
+  },
   {
    "ts": 1794170942,
    "side": "buy",
@@ -1655,20 +1697,15 @@
    "chain": "solana",
    "time": "Nov 08, 11:32 AM PST",
    "trader": "johnsoncooks101"
-  },
-  {
-   "ts": 1794166320,
-   "side": "buy",
-   "mint": "9zeTqCPi9Ct8eFmgBSY9dr47U8o7e5DWKXkBVqQYpump",
-   "symbol": null,
-   "trader_id": 14,
-   "amount_usd": 9.225887057,
-   "chain": "solana",
-   "time": "Nov 08, 11:32 AM PST",
-   "trader": "johnsoncooks101"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 12:49 PM PST",
+   "text": "card @nad buy 8Up7Np\u2026: \u2699\ufe0f Auto-copying 0.03 SOL (fixed size) [LIVE]",
+   "kind": "alert",
+   "mint": "8Up7NpwEverjyJSEgZrXG6hnrEfjeY4rHLg16kYypump"
+  },
   {
    "time": "Nov 08, 12:49 PM PST",
    "text": "skip @johnsoncooks101 buy ChAhXM\u2026: $9 < min_trade_usd $100 (no alert)",
@@ -1828,12 +1865,6 @@
    "time": "Nov 08, 12:32 PM PST",
    "text": "ignored tx 575JrKkCuq\u2026 on 363sqM\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 12:30 PM PST",
-   "text": "skip @nad sell 3NZ9JM\u2026: $99 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
   }
  ],
  "health": {
@@ -1844,9 +1875,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794170954,
- "publishedAtText": "Nov 08, 12:49 PM PST",
- "dataChangedAt": 1794170954,
- "dataChangedAtText": "Nov 08, 12:49 PM PST",
+ "publishedAt": 1794171015,
+ "publishedAtText": "Nov 08, 12:50 PM PST",
+ "dataChangedAt": 1794171015,
+ "dataChangedAtText": "Nov 08, 12:50 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
