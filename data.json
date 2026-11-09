@@ -1319,6 +1319,17 @@
  },
  "alerts": [
   {
+   "ts": 1794199670,
+   "side": "buy",
+   "mint": "C2dCwTXgghNcKEzaTzjQvWpEGKLCXAKdoutdmvuCpump",
+   "symbol": null,
+   "trader_id": 18,
+   "amount_usd": 88.26224057,
+   "chain": "solana",
+   "time": "Nov 08, 08:47 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1794199172,
    "side": "buy",
    "mint": "C2dCwTXgghNcKEzaTzjQvWpEGKLCXAKdoutdmvuCpump",
@@ -1691,20 +1702,40 @@
    "chain": "solana",
    "time": "Nov 08, 08:01 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1794196812,
-   "side": "sell",
-   "mint": "4LbCYYacNhdJvQuErUSSvtFPojHkvhpxjkaac2u5pump",
-   "symbol": null,
-   "trader_id": 18,
-   "amount_usd": 778.3872105176447,
-   "chain": "solana",
-   "time": "Nov 08, 08:00 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 08:48 PM PST",
+   "text": "ignored tx 4YqHtM2kLy\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 08:48 PM PST",
+   "text": "ignored tx 34F7MxFFBC\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 08:47 PM PST",
+   "text": "skip 6DQA\u2026QqqP buy C2dCwT\u2026: $88 < min_trade_usd $100 (no alert)",
+   "kind": "skipped",
+   "mint": "C2dCwTXgghNcKEzaTzjQvWpEGKLCXAKdoutdmvuCpump"
+  },
+  {
+   "time": "Nov 08, 08:46 PM PST",
+   "text": "ignored tx uUw2eeWFXd\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 08:45 PM PST",
+   "text": "ignored tx 62SZHrPVM7\u2026 on HQn9ZT\u2026: not signed by trader (signers 7w7Spm,AXQ2dK; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 08:44 PM PST",
+   "text": "ignored tx 3cBgA9FsYm\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 08, 08:41 PM PST",
    "text": "ignored tx 383B6H9Bj4\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -1825,41 +1856,6 @@
    "time": "Nov 08, 08:24 PM PST",
    "text": "ignored tx 4epJbUWyUU\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 08:23 PM PST",
-   "text": "ignored tx V3FdmDh4vg\u2026 on 6DQAGJ\u2026: not signed by trader (signers FHpcNS,CNpdKX; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 08:21 PM PST",
-   "text": "skip 6DQA\u2026QqqP buy EFYdWB\u2026: $88 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "EFYdWBh6hQJLduR4QYnLNKLMq93PLqjjU5WwhNPgpump"
-  },
-  {
-   "time": "Nov 08, 08:21 PM PST",
-   "text": "skip 6DQA\u2026QqqP buy EFYdWB\u2026: $88 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "EFYdWBh6hQJLduR4QYnLNKLMq93PLqjjU5WwhNPgpump"
-  },
-  {
-   "time": "Nov 08, 08:21 PM PST",
-   "text": "skip 6DQA\u2026QqqP buy EFYdWB\u2026: $88 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "EFYdWBh6hQJLduR4QYnLNKLMq93PLqjjU5WwhNPgpump"
-  },
-  {
-   "time": "Nov 08, 08:21 PM PST",
-   "text": "skip 6DQA\u2026QqqP buy GwvbEc\u2026: $88 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "GwvbEcgmEgLAkeQRWTpuFWnWLVAKWUPHyGgBjtitpump"
-  },
-  {
-   "time": "Nov 08, 08:21 PM PST",
-   "text": "skip 6DQA\u2026QqqP sell XsqE9c\u2026: $69 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2"
   }
  ],
  "health": {
@@ -1870,8 +1866,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794199429,
- "publishedAtText": "Nov 08, 08:43 PM PST",
+ "publishedAt": 1794199731,
+ "publishedAtText": "Nov 08, 08:48 PM PST",
  "dataChangedAt": 1794188722,
  "dataChangedAtText": "Nov 08, 05:45 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
