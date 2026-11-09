@@ -1319,6 +1319,17 @@
  },
  "alerts": [
   {
+   "ts": 1794201199,
+   "side": "sell",
+   "mint": "e9YfLKXrAUswEFgrgCjxjVF3yHU6Vcu4QJBE6k648WT",
+   "symbol": null,
+   "trader_id": 18,
+   "amount_usd": 637.3752444833472,
+   "chain": "solana",
+   "time": "Nov 08, 09:13 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1794200847,
    "side": "sell",
    "mint": "e9YfLKXrAUswEFgrgCjxjVF3yHU6Vcu4QJBE6k648WT",
@@ -1691,20 +1702,19 @@
    "chain": "solana",
    "time": "Nov 08, 08:20 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1794198007,
-   "side": "buy",
-   "mint": "CMd7yijNAuUjVstHiELWjF5PsKKMmUcHnWbmf5e9pump",
-   "symbol": null,
-   "trader_id": 18,
-   "amount_usd": 9.61338774,
-   "chain": "solana",
-   "time": "Nov 08, 08:20 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 08, 09:12 PM PST",
+   "text": "ignored tx 3djTNbdyXZ\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 08, 09:12 PM PST",
+   "text": "ignored tx 3wVukKA5Xq\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 08, 09:08 PM PST",
    "text": "ignored tx 2eTkYazrtU\u2026 on 6DQAGJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -1848,18 +1858,6 @@
    "time": "Nov 08, 08:59 PM PST",
    "text": "ignored tx yCJExvNSmt\u2026 on 6DQAGJ\u2026: not signed by trader (signers 8uFZ4G; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 08, 08:58 PM PST",
-   "text": "skip 6DQA\u2026QqqP buy e9YfLK\u2026: $10 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "e9YfLKXrAUswEFgrgCjxjVF3yHU6Vcu4QJBE6k648WT"
-  },
-  {
-   "time": "Nov 08, 08:58 PM PST",
-   "text": "skip 6DQA\u2026QqqP buy e9YfLK\u2026: $10 < min_trade_usd $100 (no alert)",
-   "kind": "skipped",
-   "mint": "e9YfLKXrAUswEFgrgCjxjVF3yHU6Vcu4QJBE6k648WT"
   }
  ],
  "health": {
@@ -1870,8 +1868,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794201070,
- "publishedAtText": "Nov 08, 09:11 PM PST",
+ "publishedAt": 1794201372,
+ "publishedAtText": "Nov 08, 09:16 PM PST",
  "dataChangedAt": 1794188722,
  "dataChangedAtText": "Nov 08, 05:45 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
