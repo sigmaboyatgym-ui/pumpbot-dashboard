@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.341032,
+ "realized": -0.361437,
  "curve": [
   {
    "ts": 1794070874,
@@ -687,9 +687,29 @@
    "ts": 1794353467,
    "value": -0.341032,
    "type": "realized"
+  },
+  {
+   "ts": 1794354822,
+   "value": -0.361437,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 149,
+   "ts": 1794354822,
+   "side": "sell",
+   "mint": "7FQvxFj7gYAkmVSfidFgP2Hjfy6aCzmGV5F5nn4FF6H5",
+   "symbol": "DACITY",
+   "sol_amount": 0.05227288399999999,
+   "sig": "4Fe8TKek9nF1SaDbUJsJRz78Sjz7PHGsAkTB8jdG47Nzgf85bE3oVjsLWM44qUHzGmHgzQ3NMJafmagqwjdB36iW",
+   "trader_id": null,
+   "reason": "liquidate for withdrawal",
+   "pnl_sol": -0.02040509600000001,
+   "time": "Nov 10, 03:53 PM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/4Fe8TKek9nF1SaDbUJsJRz78Sjz7PHGsAkTB8jdG47Nzgf85bE3oVjsLWM44qUHzGmHgzQ3NMJafmagqwjdB36iW"
+  },
   {
    "id": 148,
    "ts": 1794353467,
@@ -2174,35 +2194,9 @@
    "time": "Nov 07, 12:48 PM PST",
    "trader": "Manual",
    "solscan": "https://solscan.io/tx/cT5ErqEfmceZDwWKvJZyMotWoFT9H1QxhdLFzgbpXWFiiSLuXnszNozxadsUwcpJ8VuzTZckT1ciQP86g43wuvA"
-  },
-  {
-   "id": 23,
-   "ts": 1794084044,
-   "side": "sell",
-   "mint": "5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat",
-   "symbol": "Jose",
-   "sol_amount": 0.070098462,
-   "sig": "BhnxGAD4KbwTQt7BW2LTV5C6WakaFCQ7jSwv1e6k54M1pRNWgVTDnen1qfS1CyWAg4CUA3bnMepEsjo9tuDBcRP",
-   "trader_id": null,
-   "reason": "Partial take-profit: sold 75% at +50% (recovered)",
-   "pnl_sol": 0.025091595,
-   "time": "Nov 07, 12:40 PM PST",
-   "trader": "Manual",
-   "solscan": "https://solscan.io/tx/BhnxGAD4KbwTQt7BW2LTV5C6WakaFCQ7jSwv1e6k54M1pRNWgVTDnen1qfS1CyWAg4CUA3bnMepEsjo9tuDBcRP"
   }
  ],
  "positions": [
-  {
-   "mint": "7FQvxFj7gYAkmVSfidFgP2Hjfy6aCzmGV5F5nn4FF6H5",
-   "symbol": "DACITY",
-   "qty_raw": 1884406778004,
-   "decimals": 6,
-   "cost_sol": 0.07267798,
-   "opened_at": 1794327074,
-   "trader_id": 20,
-   "trader": "Manual",
-   "time": "Nov 10, 08:11 AM PST"
-  },
   {
    "mint": "BxtZq9nauQXPn34a3a8Nm72KndSuHT2iHrnCmriapump",
    "symbol": "Snoo",
@@ -2868,9 +2862,9 @@
    "ok": false
   }
  },
- "publishedAt": 1794354811,
- "publishedAtText": "Nov 10, 03:53 PM PST",
- "dataChangedAt": 1794354450,
- "dataChangedAtText": "Nov 10, 03:47 PM PST",
+ "publishedAt": 1794354873,
+ "publishedAtText": "Nov 10, 03:54 PM PST",
+ "dataChangedAt": 1794354873,
+ "dataChangedAtText": "Nov 10, 03:54 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
