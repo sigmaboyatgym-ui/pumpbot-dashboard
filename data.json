@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.361437,
+ "realized": -0.364678,
  "curve": [
   {
    "ts": 1794070874,
@@ -692,9 +692,29 @@
    "ts": 1794354822,
    "value": -0.361437,
    "type": "realized"
+  },
+  {
+   "ts": 1794355008,
+   "value": -0.364678,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 150,
+   "ts": 1794355008,
+   "side": "sell",
+   "mint": "BxtZq9nauQXPn34a3a8Nm72KndSuHT2iHrnCmriapump",
+   "symbol": "Snoo",
+   "sol_amount": 0.03309553400000004,
+   "sig": "473nBXLtETBZ9fpoa3egMwVz2kvjPv6h7fSWircQJDBFrYekBbEjdoM1H2fjbXwQjXrLicUN5YsqxCGhRMh9H29P",
+   "trader_id": null,
+   "reason": "liquidate for withdrawal",
+   "pnl_sol": -0.0032404659999999627,
+   "time": "Nov 10, 03:56 PM PST",
+   "trader": "Manual",
+   "solscan": "https://solscan.io/tx/473nBXLtETBZ9fpoa3egMwVz2kvjPv6h7fSWircQJDBFrYekBbEjdoM1H2fjbXwQjXrLicUN5YsqxCGhRMh9H29P"
+  },
   {
    "id": 149,
    "ts": 1794354822,
@@ -2179,36 +2199,9 @@
    "time": "Nov 07, 12:48 PM PST",
    "trader": "Manual",
    "solscan": "https://solscan.io/tx/2wyjSLioohYmzJJkQLE1FKGQiFcQCRNUkP3xeArVtffznSyifuoeo3ZrJqtNLHzCwKTm2rrcuMb5pLYiJhWwrcie"
-  },
-  {
-   "id": 21,
-   "ts": 1794084503,
-   "side": "sell",
-   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
-   "symbol": "PIRATE",
-   "sol_amount": 0.047387102999999986,
-   "sig": "cT5ErqEfmceZDwWKvJZyMotWoFT9H1QxhdLFzgbpXWFiiSLuXnszNozxadsUwcpJ8VuzTZckT1ciQP86g43wuvA",
-   "trader_id": null,
-   "reason": "manual: Ryan sell everything",
-   "pnl_sol": -0.012624496000000013,
-   "time": "Nov 07, 12:48 PM PST",
-   "trader": "Manual",
-   "solscan": "https://solscan.io/tx/cT5ErqEfmceZDwWKvJZyMotWoFT9H1QxhdLFzgbpXWFiiSLuXnszNozxadsUwcpJ8VuzTZckT1ciQP86g43wuvA"
   }
  ],
- "positions": [
-  {
-   "mint": "BxtZq9nauQXPn34a3a8Nm72KndSuHT2iHrnCmriapump",
-   "symbol": "Snoo",
-   "qty_raw": 1204737333612,
-   "decimals": 6,
-   "cost_sol": 0.036336,
-   "opened_at": 1794327092,
-   "trader_id": 20,
-   "trader": "Manual",
-   "time": "Nov 10, 08:11 AM PST"
-  }
- ],
+ "positions": [],
  "traders": [
   {
    "id": 18,
@@ -2862,9 +2855,9 @@
    "ok": false
   }
  },
- "publishedAt": 1794354873,
- "publishedAtText": "Nov 10, 03:54 PM PST",
- "dataChangedAt": 1794354873,
- "dataChangedAtText": "Nov 10, 03:54 PM PST",
+ "publishedAt": 1794355054,
+ "publishedAtText": "Nov 10, 03:57 PM PST",
+ "dataChangedAt": 1794355054,
+ "dataChangedAtText": "Nov 10, 03:57 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
