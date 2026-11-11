@@ -1,7 +1,7 @@
 {
  "mode": "PAPER",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.233204,
+ "realized": -0.260932,
  "curve": [
   {
    "ts": 1794306382,
@@ -572,9 +572,29 @@
    "ts": 1794378298,
    "value": -0.233204,
    "type": "realized"
+  },
+  {
+   "ts": 1794378368,
+   "value": -0.260932,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 236,
+   "ts": 1794378368,
+   "side": "sell",
+   "mint": "CGxBpst4mwgMFcuSmJ8pM4Lu6TbW5fSbqd7vvGk9rRq4",
+   "symbol": "INVEST",
+   "sol_amount": 0.0451537838,
+   "sig": null,
+   "trader_id": 35,
+   "reason": "trader @5hAg sold",
+   "pnl_sol": -0.027728216200000003,
+   "time": "Nov 10, 10:26 PM PST",
+   "trader": "5hAg",
+   "solscan": null
+  },
   {
    "id": 235,
    "ts": 1794378298,
@@ -2059,21 +2079,6 @@
    "time": "Nov 10, 06:41 AM PST",
    "trader": "Manual",
    "solscan": null
-  },
-  {
-   "id": 98,
-   "ts": 1794321308,
-   "side": "sell",
-   "mint": "5qa7ptc5PzWFtssR2bu15xbEfBWpbX7FSve8hU9epump",
-   "symbol": "AU",
-   "sol_amount": 0.018337121119999997,
-   "sig": null,
-   "trader_id": 24,
-   "reason": "trader BQVz\u2026PRmB sold",
-   "pnl_sol": -0.011767878880000002,
-   "time": "Nov 10, 06:35 AM PST",
-   "trader": "Manual",
-   "solscan": null
   }
  ],
  "positions": [
@@ -2164,17 +2169,6 @@
    "trader_id": 35,
    "trader": "5hAg",
    "time": "Nov 10, 10:19 PM PST"
-  },
-  {
-   "mint": "CGxBpst4mwgMFcuSmJ8pM4Lu6TbW5fSbqd7vvGk9rRq4",
-   "symbol": "INVEST",
-   "qty_raw": 456154206377,
-   "decimals": 6,
-   "cost_sol": 0.072882,
-   "opened_at": 1794378284,
-   "trader_id": 35,
-   "trader": "5hAg",
-   "time": "Nov 10, 10:24 PM PST"
   }
  ],
  "traders": [
@@ -2184,7 +2178,7 @@
    "kind": "wallet",
    "mode": "paper_auto",
    "copies": 16,
-   "realized": -0.061806,
+   "realized": -0.089534,
    "wallets": [
     "5hAgYC8TJCcEZV7LTXAzkTrm7YL29YXyQQJPCNrG84zM"
    ],
@@ -2236,6 +2230,17 @@
   "tp_pct": "0"
  },
  "alerts": [
+  {
+   "ts": 1794378367,
+   "side": "sell",
+   "mint": "CGxBpst4mwgMFcuSmJ8pM4Lu6TbW5fSbqd7vvGk9rRq4",
+   "symbol": null,
+   "trader_id": 35,
+   "amount_usd": 234.52182826098715,
+   "chain": "solana",
+   "time": "Nov 10, 10:26 PM PST",
+   "trader": "5hAg"
+  },
   {
    "ts": 1794378295,
    "side": "buy",
@@ -2609,20 +2614,40 @@
    "chain": "solana",
    "time": "Nov 10, 09:32 PM PST",
    "trader": "5hAg"
-  },
-  {
-   "ts": 1794375136,
-   "side": "buy",
-   "mint": "6ngv6YqDb745j4NBqKNcFJjAraMjsPB88ZUwpTsrpump",
-   "symbol": null,
-   "trader_id": 35,
-   "amount_usd": 1.65893326,
-   "chain": "solana",
-   "time": "Nov 10, 09:32 PM PST",
-   "trader": "5hAg"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 10, 10:26 PM PST",
+   "text": "ignored tx 3NvxeB9SeG\u2026 on GZ1yiJ\u2026: not signed by trader (signers 4Q5rxk; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 10:26 PM PST",
+   "text": "ignored tx 3YhaKQzsGH\u2026 on 5hAgYC\u2026: not signed by trader (signers 7iyYn4; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 10:26 PM PST",
+   "text": "ignored tx 66S2Twcdm2\u2026 on 5hAgYC\u2026: not signed by trader (signers 2KP9mi; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 10:26 PM PST",
+   "text": "ignored tx 43jGiFL6Y9\u2026 on GZ1yiJ\u2026: not signed by trader (signers 4Q5rxk; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 10:26 PM PST",
+   "text": "card @5hAg sell CGxBps\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
+   "kind": "alert",
+   "mint": "CGxBpst4mwgMFcuSmJ8pM4Lu6TbW5fSbqd7vvGk9rRq4"
+  },
+  {
+   "time": "Nov 10, 10:26 PM PST",
+   "text": "ignored tx 2ok3mkGA3M\u2026 on 5hAgYC\u2026: not signed by trader (signers BuekUk; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 10, 10:25 PM PST",
    "text": "ignored tx 5E5whsLjZE\u2026 on 5hAgYC\u2026: not signed by trader (signers BuekUk; airdrop/fee distribution/transfer in)",
@@ -2746,38 +2771,6 @@
    "time": "Nov 10, 10:20 PM PST",
    "text": "ignored tx 3WgWK8MMPb\u2026 on 5hAgYC\u2026: not signed by trader (signers 2KP9mi; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 10:19 PM PST",
-   "text": "card @5hAg buy 7muY9i\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
-   "kind": "alert",
-   "mint": "7muY9iCQGAbJoyRgdzpsjjFK8rCWdxsXMkeFjNqLpump"
-  },
-  {
-   "time": "Nov 10, 10:19 PM PST",
-   "text": "ignored tx NqjJeJTesp\u2026 on GZ1yiJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 10:19 PM PST",
-   "text": "ignored tx 2MRmu56a4Q\u2026 on 5hAgYC\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 10:19 PM PST",
-   "text": "ignored tx 3cUAdes1kM\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 10:19 PM PST",
-   "text": "ignored tx LuWoHoLi34\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 10:19 PM PST",
-   "text": "card @5hAg sell HqpJR8\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "HqpJR88kp2vhcsXxb29Phy3NFYyAgc1ZsYm3uY6i4A39"
   }
  ],
  "health": {
@@ -2788,9 +2781,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794378359,
- "publishedAtText": "Nov 10, 10:25 PM PST",
- "dataChangedAt": 1794378359,
- "dataChangedAtText": "Nov 10, 10:25 PM PST",
+ "publishedAt": 1794378421,
+ "publishedAtText": "Nov 10, 10:27 PM PST",
+ "dataChangedAt": 1794378421,
+ "dataChangedAtText": "Nov 10, 10:27 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
