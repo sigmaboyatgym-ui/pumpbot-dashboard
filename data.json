@@ -1,7 +1,7 @@
 {
  "mode": "PAPER",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.132978,
+ "realized": -0.14926,
  "curve": [
   {
    "ts": 1794306382,
@@ -377,9 +377,29 @@
    "ts": 1794368512,
    "value": -0.132978,
    "type": "realized"
+  },
+  {
+   "ts": 1794368570,
+   "value": -0.14926,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 197,
+   "ts": 1794368570,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": "Tired",
+   "sol_amount": 0.02015849303,
+   "sig": null,
+   "trader_id": 29,
+   "reason": "trader @Putrick sold",
+   "pnl_sol": -0.016282506970000003,
+   "time": "Nov 10, 07:42 PM PST",
+   "trader": "Putrick",
+   "solscan": null
+  },
   {
    "id": 196,
    "ts": 1794368512,
@@ -1513,17 +1533,6 @@
    "trader_id": 32,
    "trader": "Yami",
    "time": "Nov 10, 07:25 PM PST"
-  },
-  {
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
-   "symbol": "Tired",
-   "qty_raw": 385759094819,
-   "decimals": 6,
-   "cost_sol": 0.036441,
-   "opened_at": 1794368512,
-   "trader_id": 29,
-   "trader": "Putrick",
-   "time": "Nov 10, 07:41 PM PST"
   }
  ],
  "traders": [
@@ -1665,7 +1674,7 @@
    "kind": "wallet",
    "mode": "paper_auto",
    "copies": 1,
-   "realized": 0,
+   "realized": -0.016283,
    "wallets": [
     "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN"
    ],
@@ -1753,6 +1762,28 @@
   "mode": "PAPER"
  },
  "alerts": [
+  {
+   "ts": 1794368569,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 81.19403181024538,
+   "chain": "solana",
+   "time": "Nov 10, 07:42 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368557,
+   "side": "buy",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 8.357442230859904,
+   "chain": "solana",
+   "time": "Nov 10, 07:42 PM PST",
+   "trader": "Putrick"
+  },
   {
    "ts": 1794368527,
    "side": "buy",
@@ -2115,31 +2146,26 @@
    "chain": "solana",
    "time": "Nov 10, 07:22 PM PST",
    "trader": "TheDoc"
-  },
-  {
-   "ts": 1794367339,
-   "side": "buy",
-   "mint": "3nq4KnoifrepZKWemss4SQ4zcnDS1YKrmS3y6ogSpump",
-   "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 1.2944171407649998,
-   "chain": "solana",
-   "time": "Nov 10, 07:22 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1794367328,
-   "side": "buy",
-   "mint": "3nq4KnoifrepZKWemss4SQ4zcnDS1YKrmS3y6ogSpump",
-   "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 127.90553157752153,
-   "chain": "solana",
-   "time": "Nov 10, 07:22 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 10, 07:42 PM PST",
+   "text": "card @Putrick sell 6yXjaa\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
+   "kind": "alert",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:42 PM PST",
+   "text": "ignored tx 557JQaH7Fp\u2026 on CyaE1V\u2026: not signed by trader (signers 2KP9mi; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 07:42 PM PST",
+   "text": "skip @Putrick buy 6yXjaa\u2026: $8 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
   {
    "time": "Nov 10, 07:42 PM PST",
    "text": "skip @Putrick buy 6yXjaa\u2026: $8 < min_trade_usd $20 (no alert)",
@@ -2285,23 +2311,6 @@
    "text": "card 387F\u20269LaH sell F6GrHA\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
    "kind": "alert",
    "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump"
-  },
-  {
-   "time": "Nov 10, 07:30 PM PST",
-   "text": "card @Yami sell 66KbLT\u2026: \u2699\ufe0f Trader sold 48.54% of their bag \u2192 selling 48.54% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
-  },
-  {
-   "time": "Nov 10, 07:30 PM PST",
-   "text": "card @Yami sell 66KbLT\u2026: \u2699\ufe0f Trader sold 31.7% of their bag \u2192 selling 31.7% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
-  },
-  {
-   "time": "Nov 10, 07:29 PM PST",
-   "text": "ignored tx 27LoCXpWDt\u2026 on 5ZuV8e\u2026: not signed by trader (signers 7ZC9fm; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -2312,9 +2321,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794368542,
- "publishedAtText": "Nov 10, 07:42 PM PST",
- "dataChangedAt": 1794368542,
- "dataChangedAtText": "Nov 10, 07:42 PM PST",
+ "publishedAt": 1794368604,
+ "publishedAtText": "Nov 10, 07:43 PM PST",
+ "dataChangedAt": 1794368604,
+ "dataChangedAtText": "Nov 10, 07:43 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
