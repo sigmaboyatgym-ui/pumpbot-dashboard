@@ -1801,8 +1801,6 @@
   "max_sol_per_trade": "0.036336",
   "max_open_positions": "10",
   "daily_loss_limit_sol": "0.05",
-  "tp_pct": "0",
-  "sl_pct": "35",
   "slippage_bps": "1200",
   "sol_reserve": "0.02",
   "min_mcap": "2500",
@@ -1813,9 +1811,33 @@
   "no_rebuy_hours": "0",
   "min_liq_pct": "5",
   "copy_paused": "0",
-  "mode": "PAPER"
+  "mode": "PAPER",
+  "sl_pct": "0",
+  "tp_pct": "0"
  },
  "alerts": [
+  {
+   "ts": 1794370622,
+   "side": "buy",
+   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
+   "symbol": null,
+   "trader_id": 35,
+   "amount_usd": 25.72466397,
+   "chain": "solana",
+   "time": "Nov 10, 08:17 PM PST",
+   "trader": "5hAg"
+  },
+  {
+   "ts": 1794370619,
+   "side": "buy",
+   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
+   "symbol": null,
+   "trader_id": 35,
+   "amount_usd": 25.72466397,
+   "chain": "solana",
+   "time": "Nov 10, 08:16 PM PST",
+   "trader": "5hAg"
+  },
   {
    "ts": 1794370577,
    "side": "buy",
@@ -2178,31 +2200,36 @@
    "chain": "solana",
    "time": "Nov 10, 07:43 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1794368618,
-   "side": "sell",
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
-   "symbol": null,
-   "trader_id": 29,
-   "amount_usd": 0.037429516609164,
-   "chain": "solana",
-   "time": "Nov 10, 07:43 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1794368618,
-   "side": "sell",
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
-   "symbol": null,
-   "trader_id": 29,
-   "amount_usd": 0.037723969538640004,
-   "chain": "solana",
-   "time": "Nov 10, 07:43 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 10, 08:17 PM PST",
+   "text": "ignored tx 2imnMjqwkd\u2026 on 5hAgYC\u2026: not signed by trader (signers BuekUk; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 08:17 PM PST",
+   "text": "card @5hAg buy 4iJ7xE\u2026: \u23ed Not copied: insufficient balance (0.0200 SOL)",
+   "kind": "skipped",
+   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump"
+  },
+  {
+   "time": "Nov 10, 08:17 PM PST",
+   "text": "card @5hAg buy 4iJ7xE\u2026: \u23ed Not copied: insufficient balance (0.0200 SOL)",
+   "kind": "skipped",
+   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump"
+  },
+  {
+   "time": "Nov 10, 08:16 PM PST",
+   "text": "ignored tx 3faHS7M11E\u2026 on 5hAgYC\u2026: not signed by trader (signers 5L7aqw; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 08:16 PM PST",
+   "text": "ignored tx 26uRZSVNPj\u2026 on GZ1yiJ\u2026: not signed by trader (signers HS67Rw; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 10, 08:16 PM PST",
    "text": "ignored tx 4b52B3k46c\u2026 on GZ1yiJ\u2026: not signed by trader (signers 49qRPY; airdrop/fee distribution/transfer in)",
@@ -2330,32 +2357,6 @@
    "time": "Nov 10, 08:04 PM PST",
    "text": "ignored tx 3LdH31GTzf\u2026 on CyaE1V\u2026: not signed by trader (signers 2KP9mi; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 08:03 PM PST",
-   "text": "ignored tx GqXqM1gwC7\u2026 on CyaE1V\u2026: not signed by trader (signers 3crj9T; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 08:03 PM PST",
-   "text": "ignored tx 4LsieRCnfG\u2026 on 4fZFcK\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 08:03 PM PST",
-   "text": "ignored tx 4UC6FvBsGk\u2026 on CyaE1V\u2026: not signed by trader (signers BuekUk; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 08:03 PM PST",
-   "text": "ignored tx 2vrUGJYpRr\u2026 on CyaE1V\u2026: not signed by trader (signers 2KP9mi; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 08:03 PM PST",
-   "text": "card @Yami buy 66KbLT\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
-   "kind": "alert",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
   }
  ],
  "health": {
@@ -2366,9 +2367,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794370602,
- "publishedAtText": "Nov 10, 08:16 PM PST",
- "dataChangedAt": 1794370602,
- "dataChangedAtText": "Nov 10, 08:16 PM PST",
+ "publishedAt": 1794370664,
+ "publishedAtText": "Nov 10, 08:17 PM PST",
+ "dataChangedAt": 1794370664,
+ "dataChangedAtText": "Nov 10, 08:17 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
