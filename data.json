@@ -1,7 +1,7 @@
 {
  "mode": "PAPER",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.105605,
+ "realized": -0.103755,
  "curve": [
   {
    "ts": 1794306382,
@@ -312,9 +312,69 @@
    "ts": 1794367744,
    "value": -0.105605,
    "type": "realized"
+  },
+  {
+   "ts": 1794367753,
+   "value": -0.105605,
+   "type": "realized"
+  },
+  {
+   "ts": 1794367795,
+   "value": -0.105605,
+   "type": "realized"
+  },
+  {
+   "ts": 1794367803,
+   "value": -0.103755,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 186,
+   "ts": 1794367803,
+   "side": "sell",
+   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
+   "symbol": "If",
+   "sol_amount": 0.01340159525,
+   "sig": null,
+   "trader_id": 32,
+   "reason": "trader @Yami sold",
+   "pnl_sol": 0.0018497982538961798,
+   "time": "Nov 10, 07:30 PM PST",
+   "trader": "Yami",
+   "solscan": null
+  },
+  {
+   "id": 185,
+   "ts": 1794367795,
+   "side": "buy",
+   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
+   "symbol": "DRMICKEY",
+   "sol_amount": 0.036441,
+   "sig": null,
+   "trader_id": 32,
+   "reason": "copy @Yami",
+   "pnl_sol": null,
+   "time": "Nov 10, 07:29 PM PST",
+   "trader": "Yami",
+   "solscan": null
+  },
+  {
+   "id": 184,
+   "ts": 1794367753,
+   "side": "buy",
+   "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump",
+   "symbol": "M\u0100O",
+   "sol_amount": 0.036441,
+   "sig": null,
+   "trader_id": 23,
+   "reason": "copy 387F\u20269LaH",
+   "pnl_sol": null,
+   "time": "Nov 10, 07:29 PM PST",
+   "trader": "Manual",
+   "solscan": null
+  },
   {
    "id": 183,
    "ts": 1794367744,
@@ -1246,9 +1306,9 @@
   {
    "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
    "symbol": "If",
-   "qty_raw": 7444992788,
+   "qty_raw": 5084930075,
    "decimals": 6,
-   "cost_sol": 0.036441,
+   "cost_sol": 0.02488920300389618,
    "opened_at": 1794367376,
    "trader_id": 32,
    "trader": "Yami",
@@ -1264,6 +1324,28 @@
    "trader_id": 32,
    "trader": "Yami",
    "time": "Nov 10, 07:25 PM PST"
+  },
+  {
+   "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump",
+   "symbol": "M\u0100O",
+   "qty_raw": 430949624423,
+   "decimals": 6,
+   "cost_sol": 0.036441,
+   "opened_at": 1794367753,
+   "trader_id": 23,
+   "trader": "Manual",
+   "time": "Nov 10, 07:29 PM PST"
+  },
+  {
+   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
+   "symbol": "DRMICKEY",
+   "qty_raw": 80769925412,
+   "decimals": 6,
+   "cost_sol": 0.036441,
+   "opened_at": 1794367795,
+   "trader_id": 32,
+   "trader": "Yami",
+   "time": "Nov 10, 07:29 PM PST"
   }
  ],
  "traders": [
@@ -1332,7 +1414,7 @@
    "handle": null,
    "kind": "wallet",
    "mode": "paper_auto",
-   "copies": 3,
+   "copies": 4,
    "realized": -0.002138,
    "wallets": [
     "387FRwow6MKDhSwuMULhKjqeXuxoBY4BbbaSntdk9LaH"
@@ -1440,8 +1522,8 @@
    "handle": "Yami",
    "kind": "wallet",
    "mode": "paper_auto",
-   "copies": 4,
-   "realized": -0.006386,
+   "copies": 5,
+   "realized": -0.004536,
    "wallets": [
     "7Js5gmq57y9jG2sseKrAeJt3vbncSWSFFHDEsyJDnyVm"
    ],
@@ -1493,6 +1575,39 @@
   "mode": "PAPER"
  },
  "alerts": [
+  {
+   "ts": 1794367802,
+   "side": "sell",
+   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
+   "symbol": null,
+   "trader_id": 32,
+   "amount_usd": 94.56397360466009,
+   "chain": "solana",
+   "time": "Nov 10, 07:30 PM PST",
+   "trader": "Yami"
+  },
+  {
+   "ts": 1794367793,
+   "side": "buy",
+   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
+   "symbol": null,
+   "trader_id": 32,
+   "amount_usd": 60.038762611553125,
+   "chain": "solana",
+   "time": "Nov 10, 07:29 PM PST",
+   "trader": "Yami"
+  },
+  {
+   "ts": 1794367752,
+   "side": "buy",
+   "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump",
+   "symbol": null,
+   "trader_id": 23,
+   "amount_usd": 84.99808578865697,
+   "chain": "solana",
+   "time": "Nov 10, 07:29 PM PST",
+   "trader": "Unknown"
+  },
   {
    "ts": 1794367741,
    "side": "sell",
@@ -1844,42 +1959,42 @@
    "chain": "solana",
    "time": "Nov 10, 07:17 PM PST",
    "trader": "Veloce"
-  },
-  {
-   "ts": 1794367022,
-   "side": "sell",
-   "mint": "DyVufMTQfhRiNDmV78QVJw3H6AHpEzCC44U4Ap1RfiPw",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 97.13367612699868,
-   "chain": "solana",
-   "time": "Nov 10, 07:17 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794366943,
-   "side": "buy",
-   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.538017688,
-   "chain": "solana",
-   "time": "Nov 10, 07:15 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794366849,
-   "side": "buy",
-   "mint": "DyVufMTQfhRiNDmV78QVJw3H6AHpEzCC44U4Ap1RfiPw",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.67338074631508,
-   "chain": "solana",
-   "time": "Nov 10, 07:14 PM PST",
-   "trader": "Yami"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 10, 07:30 PM PST",
+   "text": "card @Yami sell 66KbLT\u2026: \u2699\ufe0f Trader sold 31.7% of their bag \u2192 selling 31.7% of our position [PAPER]",
+   "kind": "alert",
+   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
+  },
+  {
+   "time": "Nov 10, 07:29 PM PST",
+   "text": "ignored tx 27LoCXpWDt\u2026 on 5ZuV8e\u2026: not signed by trader (signers 7ZC9fm; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 07:29 PM PST",
+   "text": "card @Yami buy BqWYju\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
+   "kind": "alert",
+   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay"
+  },
+  {
+   "time": "Nov 10, 07:29 PM PST",
+   "text": "ignored tx 2kedEgauqd\u2026 on CyaE1V\u2026: not signed by trader (signers 49qRPY; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 07:29 PM PST",
+   "text": "ignored tx NkSBJZzT8x\u2026 on BQVz7f\u2026: not signed by trader (signers DuBVdx; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 10, 07:29 PM PST",
+   "text": "card 387F\u20269LaH buy F6GrHA\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
+   "kind": "alert",
+   "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump"
+  },
   {
    "time": "Nov 10, 07:29 PM PST",
    "text": "ignored tx 2d62cGu24P\u2026 on BQVz7f\u2026: not signed by trader (signers DuBVdx,E9BzZE; airdrop/fee distribution/transfer in)",
@@ -2013,40 +2128,6 @@
    "text": "card @Yami buy 66KbLT\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
    "kind": "alert",
    "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
-  },
-  {
-   "time": "Nov 10, 07:22 PM PST",
-   "text": "skip 387F\u20269LaH buy 3nq4Kn\u2026: $1 < min_trade_usd $20 (no alert)",
-   "kind": "skipped",
-   "mint": "3nq4KnoifrepZKWemss4SQ4zcnDS1YKrmS3y6ogSpump"
-  },
-  {
-   "time": "Nov 10, 07:22 PM PST",
-   "text": "card 387F\u20269LaH buy 3nq4Kn\u2026: \u2699\ufe0f Auto-copying 0.017886 SOL (fixed size, reduced to available balance) [PAPER]",
-   "kind": "alert",
-   "mint": "3nq4KnoifrepZKWemss4SQ4zcnDS1YKrmS3y6ogSpump"
-  },
-  {
-   "time": "Nov 10, 07:21 PM PST",
-   "text": "ignored tx SUgoi36ERX\u2026 on CyaE1V\u2026: not signed by trader (signers 7ovu7s; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:21 PM PST",
-   "text": "ignored tx SUgoi36ERX\u2026 on BQVz7f\u2026: not signed by trader (signers 7ovu7s; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:21 PM PST",
-   "text": "card @Yami buy 66KbLT\u2026: \u23ed Not copied: daily loss limit hit (-0.095 SOL realized today; limit 0.09)",
-   "kind": "skipped",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
-  },
-  {
-   "time": "Nov 10, 07:21 PM PST",
-   "text": "card @Yami buy 66KbLT\u2026: \u23ed Not copied: daily loss limit hit (-0.095 SOL realized today; limit 0.09)",
-   "kind": "skipped",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
   }
  ],
  "health": {
@@ -2057,9 +2138,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794367752,
- "publishedAtText": "Nov 10, 07:29 PM PST",
- "dataChangedAt": 1794367752,
- "dataChangedAtText": "Nov 10, 07:29 PM PST",
+ "publishedAt": 1794367813,
+ "publishedAtText": "Nov 10, 07:30 PM PST",
+ "dataChangedAt": 1794367813,
+ "dataChangedAtText": "Nov 10, 07:30 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
