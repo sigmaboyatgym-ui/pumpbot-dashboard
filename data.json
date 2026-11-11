@@ -1,7 +1,7 @@
 {
  "mode": "PAPER",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.14926,
+ "realized": -0.1531,
  "curve": [
   {
    "ts": 1794306382,
@@ -382,9 +382,29 @@
    "ts": 1794368570,
    "value": -0.14926,
    "type": "realized"
+  },
+  {
+   "ts": 1794368695,
+   "value": -0.1531,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 198,
+   "ts": 1794368695,
+   "side": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "symbol": "paws",
+   "sol_amount": 0.03260070437,
+   "sig": null,
+   "trader_id": 32,
+   "reason": "trader @Yami sold",
+   "pnl_sol": -0.003840295630000004,
+   "time": "Nov 10, 07:44 PM PST",
+   "trader": "Yami",
+   "solscan": null
+  },
   {
    "id": 197,
    "ts": 1794368570,
@@ -1522,17 +1542,6 @@
    "trader_id": 24,
    "trader": "Manual",
    "time": "Nov 10, 06:18 AM PST"
-  },
-  {
-   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
-   "symbol": "paws",
-   "qty_raw": 6726941320,
-   "decimals": 6,
-   "cost_sol": 0.036441,
-   "opened_at": 1794367558,
-   "trader_id": 32,
-   "trader": "Yami",
-   "time": "Nov 10, 07:25 PM PST"
   }
  ],
  "traders": [
@@ -1710,7 +1719,7 @@
    "kind": "wallet",
    "mode": "paper_auto",
    "copies": 7,
-   "realized": -0.018782,
+   "realized": -0.022622,
    "wallets": [
     "7Js5gmq57y9jG2sseKrAeJt3vbncSWSFFHDEsyJDnyVm"
    ],
@@ -1763,554 +1772,570 @@
  },
  "alerts": [
   {
-   "ts": 1794368569,
+   "ts": 1794368694,
    "side": "sell",
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
-   "symbol": null,
-   "trader_id": 29,
-   "amount_usd": 81.19403181024538,
-   "chain": "solana",
-   "time": "Nov 10, 07:42 PM PST",
-   "trader": "Putrick"
-  },
-  {
-   "ts": 1794368557,
-   "side": "buy",
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
-   "symbol": null,
-   "trader_id": 29,
-   "amount_usd": 8.357442230859904,
-   "chain": "solana",
-   "time": "Nov 10, 07:42 PM PST",
-   "trader": "Putrick"
-  },
-  {
-   "ts": 1794368527,
-   "side": "buy",
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
-   "symbol": null,
-   "trader_id": 29,
-   "amount_usd": 8.356215345196674,
-   "chain": "solana",
-   "time": "Nov 10, 07:42 PM PST",
-   "trader": "Putrick"
-  },
-  {
-   "ts": 1794368510,
-   "side": "buy",
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
-   "symbol": null,
-   "trader_id": 29,
-   "amount_usd": 104.86574049701923,
-   "chain": "solana",
-   "time": "Nov 10, 07:41 PM PST",
-   "trader": "Putrick"
-  },
-  {
-   "ts": 1794368191,
-   "side": "sell",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 89.60962734090016,
-   "chain": "solana",
-   "time": "Nov 10, 07:36 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794368162,
-   "side": "sell",
-   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 93.26862496186976,
-   "chain": "solana",
-   "time": "Nov 10, 07:36 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794368132,
-   "side": "sell",
-   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 82.68548061865313,
-   "chain": "solana",
-   "time": "Nov 10, 07:35 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794368016,
-   "side": "sell",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 44.4113710879149,
-   "chain": "solana",
-   "time": "Nov 10, 07:33 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794368007,
-   "side": "buy",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.50100232813081,
-   "chain": "solana",
-   "time": "Nov 10, 07:33 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367972,
-   "side": "sell",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 52.73208802500638,
-   "chain": "solana",
-   "time": "Nov 10, 07:32 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367908,
-   "side": "buy",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 46.878231776449496,
-   "chain": "solana",
-   "time": "Nov 10, 07:31 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367905,
-   "side": "sell",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 103.06298824975799,
-   "chain": "solana",
-   "time": "Nov 10, 07:31 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367882,
-   "side": "sell",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 47.9674924079934,
-   "chain": "solana",
-   "time": "Nov 10, 07:31 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367843,
-   "side": "buy",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 55.405892609443974,
-   "chain": "solana",
-   "time": "Nov 10, 07:30 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367818,
-   "side": "sell",
-   "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump",
-   "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 82.55549995861904,
-   "chain": "solana",
-   "time": "Nov 10, 07:30 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1794367813,
-   "side": "sell",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 102.75642761390017,
-   "chain": "solana",
-   "time": "Nov 10, 07:30 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367802,
-   "side": "sell",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 94.56397360466009,
-   "chain": "solana",
-   "time": "Nov 10, 07:30 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367793,
-   "side": "buy",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 60.038762611553125,
-   "chain": "solana",
-   "time": "Nov 10, 07:29 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367752,
-   "side": "buy",
-   "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump",
-   "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 84.99808578865697,
-   "chain": "solana",
-   "time": "Nov 10, 07:29 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1794367741,
-   "side": "sell",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 77.09028194580765,
-   "chain": "solana",
-   "time": "Nov 10, 07:29 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367740,
-   "side": "sell",
-   "mint": "2RbPcCJBFnHhKwsEebiGaQ8cR3GVt1S7dRVjNCQrpump",
-   "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 87.90944741018615,
-   "chain": "solana",
-   "time": "Nov 10, 07:29 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1794367728,
-   "side": "buy",
-   "mint": "2RbPcCJBFnHhKwsEebiGaQ8cR3GVt1S7dRVjNCQrpump",
-   "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 84.99808578865697,
-   "chain": "solana",
-   "time": "Nov 10, 07:28 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1794367556,
-   "side": "buy",
    "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
    "symbol": null,
    "trader_id": 32,
-   "amount_usd": 83.53789127156452,
+   "amount_usd": 80.1068759669243,
    "chain": "solana",
-   "time": "Nov 10, 07:25 PM PST",
+   "time": "Nov 10, 07:44 PM PST",
    "trader": "Yami"
   },
   {
-   "ts": 1794367533,
+   "ts": 1794368622,
    "side": "sell",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
    "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 88.12789802331328,
+   "trader_id": 29,
+   "amount_usd": 0.02718898696848,
    "chain": "solana",
-   "time": "Nov 10, 07:25 PM PST",
-   "trader": "Yami"
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
   },
   {
-   "ts": 1794367533,
+   "ts": 1794368622,
    "side": "sell",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
    "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 86.5490996146628,
+   "trader_id": 29,
+   "amount_usd": 0.025672312753638002,
    "chain": "solana",
-   "time": "Nov 10, 07:25 PM PST",
-   "trader": "Yami"
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
   },
   {
-   "ts": 1794367491,
+   "ts": 1794368622,
    "side": "sell",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
    "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.68788669185552,
+   "trader_id": 29,
+   "amount_usd": 0.025929438316842003,
    "chain": "solana",
-   "time": "Nov 10, 07:24 PM PST",
-   "trader": "Yami"
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
   },
   {
-   "ts": 1794367451,
-   "side": "buy",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.46524532414,
-   "chain": "solana",
-   "time": "Nov 10, 07:24 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367451,
-   "side": "buy",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.46524532414,
-   "chain": "solana",
-   "time": "Nov 10, 07:24 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367451,
-   "side": "buy",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.46524532414,
-   "chain": "solana",
-   "time": "Nov 10, 07:24 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367448,
-   "side": "buy",
-   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.59159771935953,
-   "chain": "solana",
-   "time": "Nov 10, 07:24 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367429,
+   "ts": 1794368622,
    "side": "sell",
-   "mint": "3nq4KnoifrepZKWemss4SQ4zcnDS1YKrmS3y6ogSpump",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
    "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 136.84777107650734,
+   "trader_id": 29,
+   "amount_usd": 3.2399063265112735,
    "chain": "solana",
-   "time": "Nov 10, 07:23 PM PST",
-   "trader": "Unknown"
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
   },
   {
-   "ts": 1794367403,
+   "ts": 1794368621,
    "side": "sell",
-   "mint": "3nq4KnoifrepZKWemss4SQ4zcnDS1YKrmS3y6ogSpump",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
    "symbol": null,
-   "trader_id": 23,
-   "amount_usd": 165.17689461199998,
+   "trader_id": 29,
+   "amount_usd": 0.030325735535538,
    "chain": "solana",
-   "time": "Nov 10, 07:23 PM PST",
-   "trader": "Unknown"
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
   },
   {
-   "ts": 1794367399,
+   "ts": 1794368621,
    "side": "sell",
-   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
    "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 85.02413392810722,
+   "trader_id": 29,
+   "amount_usd": 0.030688177596438,
    "chain": "solana",
-   "time": "Nov 10, 07:23 PM PST",
-   "trader": "Yami"
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
   },
   {
-   "ts": 1794367365,
-   "side": "buy",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
-   "symbol": null,
-   "trader_id": 32,
-   "amount_usd": 83.484270419265,
-   "chain": "solana",
-   "time": "Nov 10, 07:22 PM PST",
-   "trader": "Yami"
-  },
-  {
-   "ts": 1794367346,
+   "ts": 1794368621,
    "side": "sell",
-   "mint": "B4MEhw1a6Bag8YvZehbqtyejnyLrCDXg5HQdk8tdpump",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
    "symbol": null,
-   "trader_id": 26,
-   "amount_usd": 317.1179423654612,
+   "trader_id": 29,
+   "amount_usd": 0.03068759435634,
    "chain": "solana",
-   "time": "Nov 10, 07:22 PM PST",
-   "trader": "TheDoc"
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368621,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.029025026796984002,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368621,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.027896957127438,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368621,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.027553012109646,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368620,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.033452985621,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368620,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.03303471915072,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368620,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.032620702001154,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368620,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.032291337985812,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368620,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.031881236876904,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368620,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.031480467609564,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368619,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.03559764278136,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368619,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.035151547426404,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368619,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.033964820467002,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368619,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.034294601082414,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368619,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.034293851202288,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368619,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.033873418411644,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368618,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.038651487934488006,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368618,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.037429516609164,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368618,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.037723969538640004,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368618,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.037266625981794,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368618,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.037265792781654004,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368618,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.036933512565822,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368617,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.04041603919098,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368617,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.041075517101790006,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368617,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.041073767381496006,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368617,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.040582512578952,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368617,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.04009609033722,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
+  },
+  {
+   "ts": 1794368617,
+   "side": "sell",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+   "symbol": null,
+   "trader_id": 29,
+   "amount_usd": 0.039129328214778,
+   "chain": "solana",
+   "time": "Nov 10, 07:43 PM PST",
+   "trader": "Putrick"
   }
  ],
  "decisions": [
   {
-   "time": "Nov 10, 07:42 PM PST",
-   "text": "card @Putrick sell 6yXjaa\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
+   "time": "Nov 10, 07:44 PM PST",
+   "text": "card @Yami sell Fp4Jkq\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
    "kind": "alert",
-   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump"
   },
   {
-   "time": "Nov 10, 07:42 PM PST",
-   "text": "ignored tx 557JQaH7Fp\u2026 on CyaE1V\u2026: not signed by trader (signers 2KP9mi; airdrop/fee distribution/transfer in)",
+   "time": "Nov 10, 07:44 PM PST",
+   "text": "ignored tx 3ypUKGu2N6\u2026 on CyaE1V\u2026: not signed by trader (signers 3crj9T; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 10, 07:42 PM PST",
-   "text": "skip @Putrick buy 6yXjaa\u2026: $8 < min_trade_usd $20 (no alert)",
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $3 < min_trade_usd $20 (no alert)",
    "kind": "skipped",
    "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   },
   {
-   "time": "Nov 10, 07:42 PM PST",
-   "text": "skip @Putrick buy 6yXjaa\u2026: $8 < min_trade_usd $20 (no alert)",
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
    "kind": "skipped",
    "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   },
   {
-   "time": "Nov 10, 07:41 PM PST",
-   "text": "card @Putrick buy 6yXjaa\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
-   "kind": "alert",
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
    "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   },
   {
-   "time": "Nov 10, 07:41 PM PST",
-   "text": "ignored tx 3ypMzADkh7\u2026 on CyaE1V\u2026: not signed by trader (signers 3crj9T; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:41 PM PST",
-   "text": "ignored tx 4Bm4d5gTZZ\u2026 on CyaE1V\u2026: not signed by trader (signers 5L7aqw; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:40 PM PST",
-   "text": "ignored tx B9KUy5fL66\u2026 on CyaE1V\u2026: not signed by trader (signers 3crj9T; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:39 PM PST",
-   "text": "ignored tx NZjAGFwTbH\u2026 on CyaE1V\u2026: not signed by trader (signers 2KP9mi; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:39 PM PST",
-   "text": "ignored tx 67SxhnCUjn\u2026 on CyaE1V\u2026: not signed by trader (signers 7iyYn4; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:39 PM PST",
-   "text": "ignored tx 43waunKro8\u2026 on BQVz7f\u2026: not signed by trader (signers DuBVdx,E9BzZE; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:38 PM PST",
-   "text": "ignored tx 4644M9pVrq\u2026 on CyaE1V\u2026: not signed by trader (signers 7iyYn4; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:38 PM PST",
-   "text": "ignored tx 5AJGBvFpnu\u2026 on CyaE1V\u2026: not signed by trader (signers 7iyYn4; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:37 PM PST",
-   "text": "ignored tx 2Ey5R296nL\u2026 on CyaE1V\u2026: not signed by trader (signers BuekUk; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:36 PM PST",
-   "text": "ignored tx 2XCSStr6R8\u2026 on CyaE1V\u2026: not signed by trader (signers 3d8dMc,EPmjoY; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:36 PM PST",
-   "text": "ignored tx 63pgMVRKna\u2026 on 5ZuV8e\u2026: not signed by trader (signers C8kZrT; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:36 PM PST",
-   "text": "card @Yami sell 66KbLT\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
-  },
-  {
-   "time": "Nov 10, 07:35 PM PST",
-   "text": "ignored tx 3puu6QcchV\u2026 on 7Js5gm\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:35 PM PST",
-   "text": "ignored tx WMWqkiAbHp\u2026 on 2W14ah\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:34 PM PST",
-   "text": "ignored tx 25pXnajBiV\u2026 on 4fZFcK\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:34 PM PST",
-   "text": "ignored tx 5np2EEXX1E\u2026 on 4fZFcK\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:34 PM PST",
-   "text": "ignored tx 5JiD8RngRY\u2026 on BQVz7f\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 10, 07:33 PM PST",
-   "text": "card @Yami sell BqWYju\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay"
-  },
-  {
-   "time": "Nov 10, 07:33 PM PST",
-   "text": "card @Yami buy 66KbLT\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
-   "kind": "alert",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
-  },
-  {
-   "time": "Nov 10, 07:32 PM PST",
-   "text": "card @Yami sell BqWYju\u2026: \u2699\ufe0f Trader sold 54.34% of their bag \u2192 selling 54.34% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay"
-  },
-  {
-   "time": "Nov 10, 07:31 PM PST",
-   "text": "card @Yami buy BqWYju\u2026: \u23ed Not copied: already bought this coin 2 time(s) in the last 10 min (max 2)",
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
    "kind": "skipped",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay"
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   },
   {
-   "time": "Nov 10, 07:31 PM PST",
-   "text": "card @Yami sell 66KbLT\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump"
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   },
   {
-   "time": "Nov 10, 07:31 PM PST",
-   "text": "card @Yami sell BqWYju\u2026: \u2699\ufe0f Trader sold 51.83% of their bag \u2192 selling 51.83% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay"
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   },
   {
-   "time": "Nov 10, 07:30 PM PST",
-   "text": "card @Yami buy BqWYju\u2026: \u2699\ufe0f Auto-copying 0.036336 SOL (fixed size) [PAPER]",
-   "kind": "alert",
-   "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay"
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   },
   {
-   "time": "Nov 10, 07:30 PM PST",
-   "text": "card 387F\u20269LaH sell F6GrHA\u2026: \u2699\ufe0f Trader sold \u2192 selling 100% of our position [PAPER]",
-   "kind": "alert",
-   "mint": "F6GrHASqihgvihLfZbbCGKWK33KKFEqCCRiUQXhYpump"
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
+  },
+  {
+   "time": "Nov 10, 07:43 PM PST",
+   "text": "skip @Putrick sell 6yXjaa\u2026: $0 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump"
   }
  ],
  "health": {
@@ -2321,9 +2346,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794368604,
- "publishedAtText": "Nov 10, 07:43 PM PST",
- "dataChangedAt": 1794368604,
- "dataChangedAtText": "Nov 10, 07:43 PM PST",
+ "publishedAt": 1794368725,
+ "publishedAtText": "Nov 10, 07:45 PM PST",
+ "dataChangedAt": 1794368725,
+ "dataChangedAtText": "Nov 10, 07:45 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
