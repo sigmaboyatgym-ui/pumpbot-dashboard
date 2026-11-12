@@ -3150,6 +3150,17 @@
  },
  "alerts": [
   {
+   "ts": 1794498628,
+   "side": "buy",
+   "mint": "J1NFigjxQVhvPAjZ5aMXdk2MTQf2bSESBrU1uwYmpump",
+   "symbol": null,
+   "trader_id": 37,
+   "amount_usd": 487.15899793031,
+   "chain": "solana",
+   "time": "Nov 12, 07:50 AM PST",
+   "trader": "9tH2"
+  },
+  {
    "ts": 1794496643,
    "side": "buy",
    "mint": "9kvMSUP9PsyeDKFJaHLjDeUGETaJJ6eLxzhyWRfi39me",
@@ -3522,20 +3533,40 @@
    "chain": "solana",
    "time": "Nov 11, 10:35 PM PST",
    "trader": "5hAg"
-  },
-  {
-   "ts": 1794464018,
-   "side": "buy",
-   "mint": "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 83.77011205,
-   "chain": "solana",
-   "time": "Nov 11, 10:13 PM PST",
-   "trader": "87rR"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 12, 07:51 AM PST",
+   "text": "ignored tx 3528YVNuLe\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 07:51 AM PST",
+   "text": "ignored tx 62w6GkQZwM\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 07:51 AM PST",
+   "text": "ignored tx 4GakiB4b4U\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 07:51 AM PST",
+   "text": "ignored tx 4AvvtVk264\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 07:50 AM PST",
+   "text": "card @9tH2 buy J1NFig\u2026: \u2699\ufe0f Auto-copying 0.123163 SOL (experiment $10; fixed size) [PAPER]",
+   "kind": "alert",
+   "mint": "J1NFigjxQVhvPAjZ5aMXdk2MTQf2bSESBrU1uwYmpump"
+  },
+  {
+   "time": "Nov 12, 07:50 AM PST",
+   "text": "ignored tx 2LcqBZjHrb\u2026 on 9tH2zR\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 12, 07:48 AM PST",
    "text": "ignored tx 3o4mwVWY2R\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -3655,36 +3686,6 @@
    "time": "Nov 12, 07:33 AM PST",
    "text": "ignored tx 5heSWYv9kx\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 07:33 AM PST",
-   "text": "ignored tx 5LLoLGRNY3\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 07:33 AM PST",
-   "text": "ignored tx UvDciLy38K\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 07:31 AM PST",
-   "text": "ignored tx 3hx61VNq8d\u2026 on 87rRds\u2026: not signed by trader (signers HQUoRd,E9BzZE; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 07:30 AM PST",
-   "text": "ignored tx 5NZcEFVUTi\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 07:29 AM PST",
-   "text": "ignored tx 5MuKQYtc1x\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 07:28 AM PST",
-   "text": "ignored tx 2rFisTkG84\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -3695,8 +3696,8 @@
    "ok": true
   }
  },
- "publishedAt": 1794498549,
- "publishedAtText": "Nov 12, 07:49 AM PST",
+ "publishedAt": 1794498850,
+ "publishedAtText": "Nov 12, 07:54 AM PST",
  "dataChangedAt": 1794493418,
  "dataChangedAtText": "Nov 12, 06:23 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
