@@ -1,7 +1,7 @@
 {
  "mode": "PAPER",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 2.366061,
+ "realized": 2.404537,
  "curve": [
   {
    "ts": 1794306382,
@@ -1142,9 +1142,49 @@
    "ts": 1794480557,
    "value": 2.366061,
    "type": "realized"
+  },
+  {
+   "ts": 1794483459,
+   "value": 2.386921,
+   "type": "realized"
+  },
+  {
+   "ts": 1794483470,
+   "value": 2.404537,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 351,
+   "ts": 1794483470,
+   "side": "sell",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
+   "symbol": "MeiMei",
+   "sol_amount": 0.1065413978,
+   "sig": null,
+   "trader_id": 39,
+   "reason": "trader @87rR sold",
+   "pnl_sol": 0.01761695060633471,
+   "time": "Nov 12, 03:37 AM PST",
+   "trader": "87rR",
+   "solscan": null
+  },
+  {
+   "id": 350,
+   "ts": 1794483459,
+   "side": "sell",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
+   "symbol": "MeiMei",
+   "sol_amount": 0.09797492234,
+   "sig": null,
+   "trader_id": 39,
+   "reason": "trader @87rR sold",
+   "pnl_sol": 0.020859394348017285,
+   "time": "Nov 12, 03:37 AM PST",
+   "trader": "87rR",
+   "solscan": null
+  },
   {
    "id": 349,
    "ts": 1794480557,
@@ -2614,36 +2654,6 @@
    "time": "Nov 11, 07:45 AM PST",
    "trader": "5hAg",
    "solscan": null
-  },
-  {
-   "id": 251,
-   "ts": 1794411901,
-   "side": "buy",
-   "mint": "Fq1McqmYY3ZwTmMFvWTwEQtVf6Zc4T1A3nZp3RpEpump",
-   "symbol": "GIF",
-   "sol_amount": 0.036441,
-   "sig": null,
-   "trader_id": 35,
-   "reason": "copy @5hAg",
-   "pnl_sol": null,
-   "time": "Nov 11, 07:45 AM PST",
-   "trader": "5hAg",
-   "solscan": null
-  },
-  {
-   "id": 250,
-   "ts": 1794405851,
-   "side": "buy",
-   "mint": "2YPWT4QK1Why57mxBZGwBAFckBC4nLwEAL2t6CcCQtvw",
-   "symbol": "FCAT",
-   "sol_amount": 0.036441,
-   "sig": null,
-   "trader_id": 36,
-   "reason": "copy @GZ1y",
-   "pnl_sol": null,
-   "time": "Nov 11, 06:04 AM PST",
-   "trader": "GZ1y",
-   "solscan": null
   }
  ],
  "positions": [
@@ -2980,9 +2990,9 @@
   {
    "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
    "symbol": "MeiMei",
-   "qty_raw": 94788548268,
+   "qty_raw": 78501979906,
    "decimals": 6,
-   "cost_sol": 0.96636,
+   "cost_sol": 0.8003200248143519,
    "opened_at": 1794469664,
    "trader_id": 39,
    "trader": "87rR",
@@ -3066,7 +3076,7 @@
    "kind": "wallet",
    "mode": "paper_auto",
    "copies": 11,
-   "realized": 1.35584,
+   "realized": 1.394316,
    "wallets": [
     "87rRdssFiTJKY4MGARa4G5vQ31hmR7MxSmhzeaJ5AAxJ"
    ],
@@ -3094,6 +3104,39 @@
   "tp_pct": "0"
  },
  "alerts": [
+  {
+   "ts": 1794483472,
+   "side": "buy",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
+   "symbol": null,
+   "trader_id": 39,
+   "amount_usd": 4.5290399,
+   "chain": "solana",
+   "time": "Nov 12, 03:37 AM PST",
+   "trader": "87rR"
+  },
+  {
+   "ts": 1794483468,
+   "side": "sell",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
+   "symbol": null,
+   "trader_id": 39,
+   "amount_usd": 1850.923530312918,
+   "chain": "solana",
+   "time": "Nov 12, 03:37 AM PST",
+   "trader": "87rR"
+  },
+  {
+   "ts": 1794483455,
+   "side": "sell",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
+   "symbol": null,
+   "trader_id": 39,
+   "amount_usd": 1695.2337408000187,
+   "chain": "solana",
+   "time": "Nov 12, 03:37 AM PST",
+   "trader": "87rR"
+  },
   {
    "ts": 1794480551,
    "side": "sell",
@@ -3445,42 +3488,57 @@
    "chain": "solana",
    "time": "Nov 11, 08:13 PM PST",
    "trader": "87rR"
-  },
-  {
-   "ts": 1794456793,
-   "side": "sell",
-   "mint": "DZYyPXuMdL74d7opqqLgFh2JYFGFz3LkeFZFAMjwUjUf",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 1001.6719378881787,
-   "chain": "solana",
-   "time": "Nov 11, 08:13 PM PST",
-   "trader": "87rR"
-  },
-  {
-   "ts": 1794456793,
-   "side": "sell",
-   "mint": "DZYyPXuMdL74d7opqqLgFh2JYFGFz3LkeFZFAMjwUjUf",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 943.2097366656736,
-   "chain": "solana",
-   "time": "Nov 11, 08:13 PM PST",
-   "trader": "87rR"
-  },
-  {
-   "ts": 1794456793,
-   "side": "sell",
-   "mint": "DZYyPXuMdL74d7opqqLgFh2JYFGFz3LkeFZFAMjwUjUf",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 857.1793476105704,
-   "chain": "solana",
-   "time": "Nov 11, 08:13 PM PST",
-   "trader": "87rR"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 12, 03:37 AM PST",
+   "text": "skip @87rR buy MsGDyb\u2026: $5 < min_trade_usd $20 (no alert)",
+   "kind": "skipped",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump"
+  },
+  {
+   "time": "Nov 12, 03:37 AM PST",
+   "text": "card @87rR sell MsGDyb\u2026: \u2699\ufe0f Trader sold 10% of their bag \u2192 selling 10% of our position [PAPER]",
+   "kind": "alert",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump"
+  },
+  {
+   "time": "Nov 12, 03:37 AM PST",
+   "text": "card @87rR sell MsGDyb\u2026: \u2699\ufe0f Trader sold 7.98% of their bag \u2192 selling 7.98% of our position [PAPER]",
+   "kind": "alert",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump"
+  },
+  {
+   "time": "Nov 12, 03:36 AM PST",
+   "text": "ignored tx NVGEwLHakL\u2026 on 87rRds\u2026: not signed by trader (signers 2trcSz; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 03:35 AM PST",
+   "text": "ignored tx 4ywV57USgZ\u2026 on DdM1ty\u2026: not signed by trader (signers HVQJSN; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 03:35 AM PST",
+   "text": "ignored tx GsUpRfgS7j\u2026 on GZ1yiJ\u2026: not signed by trader (signers Dc4E8p,ErUNje; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 03:35 AM PST",
+   "text": "ignored tx 64utbn27uc\u2026 on 9tH2zR\u2026: not signed by trader (signers BHsgK9; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 03:35 AM PST",
+   "text": "ignored tx Wrb12NS8uq\u2026 on 9tH2zR\u2026: not signed by trader (signers FHpcNS,EH8g23; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 12, 03:34 AM PST",
+   "text": "ignored tx 2vZcfmU1XN\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 12, 03:34 AM PST",
    "text": "ignored tx 5rPs2cPJjN\u2026 on GZ1yiJ\u2026: not signed by trader (signers C5nuyb; airdrop/fee distribution/transfer in)",
@@ -3585,51 +3643,6 @@
    "time": "Nov 12, 03:28 AM PST",
    "text": "ignored tx 4d7zf2u3k7\u2026 on GZ1yiJ\u2026: not signed by trader (signers C5nuyb; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:28 AM PST",
-   "text": "ignored tx 4NxRvxpVFV\u2026 on GZ1yiJ\u2026: not signed by trader (signers C5nuyb; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:27 AM PST",
-   "text": "ignored tx 5xTwTPuAyP\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:27 AM PST",
-   "text": "ignored tx 5qQQMcQnwd\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:27 AM PST",
-   "text": "ignored tx 2k47ChuwWd\u2026 on 87rRds\u2026: not signed by trader (signers FHpcNS,Ch9V5F; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:27 AM PST",
-   "text": "ignored tx 5xvheDqvHB\u2026 on 9tH2zR\u2026: not signed by trader (signers HLigeq; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:26 AM PST",
-   "text": "ignored tx 62ttERT45z\u2026 on GZ1yiJ\u2026: not signed by trader (signers 7J2Fjg; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:25 AM PST",
-   "text": "ignored tx 4yes87Z76e\u2026 on GZ1yiJ\u2026: not signed by trader (signers C5nuyb; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:25 AM PST",
-   "text": "ignored tx 5rfxvSqQbX\u2026 on GZ1yiJ\u2026: not signed by trader (signers 7J2Fjg; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 12, 03:25 AM PST",
-   "text": "ignored tx 28fifY1wAL\u2026 on 87rRds\u2026: not signed by trader (signers FHpcNS,Ch9V5F; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -3640,9 +3653,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794483276,
- "publishedAtText": "Nov 12, 03:34 AM PST",
- "dataChangedAt": 1794480563,
- "dataChangedAtText": "Nov 12, 02:49 AM PST",
+ "publishedAt": 1794483518,
+ "publishedAtText": "Nov 12, 03:38 AM PST",
+ "dataChangedAt": 1794483518,
+ "dataChangedAtText": "Nov 12, 03:38 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
