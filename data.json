@@ -782,9 +782,29 @@
    "ts": 1794561428,
    "value": -0.191868,
    "type": "realized"
+  },
+  {
+   "ts": 1794562190,
+   "value": -0.191868,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 383,
+   "ts": 1794562190,
+   "side": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "symbol": "Sakura",
+   "sol_amount": 0.043951625999999966,
+   "sig": "5TrPmHyjPimq7tiXsY2RaEQLYCQN15aJTDhziTcfr4ePEJxGGMMG7dewYzFyEqvoFR3FC53kZDRDmLYdqscBZQDF",
+   "trader_id": 39,
+   "reason": "copy @87rR",
+   "pnl_sol": null,
+   "time": "Nov 13, 01:29 AM PST",
+   "trader": "87rR",
+   "solscan": "https://solscan.io/tx/5TrPmHyjPimq7tiXsY2RaEQLYCQN15aJTDhziTcfr4ePEJxGGMMG7dewYzFyEqvoFR3FC53kZDRDmLYdqscBZQDF"
+  },
   {
    "id": 382,
    "ts": 1794561428,
@@ -2269,30 +2289,15 @@
    "time": "Nov 07, 08:26 PM PST",
    "trader": "Manual",
    "solscan": "https://solscan.io/tx/wbv3pRA67HnRgvpm7jUnSMnNmTtbToPw52DLH1vpynNPM4b4qBmLHhvSBirJ9FWajzwEdVfRo9pfhFPpDop95zQ"
-  },
-  {
-   "id": 40,
-   "ts": 1794111051,
-   "side": "buy",
-   "mint": "8F3oV5RtUBfYfqqmHLW8YZxKx9JXE1zeyLm8NZfyQUCB",
-   "symbol": "FRIES",
-   "sol_amount": 0.03260216,
-   "sig": "4HV6M4h6NsEs5FiED7pPhiJ6nH4FHSZQKargKyguNE2hqjSHpDCzzx5mXMqVCneUE93rf3nkXvMjec2CB4xrtvLW",
-   "trader_id": 4,
-   "reason": "copy @Binkieee",
-   "pnl_sol": null,
-   "time": "Nov 07, 08:10 PM PST",
-   "trader": "Manual",
-   "solscan": "https://solscan.io/tx/4HV6M4h6NsEs5FiED7pPhiJ6nH4FHSZQKargKyguNE2hqjSHpDCzzx5mXMqVCneUE93rf3nkXvMjec2CB4xrtvLW"
   }
  ],
  "positions": [
   {
    "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
    "symbol": "Sakura",
-   "qty_raw": 10884214900,
+   "qty_raw": 22932382793,
    "decimals": 6,
-   "cost_sol": 0.043853,
+   "cost_sol": 0.08780462599999997,
    "opened_at": 1794561428,
    "trader_id": 39,
    "trader": "87rR",
@@ -2341,7 +2346,7 @@
    "handle": "87rR",
    "kind": "wallet",
    "mode": "auto",
-   "copies": 5,
+   "copies": 6,
    "realized": 0.17281,
    "wallets": [
     "87rRdssFiTJKY4MGARa4G5vQ31hmR7MxSmhzeaJ5AAxJ"
@@ -2370,6 +2375,28 @@
   "tp_pct": "0"
  },
  "alerts": [
+  {
+   "ts": 1794562176,
+   "side": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "symbol": null,
+   "trader_id": 39,
+   "amount_usd": 80.44144494999999,
+   "chain": "solana",
+   "time": "Nov 13, 01:29 AM PST",
+   "trader": "87rR"
+  },
+  {
+   "ts": 1794562175,
+   "side": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "symbol": null,
+   "trader_id": 39,
+   "amount_usd": 80.44144494999999,
+   "chain": "solana",
+   "time": "Nov 13, 01:29 AM PST",
+   "trader": "87rR"
+  },
   {
    "ts": 1794561998,
    "side": "sell",
@@ -2732,179 +2759,159 @@
    "chain": "solana",
    "time": "Nov 13, 01:26 AM PST",
    "trader": "GZ1y"
-  },
-  {
-   "ts": 1794561420,
-   "side": "buy",
-   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 240.23353305,
-   "chain": "solana",
-   "time": "Nov 13, 01:17 AM PST",
-   "trader": "87rR"
-  },
-  {
-   "ts": 1794560857,
-   "side": "buy",
-   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 1.5951538600000001,
-   "chain": "solana",
-   "time": "Nov 13, 01:07 AM PST",
-   "trader": "87rR"
   }
  ],
  "decisions": [
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 3Erc8jPmAL\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:30 AM PST",
+   "text": "ignored tx 2jtgEbioM1\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 2z87MVQ27A\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:29 AM PST",
+   "text": "card @87rR buy 9sFGCT\u2026: \u2699\ufe0f Auto-copying 0.043945 SOL (live $3.5; fixed size) [LIVE]",
+   "kind": "alert",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump"
+  },
+  {
+   "time": "Nov 13, 01:29 AM PST",
+   "text": "card @87rR buy 9sFGCT\u2026: \u2699\ufe0f Auto-copying 0.043945 SOL (live $3.5; fixed size) [LIVE]",
+   "kind": "alert",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump"
+  },
+  {
+   "time": "Nov 13, 01:29 AM PST",
+   "text": "ignored tx GdVzJdKHu4\u2026 on GZ1yiJ\u2026: quote-only (SOL transfer, no coin traded)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 5mD3ijpWPw\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
+   "time": "Nov 13, 01:29 AM PST",
+   "text": "ignored tx 4puLnuxYHg\u2026 on GZ1yiJ\u2026: quote-only (USDC transfer, no coin traded)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx NyAFrR4JBe\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:29 AM PST",
+   "text": "ignored tx pk6GSDrq3y\u2026 on GZ1yiJ\u2026: quote-only (SOL transfer, no coin traded)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 2DGUEFak3w\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx Ht7oqUfL34\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 4A8ZwYocxR\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx wMPZ2tRHUD\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx fMAwV3nLaW\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 5YXAd5hk2p\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 5w7QRxaHVE\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 5xyCre7mm1\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx ycja47SZdi\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 3asxKxwPJp\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 5tsQBbEXKY\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 5PRUpGDfM3\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 5Xr9ZqpSPy\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 3ocp81CLXn\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 2FgpYShNTm\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 3LfNZxLEDh\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 26Bk29a7ja\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 2ycKahwMCi\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 4NSMPw31yc\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 2rG83LQYaB\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx PQ76Dni6Tn\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 27WJEYtYwm\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 5dG4Bap3Pm\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 476Y3p8F6X\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 2SbH1BCyNE\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 27ct8xojfA\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 3vUWHoSCxA\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 3yqN9s1c9z\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 4JbkS1FceZ\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 3CsaskWNZQ\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 2f8GDpgA7U\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 4eWE4HLCH7\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:27 AM PST",
-   "text": "ignored tx 3Yhm6C8hpR\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 2Sgr7JbXkr\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 4CfsHo8NWH\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx JubJMtFDMu\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 3Dpr3Y39YV\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 5V7dMicyD6\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 4rcXu5eCQB\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 39hDJGoNRJ\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 2tNQ2ukhkC\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 5S2hDnnAEp\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 2oRNDYwrxv\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 2GfyaHNRDv\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 64VSxJcoZm\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 65PeanBAYp\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   },
   {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 3mqNhXsEcb\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx bTA1VrHsks\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 13, 01:26 AM PST",
-   "text": "ignored tx 3rFLdS5mRN\u2026 on GZ1yiJ\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "time": "Nov 13, 01:28 AM PST",
+   "text": "ignored tx 46YMAHq7tS\u2026 on GZ1yiJ\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
    "kind": "skipped"
   }
  ],
@@ -2916,9 +2923,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794562031,
- "publishedAtText": "Nov 13, 01:27 AM PST",
- "dataChangedAt": 1794561428,
- "dataChangedAtText": "Nov 13, 01:17 AM PST",
+ "publishedAt": 1794562212,
+ "publishedAtText": "Nov 13, 01:30 AM PST",
+ "dataChangedAt": 1794562212,
+ "dataChangedAtText": "Nov 13, 01:30 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
