@@ -1662,9 +1662,29 @@
    "ts": 1794690644,
    "value": 2.419073,
    "type": "realized"
+  },
+  {
+   "ts": 1794690698,
+   "value": 2.419073,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 486,
+   "ts": 1794690698,
+   "side": "buy",
+   "mint": "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump",
+   "symbol": "CYBER",
+   "sol_amount": 0.049988,
+   "sig": null,
+   "trader_id": 47,
+   "reason": "copy GNK5\u20267PG6",
+   "pnl_sol": null,
+   "time": "Nov 14, 01:11 PM PST",
+   "trader": "Manual",
+   "solscan": null
+  },
   {
    "id": 485,
    "ts": 1794690644,
@@ -3149,21 +3169,6 @@
    "time": "Nov 12, 05:39 AM PST",
    "trader": "87rR",
    "solscan": null
-  },
-  {
-   "id": 354,
-   "ts": 1794489770,
-   "side": "sell",
-   "mint": "4rzRyr3pk5Coiq3LAtEoehS744m4ZHK1VZRpB4Supump",
-   "symbol": "NN",
-   "sol_amount": 0.35193591659999995,
-   "sig": null,
-   "trader_id": 39,
-   "reason": "trader @87rR sold",
-   "pnl_sol": -0.16565108340000007,
-   "time": "Nov 12, 05:22 AM PST",
-   "trader": "87rR",
-   "solscan": null
   }
  ],
  "positions": [
@@ -3588,9 +3593,9 @@
   {
    "mint": "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump",
    "symbol": "CYBER",
-   "qty_raw": 91681188161,
+   "qty_raw": 203157041183,
    "decimals": 6,
-   "cost_sol": 0.049885,
+   "cost_sol": 0.09987299999999999,
    "opened_at": 1794690644,
    "trader_id": 47,
    "trader": "Manual",
@@ -3735,7 +3740,7 @@
    "handle": null,
    "kind": "wallet",
    "mode": "paper_silent",
-   "copies": 6,
+   "copies": 7,
    "realized": -0.013563,
    "wallets": [
     "GNK5wwYHzBUUpJPzPbZJ8owZVgEy6pmtfkd2QwM27PG6"
@@ -3776,6 +3781,17 @@
   "tp_pct": "0"
  },
  "alerts": [
+  {
+   "ts": 1794690693,
+   "side": "buy",
+   "mint": "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump",
+   "symbol": null,
+   "trader_id": 47,
+   "amount_usd": 112.0,
+   "chain": "solana",
+   "time": "Nov 14, 01:11 PM PST",
+   "trader": "Unknown"
+  },
   {
    "ts": 1794690639,
    "side": "buy",
@@ -4149,17 +4165,6 @@
    "chain": "solana",
    "time": "Nov 14, 12:21 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1794686670,
-   "side": "sell",
-   "mint": "56ZtvzDWCwPq2tFg2ZuifbJh7AZL9VpUTRp1854fpump",
-   "symbol": null,
-   "trader_id": 36,
-   "amount_usd": 1.120512789874191,
-   "chain": "solana",
-   "time": "Nov 14, 12:04 PM PST",
-   "trader": "GZ1y"
   }
  ],
  "decisions": [
@@ -4322,9 +4327,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794690647,
- "publishedAtText": "Nov 14, 01:10 PM PST",
- "dataChangedAt": 1794690647,
- "dataChangedAtText": "Nov 14, 01:10 PM PST",
+ "publishedAt": 1794690708,
+ "publishedAtText": "Nov 14, 01:11 PM PST",
+ "dataChangedAt": 1794690708,
+ "dataChangedAtText": "Nov 14, 01:11 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
