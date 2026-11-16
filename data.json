@@ -1,7 +1,7 @@
 {
  "mode": "PAPER",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": 1.927845,
+ "realized": 1.926266,
  "curve": [
   {
    "ts": 1794306382,
@@ -3017,9 +3017,49 @@
    "ts": 1794819591,
    "value": 1.927845,
    "type": "realized"
+  },
+  {
+   "ts": 1794819980,
+   "value": 1.926266,
+   "type": "realized"
+  },
+  {
+   "ts": 1794819994,
+   "value": 1.926266,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 763,
+   "ts": 1794819994,
+   "side": "buy",
+   "mint": "DMboriYuxeiHvYXmG5X3m3AYSjcqEyPY7DB54y6vmgNS",
+   "symbol": "butt",
+   "sol_amount": 0.010237,
+   "sig": null,
+   "trader_id": 43,
+   "reason": "copy DQMq\u2026tSus",
+   "pnl_sol": null,
+   "time": "Nov 16, 01:06 AM PST",
+   "trader": "Manual",
+   "solscan": null
+  },
+  {
+   "id": 762,
+   "ts": 1794819980,
+   "side": "sell",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "symbol": "HOGE",
+   "sol_amount": 0.006150808389999999,
+   "sig": null,
+   "trader_id": 43,
+   "reason": "trader DQMq\u2026tSus sold",
+   "pnl_sol": -0.0015793163705934187,
+   "time": "Nov 16, 01:06 AM PST",
+   "trader": "Manual",
+   "solscan": null
+  },
   {
    "id": 761,
    "ts": 1794819591,
@@ -4489,36 +4529,6 @@
    "time": "Nov 15, 09:56 AM PST",
    "trader": "Manual",
    "solscan": null
-  },
-  {
-   "id": 661,
-   "ts": 1794760476,
-   "side": "sell",
-   "mint": "3Q5EtJCKbEawyorTfdK2XgZ8FoVYLYAr1KDJCDQdpump",
-   "symbol": "IDC",
-   "sol_amount": 0.06572181124000001,
-   "sig": null,
-   "trader_id": 48,
-   "reason": "trader 5pUg\u2026umhc sold",
-   "pnl_sol": -0.007073567160061883,
-   "time": "Nov 15, 08:34 AM PST",
-   "trader": "Manual",
-   "solscan": null
-  },
-  {
-   "id": 660,
-   "ts": 1794760013,
-   "side": "buy",
-   "mint": "3Q5EtJCKbEawyorTfdK2XgZ8FoVYLYAr1KDJCDQdpump",
-   "symbol": "IDC",
-   "sol_amount": 0.049306,
-   "sig": null,
-   "trader_id": 48,
-   "reason": "copy 5pUg\u2026umhc",
-   "pnl_sol": null,
-   "time": "Nov 15, 08:26 AM PST",
-   "trader": "Manual",
-   "solscan": null
   }
  ],
  "positions": [
@@ -5086,9 +5096,9 @@
   {
    "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
    "symbol": "HOGE",
-   "qty_raw": 8069459890,
+   "qty_raw": 6867110367,
    "decimals": 6,
-   "cost_sol": 0.05188003197661221,
+   "cost_sol": 0.04414990721601879,
    "opened_at": 1794809462,
    "trader_id": 43,
    "trader": "Manual",
@@ -5115,6 +5125,17 @@
    "trader_id": 39,
    "trader": "87rR",
    "time": "Nov 15, 11:49 PM PST"
+  },
+  {
+   "mint": "DMboriYuxeiHvYXmG5X3m3AYSjcqEyPY7DB54y6vmgNS",
+   "symbol": "butt",
+   "qty_raw": 10447399989,
+   "decimals": 6,
+   "cost_sol": 0.010237,
+   "opened_at": 1794819994,
+   "trader_id": 43,
+   "trader": "Manual",
+   "time": "Nov 16, 01:06 AM PST"
   }
  ],
  "traders": [
@@ -5207,8 +5228,8 @@
    "handle": null,
    "kind": "wallet",
    "mode": "paper_silent",
-   "copies": 71,
-   "realized": -0.230121,
+   "copies": 72,
+   "realized": -0.231701,
    "wallets": [
     "DQMqCjCiRS8BAkZ2xrJ7QJPqUjoHnRDoPtcXMiEPtSus"
    ],
@@ -5296,6 +5317,28 @@
   "mode": "PAPER"
  },
  "alerts": [
+  {
+   "ts": 1794819988,
+   "side": "buy",
+   "mint": "DMboriYuxeiHvYXmG5X3m3AYSjcqEyPY7DB54y6vmgNS",
+   "symbol": null,
+   "trader_id": 43,
+   "amount_usd": 99.06804546492424,
+   "chain": "solana",
+   "time": "Nov 16, 01:06 AM PST",
+   "trader": "Unknown"
+  },
+  {
+   "ts": 1794819977,
+   "side": "sell",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "symbol": null,
+   "trader_id": 43,
+   "amount_usd": 99.55939601961184,
+   "chain": "solana",
+   "time": "Nov 16, 01:06 AM PST",
+   "trader": "Unknown"
+  },
   {
    "ts": 1794819942,
    "side": "buy",
@@ -5658,31 +5701,19 @@
    "chain": "solana",
    "time": "Nov 15, 11:49 PM PST",
    "trader": "87rR"
-  },
-  {
-   "ts": 1794815303,
-   "side": "buy",
-   "mint": "HiQiU2zQm2VvkK4MJ5jnVz367QcCzBQGEFcZXuqgpump",
-   "symbol": null,
-   "trader_id": 43,
-   "amount_usd": 199.02873717771317,
-   "chain": "solana",
-   "time": "Nov 15, 11:48 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1794815293,
-   "side": "sell",
-   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-   "symbol": null,
-   "trader_id": 43,
-   "amount_usd": 199.44227744804718,
-   "chain": "solana",
-   "time": "Nov 15, 11:48 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 16, 01:06 AM PST",
+   "text": "ignored tx 2eUcAQBGHy\u2026 on 87rRds\u2026: not signed by trader (signers 6aQtW5; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 16, 01:05 AM PST",
+   "text": "ignored tx tpVosZZd9d\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 16, 01:05 AM PST",
    "text": "card @87rR buy DMbori\u2026: \u2699\ufe0f Auto-copying 0.003982 SOL (experiment $40; fixed size, reduced to available balance) [PAPER]",
@@ -5823,17 +5854,6 @@
    "time": "Nov 16, 01:03 AM PST",
    "text": "ignored tx 5mysvbeB19\u2026 on GNK5ww\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 16, 01:02 AM PST",
-   "text": "skip GNK5\u20267PG6 sell TTWofw\u2026: $3 < min_trade_usd $8 (no alert)",
-   "kind": "skipped",
-   "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo"
-  },
-  {
-   "time": "Nov 16, 01:02 AM PST",
-   "text": "ignored tx 5SwYKQ3R46\u2026 on GNK5ww\u2026: quote-only (SOL/USDC transfer, no coin traded)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -5844,9 +5864,9 @@
    "ok": true
   }
  },
- "publishedAt": 1794819944,
- "publishedAtText": "Nov 16, 01:05 AM PST",
- "dataChangedAt": 1794819642,
- "dataChangedAtText": "Nov 16, 01:00 AM PST",
+ "publishedAt": 1794820006,
+ "publishedAtText": "Nov 16, 01:06 AM PST",
+ "dataChangedAt": 1794820006,
+ "dataChangedAtText": "Nov 16, 01:06 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
