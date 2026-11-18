@@ -6468,6 +6468,17 @@
  },
  "alerts": [
   {
+   "ts": 1795045248,
+   "side": "sell",
+   "mint": "DxQMBYYVfg3RCx3y1m5S5zxU2uxsUQpbsXtUEtEypump",
+   "symbol": null,
+   "trader_id": 43,
+   "amount_usd": 5.567168812242106,
+   "chain": "solana",
+   "time": "Nov 18, 03:40 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1795045076,
    "side": "buy",
    "mint": "7pKz6sUQbwySq4dmcRifkYkooQ3WqS3eRtSxLKE2LVZK",
@@ -6840,20 +6851,44 @@
    "chain": "solana",
    "time": "Nov 18, 03:09 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795043370,
-   "side": "sell",
-   "mint": "2eARWNLbDgbwjZrAptcA7MqJrq3n4JGRhBMkCMUBpump",
-   "symbol": null,
-   "trader_id": 43,
-   "amount_usd": 242.31602530519373,
-   "chain": "solana",
-   "time": "Nov 18, 03:09 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 18, 03:42 PM PST",
+   "text": "ignored tx 7N9UMwY5XQ\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 18, 03:42 PM PST",
+   "text": "ignored tx 4TpfFH21eE\u2026 on 9tH2zR\u2026: not signed by trader (signers FHpcNS,FNey1D; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 18, 03:41 PM PST",
+   "text": "ignored tx pPkEaNSDtg\u2026 on GNK5ww\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 18, 03:41 PM PST",
+   "text": "ignored tx 3Q34mdBwqo\u2026 on DQMqCj\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 18, 03:39 PM PST",
+   "text": "ignored tx 545YjZbcsk\u2026 on 9tH2zR\u2026: not signed by trader (signers FHpcNS,FNey1D; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 18, 03:39 PM PST",
+   "text": "ignored tx 5himuq1HRA\u2026 on GNK5ww\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 18, 03:38 PM PST",
+   "text": "ignored tx 3skGzpb11Q\u2026 on DQMqCj\u2026: multi-coin / token->token swap (2 coins), not copied",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 18, 03:37 PM PST",
    "text": "card @GZ1y buy ERDrma\u2026: \u2699\ufe0f Auto-copying 0.014005 SOL (experiment $5; fixed size, reduced to available balance) [PAPER]",
@@ -6970,44 +7005,6 @@
    "time": "Nov 18, 03:25 PM PST",
    "text": "ignored tx 5EggeQSKgT\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 18, 03:25 PM PST",
-   "text": "card for 9hjBLB\u2026 folded into the SELL ALERT",
-   "kind": "alert",
-   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump"
-  },
-  {
-   "time": "Nov 18, 03:25 PM PST",
-   "text": "card @GZ1y sell 9hjBLB\u2026: \u23ed Trader sold: not selling (we bought this coin from a different trader)",
-   "kind": "alert",
-   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump"
-  },
-  {
-   "time": "Nov 18, 03:25 PM PST",
-   "text": "ignored tx 2ez1sTjB2G\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 18, 03:24 PM PST",
-   "text": "ignored tx 3chQjARDtd\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 18, 03:24 PM PST",
-   "text": "ignored tx 31xNXxwck5\u2026 on 87rRds\u2026: not signed by trader (signers BSQzFX; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 18, 03:22 PM PST",
-   "text": "ignored tx 4SiFWZ4fCF\u2026 on 6x4w7S\u2026: not signed by trader (signers 6aQtW5; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 18, 03:22 PM PST",
-   "text": "card @GZ1y buy EL2zqb\u2026: \u2699\ufe0f Auto-copying 0.020519 SOL (experiment $5; fixed size, reduced to available balance) [PAPER]",
-   "kind": "alert",
-   "mint": "EL2zqbtSTeFMkNYzKCaUDfBW7DHdt8dYguc11Qxppump"
   }
  ],
  "health": {
@@ -7018,8 +7015,8 @@
    "ok": true
   }
  },
- "publishedAt": 1795045087,
- "publishedAtText": "Nov 18, 03:38 PM PST",
+ "publishedAt": 1795045388,
+ "publishedAtText": "Nov 18, 03:43 PM PST",
  "dataChangedAt": 1795045087,
  "dataChangedAtText": "Nov 18, 03:38 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
