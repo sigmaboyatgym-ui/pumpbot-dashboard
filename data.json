@@ -3332,9 +3332,29 @@
    "ts": 1795011843,
    "value": -1.331949,
    "type": "realized"
+  },
+  {
+   "ts": 1795012235,
+   "value": -1.331949,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 825,
+   "ts": 1795012235,
+   "side": "buy",
+   "mint": "DSVypWKZuZ85pZFUDBwbUMbJ96gTricPTJmgxSqhQhCF",
+   "symbol": "FAILED",
+   "sol_amount": 0.047019,
+   "sig": null,
+   "trader_id": 48,
+   "reason": "copy 5pUg\u2026umhc",
+   "pnl_sol": null,
+   "time": "Nov 18, 06:30 AM PST",
+   "trader": "Manual",
+   "solscan": null
+  },
   {
    "id": 824,
    "ts": 1795011843,
@@ -4819,21 +4839,6 @@
    "time": "Nov 15, 09:55 PM PST",
    "trader": "Manual",
    "solscan": null
-  },
-  {
-   "id": 725,
-   "ts": 1794808244,
-   "side": "sell",
-   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
-   "symbol": "BTC",
-   "sol_amount": 0.00532950454,
-   "sig": null,
-   "trader_id": 41,
-   "reason": "trader 75fK\u20269EPu sold",
-   "pnl_sol": -0.00045087149035409613,
-   "time": "Nov 15, 09:50 PM PST",
-   "trader": "Manual",
-   "solscan": null
   }
  ],
  "positions": [
@@ -5518,6 +5523,17 @@
    "trader_id": 36,
    "trader": "GZ1y",
    "time": "Nov 18, 06:07 AM PST"
+  },
+  {
+   "mint": "DSVypWKZuZ85pZFUDBwbUMbJ96gTricPTJmgxSqhQhCF",
+   "symbol": "FAILED",
+   "qty_raw": 206213749593,
+   "decimals": 6,
+   "cost_sol": 0.047019,
+   "opened_at": 1795012234,
+   "trader_id": 48,
+   "trader": "Manual",
+   "time": "Nov 18, 06:30 AM PST"
   }
  ],
  "traders": [
@@ -5670,7 +5686,7 @@
    "handle": null,
    "kind": "wallet",
    "mode": "paper_silent",
-   "copies": 34,
+   "copies": 35,
    "realized": -0.208298,
    "wallets": [
     "5pUgxQGgX36GyV5BdsBNRAw9JxJ6Br4UVddJmJ3sumhc"
@@ -5699,6 +5715,17 @@
   "mode": "PAPER"
  },
  "alerts": [
+  {
+   "ts": 1795012225,
+   "side": "buy",
+   "mint": "DSVypWKZuZ85pZFUDBwbUMbJ96gTricPTJmgxSqhQhCF",
+   "symbol": null,
+   "trader_id": 48,
+   "amount_usd": 223.92760853614143,
+   "chain": "solana",
+   "time": "Nov 18, 06:30 AM PST",
+   "trader": "Unknown"
+  },
   {
    "ts": 1795011842,
    "side": "buy",
@@ -6072,17 +6099,6 @@
    "chain": "solana",
    "time": "Nov 18, 05:05 AM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795007077,
-   "side": "sell",
-   "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-   "symbol": null,
-   "trader_id": 36,
-   "amount_usd": 16.879370397705088,
-   "chain": "solana",
-   "time": "Nov 18, 05:04 AM PST",
-   "trader": "GZ1y"
   }
  ],
  "decisions": [
@@ -6246,9 +6262,9 @@
    "ok": true
   }
  },
- "publishedAt": 1795012174,
- "publishedAtText": "Nov 18, 06:29 AM PST",
- "dataChangedAt": 1795011872,
- "dataChangedAtText": "Nov 18, 06:24 AM PST",
+ "publishedAt": 1795012236,
+ "publishedAtText": "Nov 18, 06:30 AM PST",
+ "dataChangedAt": 1795012236,
+ "dataChangedAtText": "Nov 18, 06:30 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
