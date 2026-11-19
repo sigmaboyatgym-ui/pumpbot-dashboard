@@ -1,7 +1,7 @@
 {
  "mode": "PAPER",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -3.760796,
+ "realized": -3.759253,
  "curve": [
   {
    "ts": 1794306382,
@@ -4192,9 +4192,29 @@
    "ts": 1795108461,
    "value": -3.760796,
    "type": "realized"
+  },
+  {
+   "ts": 1795108474,
+   "value": -3.759253,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 997,
+   "ts": 1795108474,
+   "side": "sell",
+   "mint": "FdgLUFyjdwvFfZNXXzpSwgepCKbRGQdabNpcPBA6pump",
+   "symbol": "IPO",
+   "sol_amount": 0.04972861032,
+   "sig": null,
+   "trader_id": 43,
+   "reason": "trader DQMq\u2026tSus sold",
+   "pnl_sol": 0.0015426103199999985,
+   "time": "Nov 19, 09:14 AM PST",
+   "trader": "Manual",
+   "solscan": null
+  },
   {
    "id": 996,
    "ts": 1795108461,
@@ -5679,21 +5699,6 @@
    "time": "Nov 18, 11:28 AM PST",
    "trader": "Manual",
    "solscan": null
-  },
-  {
-   "id": 897,
-   "ts": 1795029540,
-   "side": "sell",
-   "mint": "BVnuEKzP8YJsSrBmJA4XtnFpbCB5SHYYy1LofzY7pump",
-   "symbol": "gta.fun",
-   "sol_amount": 0.04648183407999999,
-   "sig": null,
-   "trader_id": 45,
-   "reason": "trader 4dmG\u2026Zog1 sold",
-   "pnl_sol": -0.0012901659200000096,
-   "time": "Nov 18, 11:19 AM PST",
-   "trader": "Manual",
-   "solscan": null
   }
  ],
  "positions": [
@@ -6422,17 +6427,6 @@
    "trader_id": 43,
    "trader": "Manual",
    "time": "Nov 19, 05:24 AM PST"
-  },
-  {
-   "mint": "FdgLUFyjdwvFfZNXXzpSwgepCKbRGQdabNpcPBA6pump",
-   "symbol": "IPO",
-   "qty_raw": 261584978569,
-   "decimals": 6,
-   "cost_sol": 0.048186,
-   "opened_at": 1795108461,
-   "trader_id": 43,
-   "trader": "Manual",
-   "time": "Nov 19, 09:14 AM PST"
   }
  ],
  "traders": [
@@ -6526,7 +6520,7 @@
    "kind": "wallet",
    "mode": "paper_silent",
    "copies": 97,
-   "realized": -0.345015,
+   "realized": -0.343473,
    "wallets": [
     "DQMqCjCiRS8BAkZ2xrJ7QJPqUjoHnRDoPtcXMiEPtSus"
    ],
@@ -6614,6 +6608,17 @@
   "mode": "PAPER"
  },
  "alerts": [
+  {
+   "ts": 1795108471,
+   "side": "sell",
+   "mint": "FdgLUFyjdwvFfZNXXzpSwgepCKbRGQdabNpcPBA6pump",
+   "symbol": null,
+   "trader_id": 43,
+   "amount_usd": 252.50349397403053,
+   "chain": "solana",
+   "time": "Nov 19, 09:14 AM PST",
+   "trader": "Unknown"
+  },
   {
    "ts": 1795108456,
    "side": "buy",
@@ -6987,20 +6992,19 @@
    "chain": "solana",
    "time": "Nov 19, 08:56 AM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795107144,
-   "side": "sell",
-   "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
-   "symbol": null,
-   "trader_id": 43,
-   "amount_usd": 11.724401874178426,
-   "chain": "solana",
-   "time": "Nov 19, 08:52 AM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 19, 09:15 AM PST",
+   "text": "ignored tx 2cQKYd93tn\u2026 on GNK5ww\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 19, 09:14 AM PST",
+   "text": "ignored tx 66X417hxWq\u2026 on 87rRds\u2026: not signed by trader (signers FHpcNS,5Vfu3N; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 19, 09:14 AM PST",
    "text": "ignored tx 3VSoa8Qv49\u2026 on GZ1yiJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -7143,16 +7147,6 @@
    "text": "card for TTWofw\u2026 folded into the SELL ALERT",
    "kind": "alert",
    "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo"
-  },
-  {
-   "time": "Nov 19, 09:11 AM PST",
-   "text": "ignored tx 4smNw9xqoc\u2026 on GNK5ww\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 19, 09:11 AM PST",
-   "text": "ignored tx yr9gvQ9SqN\u2026 on GZ1yiJ\u2026: not signed by trader (signers DRXQd6; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7163,9 +7157,9 @@
    "ok": true
   }
  },
- "publishedAt": 1795108464,
- "publishedAtText": "Nov 19, 09:14 AM PST",
- "dataChangedAt": 1795108464,
- "dataChangedAtText": "Nov 19, 09:14 AM PST",
+ "publishedAt": 1795108526,
+ "publishedAtText": "Nov 19, 09:15 AM PST",
+ "dataChangedAt": 1795108526,
+ "dataChangedAtText": "Nov 19, 09:15 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
