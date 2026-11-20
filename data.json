@@ -1,7 +1,7 @@
 {
  "mode": "LIVE",
  "wallet": "5mD5h76jHHpmuFY75eut2g1fLJSBAExcVQfosXfxmbgu",
- "realized": -0.098805,
+ "realized": -0.0091,
  "curve": [
   {
    "ts": 1794070874,
@@ -992,9 +992,49 @@
    "ts": 1795204493,
    "value": -0.098805,
    "type": "realized"
+  },
+  {
+   "ts": 1795204678,
+   "value": -0.051059,
+   "type": "realized"
+  },
+  {
+   "ts": 1795204682,
+   "value": -0.0091,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 1058,
+   "ts": 1795204682,
+   "side": "sell",
+   "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
+   "symbol": "PATRICK",
+   "sol_amount": 0.047697451,
+   "sig": "3qUKuUcWrhHr1neKDzm7CPr7XErjcfk4KXWAq3raHLfiRhM2DhMGqZ7CRZReVmBKvHFiiJroYCSVxrMxEYmhCubG",
+   "trader_id": 39,
+   "reason": "trader @87rR sold",
+   "pnl_sol": 0.04195901013103338,
+   "time": "Nov 20, 11:58 AM PST",
+   "trader": "87rR",
+   "solscan": "https://solscan.io/tx/3qUKuUcWrhHr1neKDzm7CPr7XErjcfk4KXWAq3raHLfiRhM2DhMGqZ7CRZReVmBKvHFiiJroYCSVxrMxEYmhCubG"
+  },
+  {
+   "id": 1057,
+   "ts": 1795204678,
+   "side": "sell",
+   "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
+   "symbol": "PATRICK",
+   "sol_amount": 0.05412144299999999,
+   "sig": "KnGVF3TefViyjUHiPioaRn74soFDDP7mFtTHCRoycGgZYTztSkF6gAMy3TvfdGF9CfpVHPUsHee17xYik5ubJdf",
+   "trader_id": 39,
+   "reason": "trader @87rR sold",
+   "pnl_sol": 0.047745397590609986,
+   "time": "Nov 20, 11:57 AM PST",
+   "trader": "87rR",
+   "solscan": "https://solscan.io/tx/KnGVF3TefViyjUHiPioaRn74soFDDP7mFtTHCRoycGgZYTztSkF6gAMy3TvfdGF9CfpVHPUsHee17xYik5ubJdf"
+  },
   {
    "id": 1056,
    "ts": 1795204493,
@@ -2464,36 +2504,6 @@
    "time": "Nov 09, 11:22 AM PST",
    "trader": "Manual",
    "solscan": "https://solscan.io/tx/5ZBzfARMVrCBGwEwSvCtDQCh5b2hAve73rRjCcvSMWQFcgcx8AWMYpySLxpgXXY6HQJrtHkXsxSNPZH9C27ChJn5"
-  },
-  {
-   "id": 83,
-   "ts": 1794251940,
-   "side": "buy",
-   "mint": "HGYGBC3wi9e8QjxeZULP62PsNen3xtRxW8V5Kv61KBcr",
-   "symbol": "Billie",
-   "sol_amount": 0.03,
-   "sig": "5vFeTWuViktwAo6ehCaP5LRCRJEFFcyoPeTr4avrfLsbYQaxwHCckLJbE7gn139MZfHXGqrvbGGBbJCAYn67CUFL",
-   "trader_id": 20,
-   "reason": "copy 4vw5\u20269Ud9",
-   "pnl_sol": null,
-   "time": "Nov 09, 11:19 AM PST",
-   "trader": "Manual",
-   "solscan": "https://solscan.io/tx/5vFeTWuViktwAo6ehCaP5LRCRJEFFcyoPeTr4avrfLsbYQaxwHCckLJbE7gn139MZfHXGqrvbGGBbJCAYn67CUFL"
-  },
-  {
-   "id": 82,
-   "ts": 1794251902,
-   "side": "sell",
-   "mint": "GhgGZiqphHoFDagvsvggu6AcR3G9mR9xLmYcpjzbh8qf",
-   "symbol": "USYC",
-   "sol_amount": 0.004631876000000007,
-   "sig": "4PjypSMPBwC94e6uiDrJC6uCpaWzdAydbuGHLiysRXuuLV98ywfH9E5LKS2faBjtkHJqumuvUtShMdqFXQ7smN7y",
-   "trader_id": 20,
-   "reason": "trader 4vw5\u20269Ud9 sold",
-   "pnl_sol": -0.01353632740758516,
-   "time": "Nov 09, 11:18 AM PST",
-   "trader": "Manual",
-   "solscan": "https://solscan.io/tx/4PjypSMPBwC94e6uiDrJC6uCpaWzdAydbuGHLiysRXuuLV98ywfH9E5LKS2faBjtkHJqumuvUtShMdqFXQ7smN7y"
   }
  ],
  "positions": [
@@ -2533,9 +2543,9 @@
   {
    "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
    "symbol": "PATRICK",
-   "qty_raw": 74194452568,
+   "qty_raw": 60097506581,
    "decimals": 6,
-   "cost_sol": 0.06376045410077502,
+   "cost_sol": 0.05164596782241839,
    "opened_at": 1795168887,
    "trader_id": 39,
    "trader": "87rR",
@@ -2596,7 +2606,7 @@
    "kind": "wallet",
    "mode": "auto",
    "copies": 17,
-   "realized": 0.266182,
+   "realized": 0.355886,
    "wallets": [
     "87rRdssFiTJKY4MGARa4G5vQ31hmR7MxSmhzeaJ5AAxJ"
    ],
@@ -3348,9 +3358,9 @@
    "ok": true
   }
  },
- "publishedAt": 1795204622,
- "publishedAtText": "Nov 20, 11:57 AM PST",
- "dataChangedAt": 1795204622,
- "dataChangedAtText": "Nov 20, 11:57 AM PST",
+ "publishedAt": 1795204683,
+ "publishedAtText": "Nov 20, 11:58 AM PST",
+ "dataChangedAt": 1795204683,
+ "dataChangedAtText": "Nov 20, 11:58 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
