@@ -2777,7 +2777,7 @@
    "wallets": [
     "78N177fzNJpp8pG49xDv1efYcTMSzo9tPTKEA9mAVkh2"
    ],
-   "last_event": "Nov 20, 12:16 PM PST"
+   "last_event": "Nov 20, 12:30 PM PST"
   },
   {
    "id": 51,
@@ -2837,6 +2837,39 @@
   "mode": "LIVE"
  },
  "alerts": [
+  {
+   "ts": 1795206712,
+   "side": "buy",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "symbol": null,
+   "trader_id": 44,
+   "amount_usd": 484.6001531294041,
+   "chain": "solana",
+   "time": "Nov 20, 12:31 PM PST",
+   "trader": "Unknown"
+  },
+  {
+   "ts": 1795206653,
+   "side": "buy",
+   "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump",
+   "symbol": null,
+   "trader_id": 50,
+   "amount_usd": 17.095561557,
+   "chain": "solana",
+   "time": "Nov 20, 12:30 PM PST",
+   "trader": "Sheep"
+  },
+  {
+   "ts": 1795206515,
+   "side": "sell",
+   "mint": "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k",
+   "symbol": null,
+   "trader_id": 43,
+   "amount_usd": 93.56865797015205,
+   "chain": "solana",
+   "time": "Nov 20, 12:28 PM PST",
+   "trader": "Unknown"
+  },
   {
    "ts": 1795206493,
    "side": "buy",
@@ -3188,42 +3221,24 @@
    "chain": "solana",
    "time": "Nov 20, 12:10 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795205361,
-   "side": "sell",
-   "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 498.9585955058267,
-   "chain": "solana",
-   "time": "Nov 20, 12:09 PM PST",
-   "trader": "87rR"
-  },
-  {
-   "ts": 1795205358,
-   "side": "sell",
-   "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
-   "symbol": null,
-   "trader_id": 39,
-   "amount_usd": 513.1025522466691,
-   "chain": "solana",
-   "time": "Nov 20, 12:09 PM PST",
-   "trader": "87rR"
-  },
-  {
-   "ts": 1795205252,
-   "side": "buy",
-   "mint": "HjiBij1BcEwjcgPEb22K8y7imdgaf1kHGMHuEgcDpump",
-   "symbol": null,
-   "trader_id": 44,
-   "amount_usd": 17.053029,
-   "chain": "solana",
-   "time": "Nov 20, 12:07 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 20, 12:31 PM PST",
+   "text": "ignored tx 3beS8YLpsn\u2026 on AH39Bn\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 20, 12:31 PM PST",
+   "text": "ignored tx 2DuvqKNy5A\u2026 on DQMqCj\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 20, 12:29 PM PST",
+   "text": "ignored tx fSNJSKBdCd\u2026 on 78N177\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 20, 12:28 PM PST",
    "text": "card @87rR buy DJBvW4\u2026: \u2699\ufe0f Auto-copying 0.051168 SOL (live $3.5; fixed size) [LIVE]",
@@ -3360,21 +3375,6 @@
    "time": "Nov 20, 12:17 PM PST",
    "text": "ignored tx 5JKZDKyvKr\u2026 on AvGiSd\u2026: not signed by trader (signers FHpcNS,7SfwyM; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 20, 12:17 PM PST",
-   "text": "ignored tx 3p5dHdTVr1\u2026 on 78N177\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 20, 12:16 PM PST",
-   "text": "ignored tx jReB58fvna\u2026 on AH39Bn\u2026: quote-only (SOL/USDC transfer, no coin traded)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 20, 12:16 PM PST",
-   "text": "ignored tx 3sgqy7xUMp\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -3385,9 +3385,9 @@
    "ok": true
   }
  },
- "publishedAt": 1795206509,
- "publishedAtText": "Nov 20, 12:28 PM PST",
- "dataChangedAt": 1795206509,
- "dataChangedAtText": "Nov 20, 12:28 PM PST",
+ "publishedAt": 1795206751,
+ "publishedAtText": "Nov 20, 12:32 PM PST",
+ "dataChangedAt": 1795206751,
+ "dataChangedAtText": "Nov 20, 12:32 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
