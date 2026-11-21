@@ -2843,6 +2843,17 @@
  },
  "alerts": [
   {
+   "ts": 1795259379,
+   "side": "sell",
+   "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+   "symbol": null,
+   "trader_id": 47,
+   "amount_usd": 5.061604,
+   "chain": "solana",
+   "time": "Nov 21, 03:09 AM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1795259206,
    "side": "buy",
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
@@ -3215,20 +3226,24 @@
    "chain": "solana",
    "time": "Nov 21, 12:50 AM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795251020,
-   "side": "sell",
-   "mint": "2QaGMEyiFLDwbmczWqLm7qBW2sjcVrdMHh7NrSQdpump",
-   "symbol": null,
-   "trader_id": 48,
-   "amount_usd": 253.34525109520902,
-   "chain": "solana",
-   "time": "Nov 21, 12:50 AM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 21, 03:10 AM PST",
+   "text": "ignored tx acQd8L6LMT\u2026 on AH39Bn\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 21, 03:09 AM PST",
+   "text": "ignored tx 2HbxTU5uWa\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 21, 03:09 AM PST",
+   "text": "ignored tx fHQJ9VZDsK\u2026 on GNK5ww\u2026: quote-only (SOL/USDC transfer, no coin traded)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 21, 03:06 AM PST",
    "text": "skip @87rR buy GRMRQS\u2026: $3 < min_trade_usd $8 (no alert)",
@@ -3365,21 +3380,6 @@
    "time": "Nov 21, 02:49 AM PST",
    "text": "ignored tx 2RpMbGfUMu\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 21, 02:49 AM PST",
-   "text": "ignored tx 3Led5Ch1Yh\u2026 on 9tH2zR\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 21, 02:49 AM PST",
-   "text": "ignored tx hTG1DDi64f\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 21, 02:49 AM PST",
-   "text": "ignored tx 4mCHuKXr81\u2026 on AH39Bn\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -3390,8 +3390,8 @@
    "ok": true
   }
  },
- "publishedAt": 1795259243,
- "publishedAtText": "Nov 21, 03:07 AM PST",
+ "publishedAt": 1795259545,
+ "publishedAtText": "Nov 21, 03:12 AM PST",
  "dataChangedAt": 1795255622,
  "dataChangedAtText": "Nov 21, 02:07 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
