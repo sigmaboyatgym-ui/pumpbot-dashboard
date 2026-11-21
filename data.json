@@ -1117,9 +1117,29 @@
    "ts": 1795255516,
    "value": 0.279641,
    "type": "realized"
+  },
+  {
+   "ts": 1795255612,
+   "value": 0.279641,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 1103,
+   "ts": 1795255612,
+   "side": "buy",
+   "mint": "DJBvW4noqQmcfk5RY3SdpCU2tL63mohVvdLf9uS2aZ4Z",
+   "symbol": "Needle",
+   "sol_amount": 0.05161009599999988,
+   "sig": "gGTwRYJvUtdjyLAXa89fbRzrpxFzvUGuNmYNwrhD5JzukHB83fvhf61s4SYUznKkyLgWmcqUoN7vY8gzcsdig7B",
+   "trader_id": 39,
+   "reason": "copy @87rR",
+   "pnl_sol": null,
+   "time": "Nov 21, 02:06 AM PST",
+   "trader": "87rR",
+   "solscan": "https://solscan.io/tx/gGTwRYJvUtdjyLAXa89fbRzrpxFzvUGuNmYNwrhD5JzukHB83fvhf61s4SYUznKkyLgWmcqUoN7vY8gzcsdig7B"
+  },
   {
    "id": 1102,
    "ts": 1795255516,
@@ -2604,30 +2624,15 @@
    "time": "Nov 10, 08:11 AM PST",
    "trader": "Manual",
    "solscan": "https://solscan.io/tx/2ZmHCf8UkbZe9aTkiAYJhUhLNoXzMTYE417fgAfzcJ6JbyQrVqcKeYFjgC3zLg2uLvQPwDQov8MseM9pubimm2hD"
-  },
-  {
-   "id": 135,
-   "ts": 1794326508,
-   "side": "sell",
-   "mint": "DCGmxRHx9yahWbT6ReyzHKS3gRS3LC7D8WL83u35pump",
-   "symbol": "\u2588\u2588\u2588\u2588",
-   "sol_amount": 0.02126827600000003,
-   "sig": "4i6B6VwrM1UPBcjPVxREufBD7FcHywcGfXdbzRGKGrGtBd2yAES6rcCMTcKPSKYb2bMC2phngAHdcNe158Fbp4f5",
-   "trader_id": null,
-   "reason": "stop-loss",
-   "pnl_sol": -0.01506772399999997,
-   "time": "Nov 10, 08:01 AM PST",
-   "trader": "Manual",
-   "solscan": "https://solscan.io/tx/4i6B6VwrM1UPBcjPVxREufBD7FcHywcGfXdbzRGKGrGtBd2yAES6rcCMTcKPSKYb2bMC2phngAHdcNe158Fbp4f5"
   }
  ],
  "positions": [
   {
    "mint": "DJBvW4noqQmcfk5RY3SdpCU2tL63mohVvdLf9uS2aZ4Z",
    "symbol": "Needle",
-   "qty_raw": 179493140346,
+   "qty_raw": 282234281330,
    "decimals": 6,
-   "cost_sol": 0.05414055999999998,
+   "cost_sol": 0.10575065599999986,
    "opened_at": 1795255516,
    "trader_id": 39,
    "trader": "87rR",
@@ -2676,7 +2681,7 @@
    "handle": "87rR",
    "kind": "wallet",
    "mode": "auto",
-   "copies": 26,
+   "copies": 27,
    "realized": 0.505327,
    "wallets": [
     "87rRdssFiTJKY4MGARa4G5vQ31hmR7MxSmhzeaJ5AAxJ"
@@ -2837,6 +2842,17 @@
   "mode": "LIVE"
  },
  "alerts": [
+  {
+   "ts": 1795255608,
+   "side": "buy",
+   "mint": "DJBvW4noqQmcfk5RY3SdpCU2tL63mohVvdLf9uS2aZ4Z",
+   "symbol": null,
+   "trader_id": 39,
+   "amount_usd": 8.83064195,
+   "chain": "solana",
+   "time": "Nov 21, 02:06 AM PST",
+   "trader": "87rR"
+  },
   {
    "ts": 1795255511,
    "side": "buy",
@@ -3210,20 +3226,15 @@
    "chain": "solana",
    "time": "Nov 21, 12:44 AM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795250675,
-   "side": "sell",
-   "mint": "4fzPejjNAPCphKMe3kox1JMaQ3ay4C77WVLXWPA3pump",
-   "symbol": null,
-   "trader_id": 48,
-   "amount_usd": 32.87940253109806,
-   "chain": "solana",
-   "time": "Nov 21, 12:44 AM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 21, 02:06 AM PST",
+   "text": "card @87rR buy DJBvW4\u2026: \u2699\ufe0f Auto-copying 0.051525 SOL (live $3.5; fixed size) [LIVE]",
+   "kind": "alert",
+   "mint": "DJBvW4noqQmcfk5RY3SdpCU2tL63mohVvdLf9uS2aZ4Z"
+  },
   {
    "time": "Nov 21, 02:05 AM PST",
    "text": "ignored tx gvsD1fzfyQ\u2026 on AH39Bn\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -3369,11 +3380,6 @@
    "time": "Nov 21, 01:49 AM PST",
    "text": "ignored tx 4zJGgZig1k\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 21, 01:49 AM PST",
-   "text": "ignored tx 123D5KbicT\u2026 on 87rRds\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -3384,9 +3390,9 @@
    "ok": true
   }
  },
- "publishedAt": 1795255561,
- "publishedAtText": "Nov 21, 02:06 AM PST",
- "dataChangedAt": 1795255561,
- "dataChangedAtText": "Nov 21, 02:06 AM PST",
+ "publishedAt": 1795255622,
+ "publishedAtText": "Nov 21, 02:07 AM PST",
+ "dataChangedAt": 1795255622,
+ "dataChangedAtText": "Nov 21, 02:07 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
