@@ -7014,7 +7014,7 @@
    "wallets": [
     "5pUgxQGgX36GyV5BdsBNRAw9JxJ6Br4UVddJmJ3sumhc"
    ],
-   "last_event": "Nov 24, 10:29 AM PST"
+   "last_event": "Nov 24, 10:30 AM PST"
   },
   {
    "id": 49,
@@ -7098,6 +7098,39 @@
   "mode": "PAPER"
  },
  "alerts": [
+  {
+   "ts": 1795545029,
+   "side": "buy",
+   "mint": "917wv4Qy5DFR43kP3hidxEJWmzJxFRGfXru14Rkjpump",
+   "symbol": null,
+   "trader_id": 48,
+   "amount_usd": 90.5196963,
+   "chain": "solana",
+   "time": "Nov 24, 10:30 AM PST",
+   "trader": "Unknown"
+  },
+  {
+   "ts": 1795545025,
+   "side": "buy",
+   "mint": "917wv4Qy5DFR43kP3hidxEJWmzJxFRGfXru14Rkjpump",
+   "symbol": null,
+   "trader_id": 48,
+   "amount_usd": 70.47399504782999,
+   "chain": "solana",
+   "time": "Nov 24, 10:30 AM PST",
+   "trader": "Unknown"
+  },
+  {
+   "ts": 1795545005,
+   "side": "sell",
+   "mint": "MdpqH1he82AVxPjbuRJ5sW7k8snDmm4k6D4KBQepump",
+   "symbol": null,
+   "trader_id": 48,
+   "amount_usd": 40.28911431303,
+   "chain": "solana",
+   "time": "Nov 24, 10:30 AM PST",
+   "trader": "Unknown"
+  },
   {
    "ts": 1795544995,
    "side": "buy",
@@ -7449,42 +7482,24 @@
    "chain": "solana",
    "time": "Nov 24, 10:24 AM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795544634,
-   "side": "buy",
-   "mint": "GuZufJ1bvxwRmGTa9q1Hvw7RUfQPF1YoNziGZR8ppump",
-   "symbol": null,
-   "trader_id": 48,
-   "amount_usd": 34.80721263033,
-   "chain": "solana",
-   "time": "Nov 24, 10:23 AM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1795544628,
-   "side": "buy",
-   "mint": "GuZufJ1bvxwRmGTa9q1Hvw7RUfQPF1YoNziGZR8ppump",
-   "symbol": null,
-   "trader_id": 48,
-   "amount_usd": 90.49763903033,
-   "chain": "solana",
-   "time": "Nov 24, 10:23 AM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1795544622,
-   "side": "buy",
-   "mint": "GuZufJ1bvxwRmGTa9q1Hvw7RUfQPF1YoNziGZR8ppump",
-   "symbol": null,
-   "trader_id": 48,
-   "amount_usd": 70.45682238843065,
-   "chain": "solana",
-   "time": "Nov 24, 10:23 AM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 24, 10:30 AM PST",
+   "text": "ignored tx 65ko6uuKrz\u2026 on 5pUgxQ\u2026: quote-only (SOL/USDC transfer, no coin traded)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 24, 10:30 AM PST",
+   "text": "ignored tx 3WhmmbZmEr\u2026 on 5pUgxQ\u2026: quote-only (SOL/USDC transfer, no coin traded)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 24, 10:30 AM PST",
+   "text": "ignored tx QqepX2hvJN\u2026 on 9tH2zR\u2026: not signed by trader (signers BYmJh9,E9BzZE; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 24, 10:29 AM PST",
    "text": "ignored tx 44z31nTDRe\u2026 on 87rRds\u2026: not signed by trader (signers FHpcNS,5tagY9; airdrop/fee distribution/transfer in)",
@@ -7619,21 +7634,6 @@
    "time": "Nov 24, 10:23 AM PST",
    "text": "ignored tx 342cpgxxME\u2026 on 9tH2zR\u2026: not signed by trader (signers BYmJh9; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 10:22 AM PST",
-   "text": "ignored tx 4Gu6Z9D959\u2026 on 5pUgxQ\u2026: quote-only (SOL/USDC transfer, no coin traded)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 10:22 AM PST",
-   "text": "ignored tx 4N1Ua2t93r\u2026 on 9tH2zR\u2026: not signed by trader (signers BYmJh9; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 10:22 AM PST",
-   "text": "ignored tx 5yiDg9vcVp\u2026 on 9tH2zR\u2026: not signed by trader (signers BYmJh9; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7644,9 +7644,9 @@
    "ok": true
   }
  },
- "publishedAt": 1795545006,
- "publishedAtText": "Nov 24, 10:30 AM PST",
- "dataChangedAt": 1795545006,
- "dataChangedAtText": "Nov 24, 10:30 AM PST",
+ "publishedAt": 1795545068,
+ "publishedAtText": "Nov 24, 10:31 AM PST",
+ "dataChangedAt": 1795545068,
+ "dataChangedAtText": "Nov 24, 10:31 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
