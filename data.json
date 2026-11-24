@@ -7065,6 +7065,17 @@
  },
  "alerts": [
   {
+   "ts": 1795495577,
+   "side": "buy",
+   "mint": "HBENC33QrdBMk9rmfiRoRY7qNC6UkVUQAGNzgTzEevPg",
+   "symbol": null,
+   "trader_id": 56,
+   "amount_usd": 150.219443,
+   "chain": "solana",
+   "time": "Nov 23, 08:46 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1795495251,
    "side": "buy",
    "mint": "DHxG1eeTsgWEnLNQvLhhtojjfYnc1TGBnTdPfj7Kpump",
@@ -7437,20 +7448,40 @@
    "chain": "solana",
    "time": "Nov 23, 06:43 PM PST",
    "trader": "87rR"
-  },
-  {
-   "ts": 1795487763,
-   "side": "buy",
-   "mint": "CGJUUXmWgHaCp3ZVfX6rQJKQbNvLj7gXp3mBbUtJpump",
-   "symbol": null,
-   "trader_id": 56,
-   "amount_usd": 100.001565,
-   "chain": "solana",
-   "time": "Nov 23, 06:36 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 23, 08:46 PM PST",
+   "text": "card 9z33\u2026q1Q8 buy HBENC3\u2026: \ud83d\udd14 Alerts-only",
+   "kind": "alert",
+   "mint": "HBENC33QrdBMk9rmfiRoRY7qNC6UkVUQAGNzgTzEevPg"
+  },
+  {
+   "time": "Nov 23, 08:45 PM PST",
+   "text": "ignored tx 2x1EuFnVfo\u2026 on DdM1ty\u2026: not signed by trader (signers BJJwzS,BzxKe5; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 23, 08:45 PM PST",
+   "text": "ignored tx 2e51M3mgU7\u2026 on DdM1ty\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 23, 08:45 PM PST",
+   "text": "ignored tx qdnrBHYEca\u2026 on 9HJ7yT\u2026: not signed by trader (signers Aatoma; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 23, 08:44 PM PST",
+   "text": "ignored tx 3py1hA8dHc\u2026 on DQMqCj\u2026: not signed by trader (signers 9Ltm7x; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 23, 08:42 PM PST",
+   "text": "ignored tx CS1rhHoJsR\u2026 on 5hAgYC\u2026: not signed by trader (signers J3u38y; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 23, 08:41 PM PST",
    "text": "ignored tx 4UrgTJr3Sq\u2026 on 6x4w7S\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
@@ -7573,36 +7604,6 @@
    "time": "Nov 23, 08:36 PM PST",
    "text": "ignored tx WEFmStDmTR\u2026 on 9z332P\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 23, 08:35 PM PST",
-   "text": "ignored tx 25JDZndkrY\u2026 on 5hAgYC\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 23, 08:35 PM PST",
-   "text": "ignored tx AvCuk4dWMt\u2026 on 87rRds\u2026: not signed by trader (signers FHpcNS,5Vfu3N; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 23, 08:35 PM PST",
-   "text": "ignored tx 4rx8WmZQf1\u2026 on 9HJ7yT\u2026: not signed by trader (signers 6AsydH; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 23, 08:35 PM PST",
-   "text": "ignored tx 5224ThHzTR\u2026 on 6x4w7S\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 23, 08:35 PM PST",
-   "text": "ignored tx 2VxonzwYvb\u2026 on 5hAgYC\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 23, 08:34 PM PST",
-   "text": "ignored tx 2fSLLXdow9\u2026 on DQMqCj\u2026: not signed by trader (signers HZTM9C; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7613,8 +7614,8 @@
    "ok": true
   }
  },
- "publishedAt": 1795495319,
- "publishedAtText": "Nov 23, 08:41 PM PST",
+ "publishedAt": 1795495621,
+ "publishedAtText": "Nov 23, 08:47 PM PST",
  "dataChangedAt": 1795485343,
  "dataChangedAtText": "Nov 23, 05:55 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
