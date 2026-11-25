@@ -7129,6 +7129,17 @@
  },
  "alerts": [
   {
+   "ts": 1795584810,
+   "side": "buy",
+   "mint": "7B72JE9fgEiwGfpj3BuAMCC8NhtuyFbi7d9E8mWWpump",
+   "symbol": null,
+   "trader_id": 56,
+   "amount_usd": 137.02185075,
+   "chain": "solana",
+   "time": "Nov 24, 09:33 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1795584142,
    "side": "buy",
    "mint": "4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump",
@@ -7501,20 +7512,40 @@
    "chain": "solana",
    "time": "Nov 24, 07:56 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795578958,
-   "side": "buy",
-   "mint": "6t68MPhHzw82zGPaXF1dgguiyuscLioP87ZtLwAppump",
-   "symbol": null,
-   "trader_id": 56,
-   "amount_usd": 50.21113,
-   "chain": "solana",
-   "time": "Nov 24, 07:55 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 24, 09:33 PM PST",
+   "text": "ignored tx 2mP8tTLzNd\u2026 on 9z332P\u2026: not signed by trader (signers FHpcNS,EproUs; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 24, 09:33 PM PST",
+   "text": "card 9z33\u2026q1Q8 buy 7B72JE\u2026: \ud83d\udd14 Alerts-only",
+   "kind": "alert",
+   "mint": "7B72JE9fgEiwGfpj3BuAMCC8NhtuyFbi7d9E8mWWpump"
+  },
+  {
+   "time": "Nov 24, 09:33 PM PST",
+   "text": "ignored tx 4n6SbVhSpT\u2026 on 9z332P\u2026: not signed by trader (signers FHpcNS,EproUs; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 24, 09:30 PM PST",
+   "text": "ignored tx 567UQgnzE1\u2026 on 9z332P\u2026: not signed by trader (signers HGCPNS; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 24, 09:30 PM PST",
+   "text": "ignored tx 4daxSwHVeq\u2026 on 4BdKax\u2026: not signed by trader (signers EBLANt; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 24, 09:30 PM PST",
+   "text": "ignored tx 3WPA6Ewfm1\u2026 on 4BdKax\u2026: not signed by trader (signers EBLANf; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 24, 09:29 PM PST",
    "text": "ignored tx mkwTBMmWhB\u2026 on 9z332P\u2026: not signed by trader (signers HGCPNS; airdrop/fee distribution/transfer in)",
@@ -7636,37 +7667,6 @@
    "time": "Nov 24, 09:18 PM PST",
    "text": "ignored tx 2T9fHoxWaG\u2026 on 87rRds\u2026: not signed by trader (signers 5Vfu3N; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 09:18 PM PST",
-   "text": "ignored tx whEbeSCzAZ\u2026 on 9z332P\u2026: not signed by trader (signers 6aQtW5; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 09:18 PM PST",
-   "text": "ignored tx 5dNYXN5j7J\u2026 on 87rRds\u2026: not signed by trader (signers 5Vfu3N; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 09:17 PM PST",
-   "text": "ignored tx 4gdwTJYe19\u2026 on 4dmGMP\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 09:16 PM PST",
-   "text": "ignored tx 4jfdWbKyzk\u2026 on 87rRds\u2026: not signed by trader (signers 5Vfu3N; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 24, 09:15 PM PST",
-   "text": "card 9z33\u2026q1Q8 buy 4UMErm\u2026: \ud83d\udd14 Alerts-only",
-   "kind": "alert",
-   "mint": "4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump"
-  },
-  {
-   "time": "Nov 24, 09:15 PM PST",
-   "text": "ignored tx 4YJNJeGnyo\u2026 on 87rRds\u2026: not signed by trader (signers 5Vfu3N; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7677,8 +7677,8 @@
    "ok": true
   }
  },
- "publishedAt": 1795584575,
- "publishedAtText": "Nov 24, 09:29 PM PST",
+ "publishedAt": 1795584877,
+ "publishedAtText": "Nov 24, 09:34 PM PST",
  "dataChangedAt": 1795572481,
  "dataChangedAtText": "Nov 24, 06:08 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
