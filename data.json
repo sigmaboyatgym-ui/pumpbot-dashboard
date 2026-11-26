@@ -7186,6 +7186,17 @@
  },
  "alerts": [
   {
+   "ts": 1795664086,
+   "side": "buy",
+   "mint": "CMmfK9KFjFRPgAEkixMpchNnA5zTz7xYdQkSSc8Upump",
+   "symbol": null,
+   "trader_id": 46,
+   "amount_usd": 4.996991044179,
+   "chain": "solana",
+   "time": "Nov 25, 07:34 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1795663507,
    "side": "buy",
    "mint": "4bMyzDHzmFWPvrYydpPhgmxuvUXnWPAo5S68NRTtpump",
@@ -7558,20 +7569,39 @@
    "chain": "solana",
    "time": "Nov 25, 06:52 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795661492,
-   "side": "buy",
-   "mint": "34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds",
-   "symbol": null,
-   "trader_id": 46,
-   "amount_usd": 10.10474567977531,
-   "chain": "solana",
-   "time": "Nov 25, 06:51 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 25, 07:33 PM PST",
+   "text": "ignored tx yMWB5Nu3Yq\u2026 on 5hAgYC\u2026: not signed by trader (signers J3u38y; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 25, 07:33 PM PST",
+   "text": "ignored tx 5tWtAuGYTr\u2026 on AH39Bn\u2026: not signed by trader (signers 6aQtW5; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 25, 07:33 PM PST",
+   "text": "ignored tx 2mFG7ABz1h\u2026 on AH39Bn\u2026: not signed by trader (signers 6aQtW5; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 25, 07:32 PM PST",
+   "text": "ignored tx 23FT6L3EyN\u2026 on GZ1yiJ\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 25, 07:31 PM PST",
+   "text": "ignored tx 5CMFygGiUc\u2026 on 87rRds\u2026: not signed by trader (signers AGpLGB; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 25, 07:31 PM PST",
+   "text": "ignored tx 4WPTtAx21Y\u2026 on DdM1ty\u2026: not signed by trader (signers BCxsBf; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 25, 07:30 PM PST",
    "text": "ignored tx 2KDhMztgt5\u2026 on AH39Bn\u2026: not signed by trader (signers GcPzXK; airdrop/fee distribution/transfer in)",
@@ -7691,36 +7721,6 @@
    "time": "Nov 25, 07:25 PM PST",
    "text": "ignored tx 4m2hWAhez8\u2026 on DQMqCj\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 25, 07:25 PM PST",
-   "text": "ignored tx 678kFkox3i\u2026 on 6x4w7S\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 25, 07:25 PM PST",
-   "text": "ignored tx 3WkpZByb8p\u2026 on 9HJ7yT\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 25, 07:25 PM PST",
-   "text": "ignored tx 65HQS9rPkV\u2026 on FRt9zu\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 25, 07:25 PM PST",
-   "text": "ignored tx 25K4PmfdSn\u2026 on 4dmGMP\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 25, 07:24 PM PST",
-   "text": "ignored tx 2QD6LwZiQ4\u2026 on 87rRds\u2026: not signed by trader (signers 41bVso,HvdR56; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 25, 07:24 PM PST",
-   "text": "ignored tx 36ZuLSRmuu\u2026 on 6x4w7S\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7731,8 +7731,8 @@
    "ok": true
   }
  },
- "publishedAt": 1795663816,
- "publishedAtText": "Nov 25, 07:30 PM PST",
+ "publishedAt": 1795664118,
+ "publishedAtText": "Nov 25, 07:35 PM PST",
  "dataChangedAt": 1795662306,
  "dataChangedAtText": "Nov 25, 07:05 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
