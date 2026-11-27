@@ -5007,9 +5007,29 @@
    "ts": 1795780860,
    "value": -7.038171,
    "type": "realized"
+  },
+  {
+   "ts": 1795784853,
+   "value": -7.038171,
+   "type": "realized"
   }
  ],
  "fills": [
+  {
+   "id": 1359,
+   "ts": 1795784853,
+   "side": "buy",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "symbol": "paws",
+   "sol_amount": 0.0025180000000000003,
+   "sig": null,
+   "trader_id": 37,
+   "reason": "copy @9tH2",
+   "pnl_sol": null,
+   "time": "Nov 27, 05:07 AM PST",
+   "trader": "9tH2",
+   "solscan": null
+  },
   {
    "id": 1358,
    "ts": 1795780860,
@@ -6494,21 +6514,6 @@
    "time": "Nov 22, 05:54 AM PST",
    "trader": "Manual",
    "solscan": null
-  },
-  {
-   "id": 1177,
-   "ts": 1795355589,
-   "side": "sell",
-   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
-   "symbol": "Buttcoin",
-   "sol_amount": 0.0034316533999999995,
-   "sig": null,
-   "trader_id": 43,
-   "reason": "trader DQMq\u2026tSus sold",
-   "pnl_sol": -0.0009169281588658263,
-   "time": "Nov 22, 05:53 AM PST",
-   "trader": "Manual",
-   "solscan": null
   }
  ],
  "positions": [
@@ -7021,9 +7026,9 @@
   {
    "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
    "symbol": "paws",
-   "qty_raw": 4425907381,
+   "qty_raw": 4976288515,
    "decimals": 6,
-   "cost_sol": 0.022564,
+   "cost_sol": 0.025082,
    "opened_at": 1795768828,
    "trader_id": 37,
    "trader": "9tH2",
@@ -7059,7 +7064,7 @@
    "handle": "9tH2",
    "kind": "wallet",
    "mode": "paper_silent",
-   "copies": 19,
+   "copies": 20,
    "realized": -0.110549,
    "wallets": [
     "9tH2zRYdS3X7PEcsPno3GST1EHe8GX8CSNih1pKpamAp"
@@ -7656,6 +7661,26 @@
  ],
  "decisions": [
   {
+   "time": "Nov 27, 05:08 AM PST",
+   "text": "ignored tx 2CUbsTc5ng\u2026 on 5pUgxQ\u2026: not signed by trader (signers 5nYxRC; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 05:07 AM PST",
+   "text": "ignored tx 4cV1anYiJP\u2026 on 5pUgxQ\u2026: not signed by trader (signers 6aQtW5; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 05:07 AM PST",
+   "text": "ignored tx 5AQki4jPwe\u2026 on FRt9zu\u2026: not signed by trader (signers FmzLiK; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 05:07 AM PST",
+   "text": "ignored tx 2XYEnLcxgT\u2026 on 4dmGMP\u2026: not signed by trader (signers 14dgXX,9vNmtJ; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
    "time": "Nov 27, 05:07 AM PST",
    "text": "ignored tx 5gKBDMJbRs\u2026 on 5pUgxQ\u2026: not signed by trader (signers 6aQtW5; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
@@ -7784,26 +7809,6 @@
    "time": "Nov 27, 05:02 AM PST",
    "text": "ignored tx 2yj2zpRPkw\u2026 on 4dmGMP\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 05:02 AM PST",
-   "text": "ignored tx 57UbS1Y5ZH\u2026 on 6x4w7S\u2026: not signed by trader (signers FHpcNS,4dmGMP; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 05:02 AM PST",
-   "text": "ignored tx 57UbS1Y5ZH\u2026 on 4dmGMP\u2026: coin moved with dust-sized stablecoin (not a swap)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 05:02 AM PST",
-   "text": "ignored tx VViq9sH8X4\u2026 on 6x4w7S\u2026: not signed by trader (signers FHpcNS,4dmGMP; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 05:02 AM PST",
-   "text": "ignored tx VViq9sH8X4\u2026 on 4dmGMP\u2026: coin moved with only rent-sized SOL (transfer/account rent, not a swap)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7814,9 +7819,9 @@
    "ok": true
   }
  },
- "publishedAt": 1795784852,
- "publishedAtText": "Nov 27, 05:07 AM PST",
- "dataChangedAt": 1795780914,
- "dataChangedAtText": "Nov 27, 04:01 AM PST",
+ "publishedAt": 1795784914,
+ "publishedAtText": "Nov 27, 05:08 AM PST",
+ "dataChangedAt": 1795784914,
+ "dataChangedAtText": "Nov 27, 05:08 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
 }
