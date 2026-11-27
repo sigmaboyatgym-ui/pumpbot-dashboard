@@ -7295,6 +7295,17 @@
  },
  "alerts": [
   {
+   "ts": 1795809936,
+   "side": "buy",
+   "mint": "8hJUz2ggdXTTJMvDayWiJXamJKd9vT1dtSLQgf8qpump",
+   "symbol": null,
+   "trader_id": 43,
+   "amount_usd": 1.0005812543200001,
+   "chain": "solana",
+   "time": "Nov 27, 12:05 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1795809826,
    "side": "buy",
    "mint": "BwgcBr42Zw5GsYQTiepwTng1pU2FRDK9oMvgj3tipump",
@@ -7667,20 +7678,79 @@
    "chain": "solana",
    "time": "Nov 27, 11:25 AM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795807535,
-   "side": "sell",
-   "mint": "8YSLeEq3MRapJkZ6RETZjfy7b4ZGTS7GFqpnsy76pump",
-   "symbol": null,
-   "trader_id": 43,
-   "amount_usd": 123.02387849433589,
-   "chain": "solana",
-   "time": "Nov 27, 11:25 AM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 27, 12:09 PM PST",
+   "text": "ignored tx 2pVJPnyHdq\u2026 on FRt9zu\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:09 PM PST",
+   "text": "ignored tx 5mehWFGMQi\u2026 on DQMqCj\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:09 PM PST",
+   "text": "ignored tx 4Y1EA1Pdbm\u2026 on 9HJ7yT\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:09 PM PST",
+   "text": "ignored tx 4dxZoWCh4Y\u2026 on 6x4w7S\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:09 PM PST",
+   "text": "ignored tx 3mzhcgWXDw\u2026 on 4dmGMP\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:07 PM PST",
+   "text": "ignored tx 2jFSZVi6oV\u2026 on 9tH2zR\u2026: not signed by trader (signers FNey1D; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:07 PM PST",
+   "text": "ignored tx 5nExReC8nw\u2026 on 9tH2zR\u2026: not signed by trader (signers FNey1D; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:06 PM PST",
+   "text": "ignored tx 5jVztMWNop\u2026 on 9tH2zR\u2026: not signed by trader (signers FNey1D; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:05 PM PST",
+   "text": "ignored tx N5NVb13a8V\u2026 on DQMqCj\u2026: not signed by trader (signers 5nAXBM; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:05 PM PST",
+   "text": "ignored tx 46wPqxEoQW\u2026 on 9tH2zR\u2026: not signed by trader (signers FNey1D; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:05 PM PST",
+   "text": "ignored tx 595Jeppn7K\u2026 on DdM1ty\u2026: not signed by trader (signers 7ZC9fm; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:05 PM PST",
+   "text": "ignored tx hZZEuEJCj3\u2026 on 5hAgYC\u2026: not signed by trader (signers DG8qyz; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:04 PM PST",
+   "text": "ignored tx 5SoUvB1QqG\u2026 on 9tH2zR\u2026: not signed by trader (signers FNey1D; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 12:04 PM PST",
+   "text": "ignored tx 65cimU9nXm\u2026 on DdM1ty\u2026: not signed by trader (signers FHpcNS,DVrJ65; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 27, 12:03 PM PST",
    "text": "ignored tx 2PAgVgFMyF\u2026 on 9tH2zR\u2026: not signed by trader (signers FNey1D; airdrop/fee distribution/transfer in)",
@@ -7761,85 +7831,6 @@
    "time": "Nov 27, 12:00 PM PST",
    "text": "ignored tx 49NNjdrfhF\u2026 on 9z332P\u2026: quote-only (USDC transfer, no coin traded)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy 39nuVg\u2026 (315s old)",
-   "kind": "skipped",
-   "mint": "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy 6J3m4E\u2026 (887s old)",
-   "kind": "skipped",
-   "mint": "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy 39nuVg\u2026 (1493s old)",
-   "kind": "skipped",
-   "mint": "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy GarXkF\u2026 (1510s old)",
-   "kind": "skipped",
-   "mint": "GarXkFtt2CSW1E9i7dxKzcasnvP38qwFxyafPzqopump"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy CK27yT\u2026 (1556s old)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy 7mSovs\u2026 (2642s old)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy GarXkF\u2026 (3160s old)",
-   "kind": "skipped",
-   "mint": "GarXkFtt2CSW1E9i7dxKzcasnvP38qwFxyafPzqopump"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy GarXkF\u2026 (3269s old)",
-   "kind": "skipped",
-   "mint": "GarXkFtt2CSW1E9i7dxKzcasnvP38qwFxyafPzqopump"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy 7mSovs\u2026 (3425s old)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy 39nuVg\u2026 (3526s old)",
-   "kind": "skipped",
-   "mint": "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy GarXkF\u2026 (3728s old)",
-   "kind": "skipped",
-   "mint": "GarXkFtt2CSW1E9i7dxKzcasnvP38qwFxyafPzqopump"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy ELm6vh\u2026 (3753s old)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy GarXkF\u2026 (4415s old)",
-   "kind": "skipped",
-   "mint": "GarXkFtt2CSW1E9i7dxKzcasnvP38qwFxyafPzqopump"
-  },
-  {
-   "time": "Nov 27, 11:58 AM PST",
-   "text": "skip stale on-chain buy tR88Mz\u2026 (4482s old)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7850,8 +7841,8 @@
    "ok": true
   }
  },
- "publishedAt": 1795809854,
- "publishedAtText": "Nov 27, 12:04 PM PST",
+ "publishedAt": 1795810157,
+ "publishedAtText": "Nov 27, 12:09 PM PST",
  "dataChangedAt": 1795809552,
  "dataChangedAtText": "Nov 27, 11:59 AM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
