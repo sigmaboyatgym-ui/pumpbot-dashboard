@@ -7309,6 +7309,28 @@
  },
  "alerts": [
   {
+   "ts": 1795846629,
+   "side": "buy",
+   "mint": "8tbftTu8cJgRXxu4tkKHRSqbSfAPeaboc8vTNzFKpump",
+   "symbol": null,
+   "trader_id": 45,
+   "amount_usd": 47.561702,
+   "chain": "solana",
+   "time": "Nov 27, 10:17 PM PST",
+   "trader": "Unknown"
+  },
+  {
+   "ts": 1795846441,
+   "side": "buy",
+   "mint": "8tbftTu8cJgRXxu4tkKHRSqbSfAPeaboc8vTNzFKpump",
+   "symbol": null,
+   "trader_id": 45,
+   "amount_usd": 10.0017,
+   "chain": "solana",
+   "time": "Nov 27, 10:14 PM PST",
+   "trader": "Unknown"
+  },
+  {
    "ts": 1795846083,
    "side": "buy",
    "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
@@ -7670,31 +7692,34 @@
    "chain": "solana",
    "time": "Nov 27, 09:43 PM PST",
    "trader": "Unknown"
-  },
-  {
-   "ts": 1795844619,
-   "side": "sell",
-   "mint": "4kAJ5WNpN84bG7eTJnhwV1wouguhLadewC5tLEajpump",
-   "symbol": null,
-   "trader_id": 45,
-   "amount_usd": 28.420426,
-   "chain": "solana",
-   "time": "Nov 27, 09:43 PM PST",
-   "trader": "Unknown"
-  },
-  {
-   "ts": 1795844614,
-   "side": "sell",
-   "mint": "4kAJ5WNpN84bG7eTJnhwV1wouguhLadewC5tLEajpump",
-   "symbol": null,
-   "trader_id": 45,
-   "amount_usd": 29.433251,
-   "chain": "solana",
-   "time": "Nov 27, 09:43 PM PST",
-   "trader": "Unknown"
   }
  ],
  "decisions": [
+  {
+   "time": "Nov 27, 10:17 PM PST",
+   "text": "ignored tx cWnKmeRa4H\u2026 on 4BdKax\u2026: not signed by trader (signers 2UcS1C; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 10:17 PM PST",
+   "text": "ignored tx 4nTE4hL8Ko\u2026 on 6x4w7S\u2026: not signed by trader (signers FHpcNS,4dmGMP; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 10:16 PM PST",
+   "text": "ignored tx 2vpT63vd7s\u2026 on 4BdKax\u2026: not signed by trader (signers 2UcS1C; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 10:14 PM PST",
+   "text": "ignored tx 4gn6mQaJCf\u2026 on 6x4w7S\u2026: not signed by trader (signers FHpcNS,4dmGMP; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
+  {
+   "time": "Nov 27, 10:13 PM PST",
+   "text": "ignored tx 56HDncWXvX\u2026 on 9tH2zR\u2026: not signed by trader (signers FHpcNS,236UoZ; airdrop/fee distribution/transfer in)",
+   "kind": "skipped"
+  },
   {
    "time": "Nov 27, 10:12 PM PST",
    "text": "ignored tx 5epoe1nq4K\u2026 on 9tH2zR\u2026: not signed by trader (signers FHpcNS,236UoZ; airdrop/fee distribution/transfer in)",
@@ -7819,31 +7844,6 @@
    "time": "Nov 27, 10:09 PM PST",
    "text": "ignored tx 25Mr4c1dVW\u2026 on 6x4w7S\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
    "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 10:09 PM PST",
-   "text": "ignored tx kniD2YSEfY\u2026 on 4dmGMP\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 10:09 PM PST",
-   "text": "ignored tx 4hRqATRvLs\u2026 on 6x4w7S\u2026: not signed by trader (signers HckQ93; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 10:08 PM PST",
-   "text": "ignored tx 5vrt76Gb8x\u2026 on 4BdKax\u2026: not signed by trader (signers ApzDDe; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 10:08 PM PST",
-   "text": "ignored tx 2BLNMmRZYw\u2026 on 9tH2zR\u2026: not signed by trader (signers FHpcNS,236UoZ; airdrop/fee distribution/transfer in)",
-   "kind": "skipped"
-  },
-  {
-   "time": "Nov 27, 10:07 PM PST",
-   "text": "ignored tx 532E5wmUMD\u2026 on 9tH2zR\u2026: coin moved without SOL/USDC paid or received (transfer/airdrop)",
-   "kind": "skipped"
   }
  ],
  "health": {
@@ -7854,8 +7854,8 @@
    "ok": true
   }
  },
- "publishedAt": 1795846396,
- "publishedAtText": "Nov 27, 10:13 PM PST",
+ "publishedAt": 1795846698,
+ "publishedAtText": "Nov 27, 10:18 PM PST",
  "dataChangedAt": 1795825526,
  "dataChangedAtText": "Nov 27, 04:25 PM PST",
  "note": "Read-only public view. Live marks exclude exit slippage and fees. Chart: realized P&L plus 15-min marked samples."
